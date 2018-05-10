@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.85.2),
-    on May 10, 2018, at 10:04
+    on May 10, 2018, at 10:27
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -75,10 +75,10 @@ text_4 = visual.TextStim(win=win, name='text_4',
 
 if expInfo['Scr or Whi'] == 'Scr':
     practice_images = "SCR"
-    stimOrder = 'vva_within_scr_order.csv'
+    stimOrder = expInfo['participant'] + '_vva_within_scr_order.csv'
 elif expInfo['Scr or Whi'] == 'Whi':
     practice_images = "WHI"
-    stimOrder = 'vva_within_whi_order.csv'
+    stimOrder = expInfo['participant'] + '_vva_within_whi_order.csv'
 
 
 # Initialize components for Routine "spatial_practice_instructions"
@@ -179,6 +179,7 @@ image_2 = visual.ImageStim(
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
+between_format_text = visual.TextStim(win, color='black',text="+")
 
 # Initialize components for Routine "end"
 endClock = core.Clock()
@@ -306,7 +307,6 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
     random.shuffle(practice_formats)
     
     practice_format_conditions = practice_formats.pop(0)
-    print(practice_format_conditions)
     practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'
     
     if repeat_spatial_practice.thisN == 0:
@@ -510,20 +510,19 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
     spatial_practice_between_formatsClock.reset()  # clock
     frameN = -1
     continueRoutine = True
-    routineTimer.add(3.000000)
     # update component parameters for each repeat
     practice_format_conditions = practice_formats.pop(0)
-    print(practice_format_conditions)
     practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'
     
+    key_resp_2 = event.BuilderKeyResponse()
     # keep track of which components have finished
-    spatial_practice_between_formatsComponents = [text_2]
+    spatial_practice_between_formatsComponents = [text_2, key_resp_2]
     for thisComponent in spatial_practice_between_formatsComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
     # -------Start Routine "spatial_practice_between_formats"-------
-    while continueRoutine and routineTimer.getTime() > 0:
+    while continueRoutine:
         # get current time
         t = spatial_practice_between_formatsClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
@@ -535,10 +534,28 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
             text_2.tStart = t
             text_2.frameNStart = frameN  # exact frame index
             text_2.setAutoDraw(True)
-        frameRemains = 0.0 + 3- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if text_2.status == STARTED and t >= frameRemains:
-            text_2.setAutoDraw(False)
         
+        
+        # *key_resp_2* updates
+        if t >= 0.0 and key_resp_2.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            key_resp_2.tStart = t
+            key_resp_2.frameNStart = frameN  # exact frame index
+            key_resp_2.status = STARTED
+            # keyboard checking is just starting
+            win.callOnFlip(key_resp_2.clock.reset)  # t=0 on next screen flip
+            event.clearEvents(eventType='keyboard')
+        if key_resp_2.status == STARTED:
+            theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
+            
+            # check for quit:
+            if "escape" in theseKeys:
+                endExpNow = True
+            if len(theseKeys) > 0:  # at least one key was pressed
+                key_resp_2.keys = theseKeys[-1]  # just the last key pressed
+                key_resp_2.rt = key_resp_2.clock.getTime()
+                # a response ends the routine
+                continueRoutine = False
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -562,6 +579,14 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     
+    # check responses
+    if key_resp_2.keys in ['', [], None]:  # No response was made
+        key_resp_2.keys=None
+    repeat_spatial_practice.addData('key_resp_2.keys',key_resp_2.keys)
+    if key_resp_2.keys != None:  # we had a response
+        repeat_spatial_practice.addData('key_resp_2.rt', key_resp_2.rt)
+    # the Routine "spatial_practice_between_formats" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
     trials_3 = data.TrialHandler(nReps=1, method='random', 
@@ -686,20 +711,19 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
     spatial_practice_between_formatsClock.reset()  # clock
     frameN = -1
     continueRoutine = True
-    routineTimer.add(3.000000)
     # update component parameters for each repeat
     practice_format_conditions = practice_formats.pop(0)
-    print(practice_format_conditions)
     practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'
     
+    key_resp_2 = event.BuilderKeyResponse()
     # keep track of which components have finished
-    spatial_practice_between_formatsComponents = [text_2]
+    spatial_practice_between_formatsComponents = [text_2, key_resp_2]
     for thisComponent in spatial_practice_between_formatsComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
     # -------Start Routine "spatial_practice_between_formats"-------
-    while continueRoutine and routineTimer.getTime() > 0:
+    while continueRoutine:
         # get current time
         t = spatial_practice_between_formatsClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
@@ -711,10 +735,28 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
             text_2.tStart = t
             text_2.frameNStart = frameN  # exact frame index
             text_2.setAutoDraw(True)
-        frameRemains = 0.0 + 3- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if text_2.status == STARTED and t >= frameRemains:
-            text_2.setAutoDraw(False)
         
+        
+        # *key_resp_2* updates
+        if t >= 0.0 and key_resp_2.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            key_resp_2.tStart = t
+            key_resp_2.frameNStart = frameN  # exact frame index
+            key_resp_2.status = STARTED
+            # keyboard checking is just starting
+            win.callOnFlip(key_resp_2.clock.reset)  # t=0 on next screen flip
+            event.clearEvents(eventType='keyboard')
+        if key_resp_2.status == STARTED:
+            theseKeys = event.getKeys(keyList=['y', 'n', 'left', 'right', 'space'])
+            
+            # check for quit:
+            if "escape" in theseKeys:
+                endExpNow = True
+            if len(theseKeys) > 0:  # at least one key was pressed
+                key_resp_2.keys = theseKeys[-1]  # just the last key pressed
+                key_resp_2.rt = key_resp_2.clock.getTime()
+                # a response ends the routine
+                continueRoutine = False
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -738,6 +780,14 @@ for thisRepeat_spatial_practice in repeat_spatial_practice:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     
+    # check responses
+    if key_resp_2.keys in ['', [], None]:  # No response was made
+        key_resp_2.keys=None
+    repeat_spatial_practice.addData('key_resp_2.keys',key_resp_2.keys)
+    if key_resp_2.keys != None:  # we had a response
+        repeat_spatial_practice.addData('key_resp_2.rt', key_resp_2.rt)
+    # the Routine "spatial_practice_between_formats" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
     trials_4 = data.TrialHandler(nReps=1, method='random', 
@@ -965,6 +1015,7 @@ for thisTrial_2 in trials_2:
     # update component parameters for each repeat
     color_response = event.BuilderKeyResponse()
     image_2.setImage("21_Stimuli//" + Stimulus)
+    
     # keep track of which components have finished
     spatial_trialsComponents = [color_response, image_2]
     for thisComponent in spatial_trialsComponents:
@@ -1006,6 +1057,7 @@ for thisTrial_2 in trials_2:
             image_2.frameNStart = frameN  # exact frame index
             image_2.setAutoDraw(True)
         
+        
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
@@ -1033,6 +1085,11 @@ for thisTrial_2 in trials_2:
     trials_2.addData('color_response.keys',color_response.keys)
     if color_response.keys != None:  # we had a response
         trials_2.addData('color_response.rt', color_response.rt)
+    if trials_2 > 0 and (trials_2.thisN +1) % 21 == 0:
+        between_format_text.draw()
+        win.flip()
+        event.clearEvents()
+        event.waitKeys(keyList=['space'])
     # the Routine "spatial_trials" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
@@ -1100,6 +1157,7 @@ while continueRoutine and routineTimer.getTime() > 0:
 for thisComponent in endComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+
 
 
 
