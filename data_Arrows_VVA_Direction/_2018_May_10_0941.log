@@ -1,0 +1,716 @@
+5.0774 	INFO 	Loaded monitor calibration from ['2015_02_18 17:00']
+5.9232 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x08E0D090>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.9233 	EXP 	window1: recordFrameIntervals = False
+6.0882 	EXP 	window1: recordFrameIntervals = True
+6.2749 	DEBUG 	Screen (0) actual frame rate measured at 59.93
+6.2750 	EXP 	window1: recordFrameIntervals = False
+6.4280 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+6.4285 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+6.4289 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+6.4308 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+6.8922 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=2, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+6.9115 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+6.9130 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+6.9199 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+6.9214 	EXP 	window1: blendMode = 'avg'
+6.9386 	EXP 	text_4: autoDraw = True
+6.9390 	EXP 	window1: blendMode = 'avg'
+6.9555 	EXP 	window1: blendMode = 'avg'
+6.9728 	EXP 	window1: blendMode = 'avg'
+6.9907 	EXP 	window1: blendMode = 'avg'
+7.0076 	EXP 	window1: blendMode = 'avg'
+7.0243 	EXP 	window1: blendMode = 'avg'
+7.0408 	EXP 	window1: blendMode = 'avg'
+7.0577 	EXP 	window1: blendMode = 'avg'
+7.0744 	EXP 	window1: blendMode = 'avg'
+7.0909 	EXP 	window1: blendMode = 'avg'
+7.1078 	EXP 	window1: blendMode = 'avg'
+7.1245 	EXP 	window1: blendMode = 'avg'
+7.1411 	EXP 	window1: blendMode = 'avg'
+7.1580 	EXP 	window1: blendMode = 'avg'
+7.1743 	EXP 	window1: blendMode = 'avg'
+7.1911 	EXP 	window1: blendMode = 'avg'
+7.2074 	DATA 	Keypress: space
+7.2091 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+7.2100 	EXP 	New trial (rep=0, index=0): None
+7.2964 	EXP 	window1: blendMode = 'avg'
+7.3060 	EXP 	text_4: autoDraw = False
+7.3060 	EXP 	text_6: text = "Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw."
+7.3060 	EXP 	text_6: autoDraw = True
+7.3064 	EXP 	window1: blendMode = 'avg'
+7.3228 	EXP 	window1: blendMode = 'avg'
+7.3397 	EXP 	window1: blendMode = 'avg'
+7.3565 	DATA 	Keypress: space
+7.3883 	DEBUG 	Read excel file with pandas: Extra_Stimuli//practice_order_WHI_schema.xlsx
+7.3893 	EXP 	Imported Extra_Stimuli//practice_order_WHI_schema.xlsx as conditions, 9 conditions, 5 params
+7.3898 	EXP 	Created sequence: random, trialTypes=9, nReps=3, seed=None
+7.3903 	EXP 	New trial (rep=0, index=0): {'Stimulus_Practice': u'left_schema_2_WHI.jpg', 'Direction': u'left', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+7.4123 	EXP 	window1: blendMode = 'avg'
+7.4227 	EXP 	text_6: autoDraw = False
+7.4227 	EXP 	image: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+7.4227 	EXP 	text_9: autoDraw = True
+7.4227 	EXP 	image: autoDraw = True
+7.4230 	EXP 	window1: blendMode = 'avg'
+7.4394 	EXP 	window1: blendMode = 'avg'
+7.4563 	EXP 	window1: blendMode = 'avg'
+7.4738 	EXP 	window1: blendMode = 'avg'
+7.4907 	EXP 	window1: blendMode = 'avg'
+7.5071 	EXP 	window1: blendMode = 'avg'
+7.5242 	EXP 	window1: blendMode = 'avg'
+7.5406 	EXP 	window1: blendMode = 'avg'
+7.5572 	EXP 	window1: blendMode = 'avg'
+7.5741 	EXP 	window1: blendMode = 'avg'
+7.5907 	EXP 	window1: blendMode = 'avg'
+7.6075 	EXP 	window1: blendMode = 'avg'
+7.6239 	EXP 	window1: blendMode = 'avg'
+7.6405 	EXP 	window1: blendMode = 'avg'
+7.6579 	EXP 	window1: blendMode = 'avg'
+7.6740 	EXP 	window1: blendMode = 'avg'
+7.6904 	EXP 	window1: blendMode = 'avg'
+7.7076 	EXP 	window1: blendMode = 'avg'
+7.7240 	EXP 	window1: blendMode = 'avg'
+7.7409 	EXP 	window1: blendMode = 'avg'
+7.7573 	EXP 	window1: blendMode = 'avg'
+7.7740 	EXP 	window1: blendMode = 'avg'
+7.7909 	EXP 	window1: blendMode = 'avg'
+7.8068 	EXP 	window1: blendMode = 'avg'
+7.8235 	EXP 	window1: blendMode = 'avg'
+7.8402 	EXP 	window1: blendMode = 'avg'
+7.8567 	EXP 	window1: blendMode = 'avg'
+7.8733 	EXP 	window1: blendMode = 'avg'
+7.8911 	EXP 	window1: blendMode = 'avg'
+7.9076 	DATA 	Keypress: f
+7.9107 	EXP 	New trial (rep=0, index=1): {'Stimulus_Practice': u'right_schema_1_WHI.jpg', 'Direction': u'right', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+7.9569 	EXP 	window1: blendMode = 'avg'
+7.9732 	EXP 	text_9: autoDraw = False
+7.9732 	EXP 	image: autoDraw = False
+7.9732 	EXP 	image: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+7.9732 	EXP 	text_9: autoDraw = True
+7.9732 	EXP 	image: autoDraw = True
+7.9738 	EXP 	window1: blendMode = 'avg'
+7.9902 	EXP 	window1: blendMode = 'avg'
+8.0072 	EXP 	window1: blendMode = 'avg'
+8.0243 	EXP 	window1: blendMode = 'avg'
+8.0410 	EXP 	window1: blendMode = 'avg'
+8.0579 	EXP 	window1: blendMode = 'avg'
+8.0743 	EXP 	window1: blendMode = 'avg'
+8.0913 	EXP 	window1: blendMode = 'avg'
+8.1078 	EXP 	window1: blendMode = 'avg'
+8.1247 	EXP 	window1: blendMode = 'avg'
+8.1411 	EXP 	window1: blendMode = 'avg'
+8.1580 	EXP 	window1: blendMode = 'avg'
+8.1746 	EXP 	window1: blendMode = 'avg'
+8.1914 	EXP 	window1: blendMode = 'avg'
+8.2078 	EXP 	window1: blendMode = 'avg'
+8.2250 	DATA 	Keypress: j
+8.2274 	EXP 	New trial (rep=0, index=2): {'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', 'Direction': u'ahead', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+8.2825 	EXP 	window1: blendMode = 'avg'
+8.2902 	EXP 	text_9: autoDraw = False
+8.2902 	EXP 	image: autoDraw = False
+8.2902 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+8.2902 	EXP 	text_9: autoDraw = True
+8.2902 	EXP 	image: autoDraw = True
+8.2909 	EXP 	window1: blendMode = 'avg'
+8.3072 	EXP 	window1: blendMode = 'avg'
+8.3241 	EXP 	window1: blendMode = 'avg'
+8.3413 	EXP 	window1: blendMode = 'avg'
+8.3583 	EXP 	window1: blendMode = 'avg'
+8.3746 	EXP 	window1: blendMode = 'avg'
+8.3916 	EXP 	window1: blendMode = 'avg'
+8.4081 	EXP 	window1: blendMode = 'avg'
+8.4250 	EXP 	window1: blendMode = 'avg'
+8.4411 	EXP 	window1: blendMode = 'avg'
+8.4577 	EXP 	window1: blendMode = 'avg'
+8.4747 	EXP 	window1: blendMode = 'avg'
+8.4916 	EXP 	window1: blendMode = 'avg'
+8.5083 	DATA 	Keypress: f
+8.5106 	EXP 	New trial (rep=0, index=3): {'Stimulus_Practice': u'ahead_schema_3_WHI.jpg', 'Direction': u'ahead', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+8.5574 	EXP 	window1: blendMode = 'avg'
+8.5738 	EXP 	text_9: autoDraw = False
+8.5738 	EXP 	image: autoDraw = False
+8.5738 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_3_WHI.jpg'
+8.5738 	EXP 	text_9: autoDraw = True
+8.5738 	EXP 	image: autoDraw = True
+8.5744 	EXP 	window1: blendMode = 'avg'
+8.5908 	EXP 	window1: blendMode = 'avg'
+8.6085 	EXP 	window1: blendMode = 'avg'
+8.6249 	EXP 	window1: blendMode = 'avg'
+8.6417 	EXP 	window1: blendMode = 'avg'
+8.6585 	EXP 	window1: blendMode = 'avg'
+8.6750 	EXP 	window1: blendMode = 'avg'
+8.6917 	DATA 	Keypress: j
+8.6940 	EXP 	New trial (rep=0, index=4): {'Stimulus_Practice': u'right_schema_2_WHI.jpg', 'Direction': u'right', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+8.7389 	EXP 	window1: blendMode = 'avg'
+8.7573 	EXP 	text_9: autoDraw = False
+8.7573 	EXP 	image: autoDraw = False
+8.7573 	EXP 	image: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+8.7573 	EXP 	text_9: autoDraw = True
+8.7573 	EXP 	image: autoDraw = True
+8.7577 	EXP 	window1: blendMode = 'avg'
+8.7745 	EXP 	window1: blendMode = 'avg'
+8.7920 	EXP 	window1: blendMode = 'avg'
+8.8084 	EXP 	window1: blendMode = 'avg'
+8.8254 	DATA 	Keypress: f
+8.8278 	EXP 	New trial (rep=0, index=5): {'Stimulus_Practice': u'left_schema_3_WHI.jpg', 'Direction': u'left', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+8.8681 	EXP 	window1: blendMode = 'avg'
+8.8910 	EXP 	text_9: autoDraw = False
+8.8910 	EXP 	image: autoDraw = False
+8.8910 	EXP 	image: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+8.8910 	EXP 	text_9: autoDraw = True
+8.8910 	EXP 	image: autoDraw = True
+8.8912 	EXP 	window1: blendMode = 'avg'
+8.9088 	EXP 	window1: blendMode = 'avg'
+8.9253 	EXP 	window1: blendMode = 'avg'
+8.9422 	EXP 	window1: blendMode = 'avg'
+8.9585 	DATA 	Keypress: j
+8.9608 	EXP 	New trial (rep=0, index=6): {'Stimulus_Practice': u'left_schema_1_WHI.jpg', 'Direction': u'left', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+9.0077 	EXP 	window1: blendMode = 'avg'
+9.0242 	EXP 	text_9: autoDraw = False
+9.0242 	EXP 	image: autoDraw = False
+9.0242 	EXP 	image: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+9.0242 	EXP 	text_9: autoDraw = True
+9.0242 	EXP 	image: autoDraw = True
+9.0248 	EXP 	window1: blendMode = 'avg'
+9.0412 	DATA 	Keypress: f
+9.0422 	EXP 	New trial (rep=0, index=7): {'Stimulus_Practice': u'right_schema_3_WHI.jpg', 'Direction': u'right', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+9.0667 	EXP 	window1: blendMode = 'avg'
+9.0743 	EXP 	text_9: autoDraw = False
+9.0743 	EXP 	image: autoDraw = False
+9.0743 	EXP 	image: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+9.0743 	EXP 	text_9: autoDraw = True
+9.0743 	EXP 	image: autoDraw = True
+9.0747 	EXP 	window1: blendMode = 'avg'
+9.0913 	EXP 	window1: blendMode = 'avg'
+9.1084 	EXP 	window1: blendMode = 'avg'
+9.1254 	EXP 	window1: blendMode = 'avg'
+9.1450 	DATA 	Keypress: j
+9.1477 	EXP 	New trial (rep=0, index=8): {'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', 'Direction': u'ahead', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+9.1949 	EXP 	window1: blendMode = 'avg'
+9.2077 	EXP 	text_9: autoDraw = False
+9.2077 	EXP 	image: autoDraw = False
+9.2077 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+9.2077 	EXP 	text_9: autoDraw = True
+9.2077 	EXP 	image: autoDraw = True
+9.2081 	EXP 	window1: blendMode = 'avg'
+9.2246 	DATA 	Keypress: f
+9.2252 	EXP 	New trial (rep=1, index=0): {'Stimulus_Practice': u'left_schema_2_WHI.jpg', 'Direction': u'left', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+9.2453 	EXP 	window1: blendMode = 'avg'
+9.2578 	EXP 	text_9: autoDraw = False
+9.2578 	EXP 	image: autoDraw = False
+9.2578 	EXP 	image: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+9.2578 	EXP 	text_9: autoDraw = True
+9.2578 	EXP 	image: autoDraw = True
+9.2583 	EXP 	window1: blendMode = 'avg'
+9.2752 	EXP 	window1: blendMode = 'avg'
+9.2919 	EXP 	window1: blendMode = 'avg'
+9.3085 	EXP 	window1: blendMode = 'avg'
+9.3255 	EXP 	window1: blendMode = 'avg'
+9.3418 	DATA 	Keypress: j
+9.3433 	EXP 	New trial (rep=1, index=1): {'Stimulus_Practice': u'left_schema_3_WHI.jpg', 'Direction': u'left', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+9.3932 	EXP 	window1: blendMode = 'avg'
+9.4081 	EXP 	text_9: autoDraw = False
+9.4081 	EXP 	image: autoDraw = False
+9.4081 	EXP 	image: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+9.4081 	EXP 	text_9: autoDraw = True
+9.4081 	EXP 	image: autoDraw = True
+9.4090 	EXP 	window1: blendMode = 'avg'
+9.4253 	EXP 	window1: blendMode = 'avg'
+9.4420 	EXP 	window1: blendMode = 'avg'
+9.4593 	EXP 	window1: blendMode = 'avg'
+9.4759 	EXP 	window1: blendMode = 'avg'
+9.4924 	EXP 	window1: blendMode = 'avg'
+9.5094 	EXP 	window1: blendMode = 'avg'
+9.5259 	EXP 	window1: blendMode = 'avg'
+9.5420 	EXP 	window1: blendMode = 'avg'
+9.5587 	EXP 	window1: blendMode = 'avg'
+9.5762 	EXP 	window1: blendMode = 'avg'
+9.5928 	EXP 	window1: blendMode = 'avg'
+9.6095 	EXP 	window1: blendMode = 'avg'
+9.6259 	EXP 	window1: blendMode = 'avg'
+9.6426 	EXP 	window1: blendMode = 'avg'
+9.6596 	EXP 	window1: blendMode = 'avg'
+9.6760 	EXP 	window1: blendMode = 'avg'
+9.6926 	EXP 	window1: blendMode = 'avg'
+9.7094 	DATA 	Keypress: f
+9.7118 	EXP 	New trial (rep=1, index=2): {'Stimulus_Practice': u'right_schema_1_WHI.jpg', 'Direction': u'right', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+9.7571 	EXP 	window1: blendMode = 'avg'
+9.7750 	EXP 	text_9: autoDraw = False
+9.7750 	EXP 	image: autoDraw = False
+9.7750 	EXP 	image: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+9.7750 	EXP 	text_9: autoDraw = True
+9.7750 	EXP 	image: autoDraw = True
+9.7755 	EXP 	window1: blendMode = 'avg'
+9.7921 	EXP 	window1: blendMode = 'avg'
+9.8096 	DATA 	Keypress: j
+9.8121 	EXP 	New trial (rep=1, index=3): {'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', 'Direction': u'ahead', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+9.8520 	EXP 	window1: blendMode = 'avg'
+9.8587 	EXP 	text_9: autoDraw = False
+9.8587 	EXP 	image: autoDraw = False
+9.8587 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+9.8587 	EXP 	text_9: autoDraw = True
+9.8587 	EXP 	image: autoDraw = True
+9.8591 	EXP 	window1: blendMode = 'avg'
+9.8754 	EXP 	window1: blendMode = 'avg'
+9.8927 	DATA 	Keypress: f
+9.8933 	EXP 	New trial (rep=1, index=4): {'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', 'Direction': u'ahead', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+9.9102 	EXP 	window1: blendMode = 'avg'
+9.9251 	EXP 	text_9: autoDraw = False
+9.9251 	EXP 	image: autoDraw = False
+9.9251 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+9.9251 	EXP 	text_9: autoDraw = True
+9.9251 	EXP 	image: autoDraw = True
+9.9253 	EXP 	window1: blendMode = 'avg'
+9.9421 	EXP 	window1: blendMode = 'avg'
+9.9596 	EXP 	window1: blendMode = 'avg'
+9.9762 	EXP 	window1: blendMode = 'avg'
+9.9932 	EXP 	window1: blendMode = 'avg'
+10.0096 	EXP 	window1: blendMode = 'avg'
+10.0266 	EXP 	window1: blendMode = 'avg'
+10.0428 	DATA 	Keypress: j
+10.0452 	EXP 	New trial (rep=1, index=5): {'Stimulus_Practice': u'right_schema_3_WHI.jpg', 'Direction': u'right', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+10.0892 	EXP 	window1: blendMode = 'avg'
+10.1087 	EXP 	text_9: autoDraw = False
+10.1087 	EXP 	image: autoDraw = False
+10.1087 	EXP 	image: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+10.1087 	EXP 	text_9: autoDraw = True
+10.1087 	EXP 	image: autoDraw = True
+10.1091 	EXP 	window1: blendMode = 'avg'
+10.1261 	EXP 	window1: blendMode = 'avg'
+10.1425 	EXP 	window1: blendMode = 'avg'
+10.1591 	EXP 	window1: blendMode = 'avg'
+10.1759 	DATA 	Keypress: f
+10.1765 	EXP 	New trial (rep=1, index=6): {'Stimulus_Practice': u'ahead_schema_3_WHI.jpg', 'Direction': u'ahead', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+10.1933 	EXP 	window1: blendMode = 'avg'
+10.2087 	EXP 	text_9: autoDraw = False
+10.2087 	EXP 	image: autoDraw = False
+10.2087 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_3_WHI.jpg'
+10.2087 	EXP 	text_9: autoDraw = True
+10.2087 	EXP 	image: autoDraw = True
+10.2090 	EXP 	window1: blendMode = 'avg'
+10.2258 	EXP 	window1: blendMode = 'avg'
+10.2430 	EXP 	window1: blendMode = 'avg'
+10.2599 	EXP 	window1: blendMode = 'avg'
+10.2769 	EXP 	window1: blendMode = 'avg'
+10.2932 	EXP 	window1: blendMode = 'avg'
+10.3102 	EXP 	window1: blendMode = 'avg'
+10.3267 	EXP 	window1: blendMode = 'avg'
+10.3451 	DATA 	Keypress: j
+10.3476 	EXP 	New trial (rep=1, index=7): {'Stimulus_Practice': u'left_schema_1_WHI.jpg', 'Direction': u'left', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+10.3900 	EXP 	window1: blendMode = 'avg'
+10.4090 	EXP 	text_9: autoDraw = False
+10.4090 	EXP 	image: autoDraw = False
+10.4090 	EXP 	image: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+10.4090 	EXP 	text_9: autoDraw = True
+10.4090 	EXP 	image: autoDraw = True
+10.4093 	DATA 	Keypress: f
+10.4103 	EXP 	New trial (rep=1, index=8): {'Stimulus_Practice': u'right_schema_2_WHI.jpg', 'Direction': u'right', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+10.4344 	EXP 	window1: blendMode = 'avg'
+10.4423 	EXP 	text_9: autoDraw = False
+10.4423 	EXP 	image: autoDraw = False
+10.4423 	EXP 	image: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+10.4423 	EXP 	text_9: autoDraw = True
+10.4423 	EXP 	image: autoDraw = True
+10.4425 	EXP 	window1: blendMode = 'avg'
+10.4593 	EXP 	window1: blendMode = 'avg'
+10.4766 	EXP 	window1: blendMode = 'avg'
+10.4933 	EXP 	window1: blendMode = 'avg'
+10.5102 	EXP 	window1: blendMode = 'avg'
+10.5265 	DATA 	Keypress: j
+10.5284 	EXP 	New trial (rep=2, index=0): {'Stimulus_Practice': u'right_schema_3_WHI.jpg', 'Direction': u'right', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+10.5652 	DATA 	Keypress: f
+10.5657 	EXP 	window1: blendMode = 'avg'
+10.5758 	EXP 	text_9: autoDraw = False
+10.5758 	EXP 	image: autoDraw = False
+10.5758 	EXP 	image: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+10.5758 	EXP 	text_9: autoDraw = True
+10.5758 	EXP 	image: autoDraw = True
+10.5764 	EXP 	window1: blendMode = 'avg'
+10.5928 	EXP 	window1: blendMode = 'avg'
+10.6097 	EXP 	window1: blendMode = 'avg'
+10.6267 	EXP 	window1: blendMode = 'avg'
+10.6439 	EXP 	window1: blendMode = 'avg'
+10.6601 	EXP 	window1: blendMode = 'avg'
+10.6768 	EXP 	window1: blendMode = 'avg'
+10.6937 	EXP 	window1: blendMode = 'avg'
+10.7101 	EXP 	window1: blendMode = 'avg'
+10.7268 	EXP 	window1: blendMode = 'avg'
+10.7438 	EXP 	window1: blendMode = 'avg'
+10.7601 	EXP 	window1: blendMode = 'avg'
+10.7771 	EXP 	window1: blendMode = 'avg'
+10.7938 	EXP 	window1: blendMode = 'avg'
+10.8105 	EXP 	window1: blendMode = 'avg'
+10.8269 	EXP 	window1: blendMode = 'avg'
+10.8436 	EXP 	window1: blendMode = 'avg'
+10.8608 	EXP 	window1: blendMode = 'avg'
+10.8770 	DATA 	Keypress: j
+10.8793 	EXP 	New trial (rep=2, index=1): {'Stimulus_Practice': u'left_schema_2_WHI.jpg', 'Direction': u'left', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+10.9817 	DATA 	Keypress: f
+10.9820 	EXP 	window1: blendMode = 'avg'
+10.9928 	EXP 	text_9: autoDraw = False
+10.9928 	EXP 	image: autoDraw = False
+10.9928 	EXP 	image: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+10.9928 	EXP 	text_9: autoDraw = True
+10.9928 	EXP 	image: autoDraw = True
+10.9931 	EXP 	window1: blendMode = 'avg'
+11.0100 	EXP 	window1: blendMode = 'avg'
+11.0269 	EXP 	window1: blendMode = 'avg'
+11.0440 	EXP 	window1: blendMode = 'avg'
+11.0618 	DATA 	Keypress: j
+11.0641 	EXP 	New trial (rep=2, index=2): {'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', 'Direction': u'ahead', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+11.1078 	EXP 	window1: blendMode = 'avg'
+11.1264 	EXP 	text_9: autoDraw = False
+11.1264 	EXP 	image: autoDraw = False
+11.1264 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+11.1264 	EXP 	text_9: autoDraw = True
+11.1264 	EXP 	image: autoDraw = True
+11.1268 	EXP 	window1: blendMode = 'avg'
+11.1436 	DATA 	Keypress: f
+11.1446 	EXP 	New trial (rep=2, index=3): {'Stimulus_Practice': u'left_schema_3_WHI.jpg', 'Direction': u'left', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+11.1855 	EXP 	window1: blendMode = 'avg'
+11.1931 	EXP 	text_9: autoDraw = False
+11.1931 	EXP 	image: autoDraw = False
+11.1931 	EXP 	image: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+11.1931 	EXP 	text_9: autoDraw = True
+11.1931 	EXP 	image: autoDraw = True
+11.1938 	EXP 	window1: blendMode = 'avg'
+11.2103 	EXP 	window1: blendMode = 'avg'
+11.2271 	DATA 	Keypress: j
+11.2283 	EXP 	New trial (rep=2, index=4): {'Stimulus_Practice': u'ahead_schema_3_WHI.jpg', 'Direction': u'ahead', 'Number': 3, 'Background': u'_WHI', 'Format': u'schema'}
+11.2597 	EXP 	window1: blendMode = 'avg'
+11.2765 	EXP 	text_9: autoDraw = False
+11.2765 	EXP 	image: autoDraw = False
+11.2765 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_3_WHI.jpg'
+11.2765 	EXP 	text_9: autoDraw = True
+11.2765 	EXP 	image: autoDraw = True
+11.2771 	EXP 	window1: blendMode = 'avg'
+11.2935 	EXP 	window1: blendMode = 'avg'
+11.3112 	EXP 	window1: blendMode = 'avg'
+11.3278 	DATA 	Keypress: f
+11.3295 	EXP 	New trial (rep=2, index=5): {'Stimulus_Practice': u'left_schema_1_WHI.jpg', 'Direction': u'left', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+11.3689 	EXP 	window1: blendMode = 'avg'
+11.3932 	EXP 	text_9: autoDraw = False
+11.3932 	EXP 	image: autoDraw = False
+11.3932 	EXP 	image: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+11.3932 	EXP 	text_9: autoDraw = True
+11.3932 	EXP 	image: autoDraw = True
+11.3936 	EXP 	window1: blendMode = 'avg'
+11.4106 	EXP 	window1: blendMode = 'avg'
+11.4274 	DATA 	Keypress: j
+11.4297 	EXP 	New trial (rep=2, index=6): {'Stimulus_Practice': u'right_schema_1_WHI.jpg', 'Direction': u'right', 'Number': 1, 'Background': u'_WHI', 'Format': u'schema'}
+11.4706 	EXP 	window1: blendMode = 'avg'
+11.4937 	EXP 	text_9: autoDraw = False
+11.4937 	EXP 	image: autoDraw = False
+11.4937 	EXP 	image: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+11.4937 	EXP 	text_9: autoDraw = True
+11.4937 	EXP 	image: autoDraw = True
+11.4941 	EXP 	window1: blendMode = 'avg'
+11.5105 	DATA 	Keypress: f
+11.5113 	EXP 	New trial (rep=2, index=7): {'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', 'Direction': u'ahead', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+11.5275 	EXP 	window1: blendMode = 'avg'
+11.5436 	EXP 	text_9: autoDraw = False
+11.5436 	EXP 	image: autoDraw = False
+11.5436 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+11.5436 	EXP 	text_9: autoDraw = True
+11.5436 	EXP 	image: autoDraw = True
+11.5439 	EXP 	window1: blendMode = 'avg'
+11.5603 	EXP 	window1: blendMode = 'avg'
+11.5769 	EXP 	window1: blendMode = 'avg'
+11.5947 	DATA 	Keypress: j
+11.5970 	EXP 	New trial (rep=2, index=8): {'Stimulus_Practice': u'right_schema_2_WHI.jpg', 'Direction': u'right', 'Number': 2, 'Background': u'_WHI', 'Format': u'schema'}
+11.6335 	EXP 	window1: blendMode = 'avg'
+11.6436 	EXP 	text_9: autoDraw = False
+11.6436 	EXP 	image: autoDraw = False
+11.6436 	EXP 	image: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+11.6436 	EXP 	text_9: autoDraw = True
+11.6436 	EXP 	image: autoDraw = True
+11.6438 	EXP 	window1: blendMode = 'avg'
+11.6606 	EXP 	window1: blendMode = 'avg'
+11.6777 	DATA 	Keypress: f
+11.7200 	EXP 	window1: blendMode = 'avg'
+11.7273 	EXP 	text_9: autoDraw = False
+11.7273 	EXP 	image: autoDraw = False
+11.7273 	EXP 	text_2: autoDraw = True
+11.7279 	EXP 	window1: blendMode = 'avg'
+11.7442 	EXP 	window1: blendMode = 'avg'
+11.7613 	EXP 	window1: blendMode = 'avg'
+11.7775 	EXP 	window1: blendMode = 'avg'
+11.7944 	EXP 	window1: blendMode = 'avg'
+11.8108 	EXP 	window1: blendMode = 'avg'
+11.8276 	EXP 	window1: blendMode = 'avg'
+11.8440 	EXP 	window1: blendMode = 'avg'
+11.8622 	EXP 	window1: blendMode = 'avg'
+11.8787 	EXP 	window1: blendMode = 'avg'
+11.8957 	EXP 	window1: blendMode = 'avg'
+11.9124 	EXP 	window1: blendMode = 'avg'
+11.9290 	EXP 	window1: blendMode = 'avg'
+11.9450 	EXP 	window1: blendMode = 'avg'
+11.9615 	EXP 	window1: blendMode = 'avg'
+11.9791 	EXP 	window1: blendMode = 'avg'
+11.9956 	EXP 	window1: blendMode = 'avg'
+12.0123 	EXP 	window1: blendMode = 'avg'
+12.0292 	EXP 	window1: blendMode = 'avg'
+12.0457 	EXP 	window1: blendMode = 'avg'
+12.0626 	EXP 	window1: blendMode = 'avg'
+12.0789 	EXP 	window1: blendMode = 'avg'
+12.0957 	EXP 	window1: blendMode = 'avg'
+12.1126 	EXP 	window1: blendMode = 'avg'
+12.1291 	EXP 	window1: blendMode = 'avg'
+12.1460 	EXP 	window1: blendMode = 'avg'
+12.1625 	EXP 	window1: blendMode = 'avg'
+12.1794 	EXP 	window1: blendMode = 'avg'
+12.1958 	EXP 	window1: blendMode = 'avg'
+12.2128 	EXP 	window1: blendMode = 'avg'
+12.2293 	EXP 	window1: blendMode = 'avg'
+12.2452 	EXP 	window1: blendMode = 'avg'
+12.2620 	EXP 	window1: blendMode = 'avg'
+12.2782 	EXP 	window1: blendMode = 'avg'
+12.2949 	EXP 	window1: blendMode = 'avg'
+12.3117 	EXP 	window1: blendMode = 'avg'
+12.3285 	EXP 	window1: blendMode = 'avg'
+12.3448 	EXP 	window1: blendMode = 'avg'
+12.3624 	EXP 	window1: blendMode = 'avg'
+12.3795 	EXP 	window1: blendMode = 'avg'
+12.3959 	EXP 	window1: blendMode = 'avg'
+12.4128 	EXP 	window1: blendMode = 'avg'
+12.4298 	EXP 	window1: blendMode = 'avg'
+12.4463 	EXP 	window1: blendMode = 'avg'
+12.4619 	EXP 	window1: blendMode = 'avg'
+12.4789 	EXP 	window1: blendMode = 'avg'
+12.4951 	EXP 	window1: blendMode = 'avg'
+12.5130 	EXP 	window1: blendMode = 'avg'
+12.5294 	EXP 	window1: blendMode = 'avg'
+12.5463 	EXP 	window1: blendMode = 'avg'
+12.5631 	EXP 	window1: blendMode = 'avg'
+12.5795 	EXP 	window1: blendMode = 'avg'
+12.5964 	EXP 	window1: blendMode = 'avg'
+12.6129 	EXP 	window1: blendMode = 'avg'
+12.6298 	EXP 	window1: blendMode = 'avg'
+12.6464 	EXP 	window1: blendMode = 'avg'
+12.6625 	EXP 	window1: blendMode = 'avg'
+12.6793 	EXP 	window1: blendMode = 'avg'
+12.6954 	EXP 	window1: blendMode = 'avg'
+12.7122 	EXP 	window1: blendMode = 'avg'
+12.7296 	EXP 	window1: blendMode = 'avg'
+12.7467 	EXP 	window1: blendMode = 'avg'
+12.7630 	EXP 	window1: blendMode = 'avg'
+12.7804 	EXP 	window1: blendMode = 'avg'
+12.7967 	EXP 	window1: blendMode = 'avg'
+12.8133 	EXP 	window1: blendMode = 'avg'
+12.8302 	EXP 	window1: blendMode = 'avg'
+12.8458 	EXP 	window1: blendMode = 'avg'
+12.8624 	EXP 	window1: blendMode = 'avg'
+12.8801 	EXP 	window1: blendMode = 'avg'
+12.8965 	EXP 	window1: blendMode = 'avg'
+12.9133 	EXP 	window1: blendMode = 'avg'
+12.9301 	EXP 	window1: blendMode = 'avg'
+12.9467 	EXP 	window1: blendMode = 'avg'
+12.9629 	EXP 	window1: blendMode = 'avg'
+12.9794 	EXP 	window1: blendMode = 'avg'
+12.9969 	EXP 	window1: blendMode = 'avg'
+13.0132 	EXP 	window1: blendMode = 'avg'
+13.0300 	EXP 	window1: blendMode = 'avg'
+13.0469 	EXP 	window1: blendMode = 'avg'
+13.0634 	EXP 	window1: blendMode = 'avg'
+13.0805 	EXP 	window1: blendMode = 'avg'
+13.0967 	EXP 	window1: blendMode = 'avg'
+13.1134 	EXP 	window1: blendMode = 'avg'
+13.1303 	EXP 	window1: blendMode = 'avg'
+13.1469 	EXP 	window1: blendMode = 'avg'
+13.1636 	EXP 	window1: blendMode = 'avg'
+13.1800 	EXP 	window1: blendMode = 'avg'
+13.1969 	EXP 	window1: blendMode = 'avg'
+13.2137 	EXP 	window1: blendMode = 'avg'
+13.2302 	EXP 	window1: blendMode = 'avg'
+13.2471 	EXP 	window1: blendMode = 'avg'
+13.2636 	EXP 	window1: blendMode = 'avg'
+13.2803 	EXP 	window1: blendMode = 'avg'
+13.2974 	EXP 	window1: blendMode = 'avg'
+13.3137 	EXP 	window1: blendMode = 'avg'
+13.3307 	EXP 	window1: blendMode = 'avg'
+13.3471 	EXP 	window1: blendMode = 'avg'
+13.3638 	EXP 	window1: blendMode = 'avg'
+13.3806 	EXP 	window1: blendMode = 'avg'
+13.3972 	EXP 	window1: blendMode = 'avg'
+13.4143 	EXP 	window1: blendMode = 'avg'
+13.4304 	EXP 	window1: blendMode = 'avg'
+13.4473 	EXP 	window1: blendMode = 'avg'
+13.4640 	EXP 	window1: blendMode = 'avg'
+13.4797 	EXP 	window1: blendMode = 'avg'
+13.4964 	EXP 	window1: blendMode = 'avg'
+13.5128 	EXP 	window1: blendMode = 'avg'
+13.5297 	EXP 	window1: blendMode = 'avg'
+13.5465 	EXP 	window1: blendMode = 'avg'
+13.5638 	EXP 	window1: blendMode = 'avg'
+13.5808 	EXP 	window1: blendMode = 'avg'
+13.5972 	EXP 	window1: blendMode = 'avg'
+13.6141 	EXP 	window1: blendMode = 'avg'
+13.6309 	EXP 	window1: blendMode = 'avg'
+13.6474 	EXP 	window1: blendMode = 'avg'
+13.6642 	EXP 	window1: blendMode = 'avg'
+13.6807 	EXP 	window1: blendMode = 'avg'
+13.6976 	EXP 	window1: blendMode = 'avg'
+13.7141 	EXP 	window1: blendMode = 'avg'
+13.7312 	EXP 	window1: blendMode = 'avg'
+13.7470 	EXP 	window1: blendMode = 'avg'
+13.7637 	EXP 	window1: blendMode = 'avg'
+13.7798 	EXP 	window1: blendMode = 'avg'
+13.7962 	EXP 	window1: blendMode = 'avg'
+13.8143 	EXP 	window1: blendMode = 'avg'
+13.8308 	EXP 	window1: blendMode = 'avg'
+13.8475 	EXP 	window1: blendMode = 'avg'
+13.8646 	EXP 	window1: blendMode = 'avg'
+13.8808 	EXP 	window1: blendMode = 'avg'
+13.8976 	EXP 	window1: blendMode = 'avg'
+13.9145 	EXP 	window1: blendMode = 'avg'
+13.9309 	EXP 	window1: blendMode = 'avg'
+13.9478 	EXP 	window1: blendMode = 'avg'
+13.9645 	EXP 	window1: blendMode = 'avg'
+13.9813 	EXP 	window1: blendMode = 'avg'
+13.9976 	EXP 	window1: blendMode = 'avg'
+14.0145 	EXP 	window1: blendMode = 'avg'
+14.0312 	EXP 	window1: blendMode = 'avg'
+14.0469 	EXP 	window1: blendMode = 'avg'
+14.0638 	EXP 	window1: blendMode = 'avg'
+14.0799 	EXP 	window1: blendMode = 'avg'
+14.0969 	EXP 	window1: blendMode = 'avg'
+14.1133 	EXP 	window1: blendMode = 'avg'
+14.1302 	EXP 	window1: blendMode = 'avg'
+14.1463 	EXP 	window1: blendMode = 'avg'
+14.1644 	EXP 	window1: blendMode = 'avg'
+14.1813 	EXP 	window1: blendMode = 'avg'
+14.1978 	EXP 	window1: blendMode = 'avg'
+14.2146 	EXP 	window1: blendMode = 'avg'
+14.2314 	EXP 	window1: blendMode = 'avg'
+14.2479 	EXP 	window1: blendMode = 'avg'
+14.2647 	EXP 	window1: blendMode = 'avg'
+14.2817 	EXP 	window1: blendMode = 'avg'
+14.2982 	EXP 	window1: blendMode = 'avg'
+14.3145 	EXP 	window1: blendMode = 'avg'
+14.3313 	EXP 	window1: blendMode = 'avg'
+14.3482 	EXP 	window1: blendMode = 'avg'
+14.3646 	EXP 	window1: blendMode = 'avg'
+14.3815 	EXP 	window1: blendMode = 'avg'
+14.3983 	EXP 	window1: blendMode = 'avg'
+14.4148 	EXP 	window1: blendMode = 'avg'
+14.4316 	EXP 	window1: blendMode = 'avg'
+14.4480 	EXP 	window1: blendMode = 'avg'
+14.4648 	EXP 	window1: blendMode = 'avg'
+14.4817 	EXP 	window1: blendMode = 'avg'
+14.4982 	EXP 	window1: blendMode = 'avg'
+14.5150 	EXP 	window1: blendMode = 'avg'
+14.5314 	EXP 	window1: blendMode = 'avg'
+14.5482 	EXP 	window1: blendMode = 'avg'
+14.5662 	EXP 	window1: blendMode = 'avg'
+14.5816 	EXP 	window1: blendMode = 'avg'
+14.5985 	EXP 	window1: blendMode = 'avg'
+14.6149 	EXP 	window1: blendMode = 'avg'
+14.6316 	EXP 	window1: blendMode = 'avg'
+14.6485 	EXP 	window1: blendMode = 'avg'
+14.6649 	EXP 	window1: blendMode = 'avg'
+14.6817 	EXP 	New trial (rep=1, index=0): None
+14.7289 	EXP 	window1: blendMode = 'avg'
+14.7470 	EXP 	text_2: autoDraw = False
+14.7470 	EXP 	text_6: text = 'Ok, before we practice one more time - do you have any questions about the task?'
+14.7470 	EXP 	text_6: autoDraw = True
+14.7477 	EXP 	window1: blendMode = 'avg'
+14.7662 	EXP 	window1: blendMode = 'avg'
+14.7824 	EXP 	window1: blendMode = 'avg'
+14.7994 	EXP 	window1: blendMode = 'avg'
+14.8156 	EXP 	window1: blendMode = 'avg'
+14.8315 	EXP 	window1: blendMode = 'avg'
+14.8478 	EXP 	window1: blendMode = 'avg'
+14.8644 	EXP 	window1: blendMode = 'avg'
+14.8823 	EXP 	window1: blendMode = 'avg'
+14.8990 	EXP 	window1: blendMode = 'avg'
+14.9157 	EXP 	window1: blendMode = 'avg'
+14.9324 	EXP 	window1: blendMode = 'avg'
+14.9491 	EXP 	window1: blendMode = 'avg'
+14.9658 	EXP 	window1: blendMode = 'avg'
+14.9826 	EXP 	window1: blendMode = 'avg'
+14.9992 	EXP 	window1: blendMode = 'avg'
+15.0158 	EXP 	window1: blendMode = 'avg'
+15.0325 	EXP 	window1: blendMode = 'avg'
+15.0491 	EXP 	window1: blendMode = 'avg'
+15.0660 	EXP 	window1: blendMode = 'avg'
+15.0825 	EXP 	window1: blendMode = 'avg'
+15.0992 	EXP 	window1: blendMode = 'avg'
+15.1159 	EXP 	window1: blendMode = 'avg'
+15.1326 	EXP 	window1: blendMode = 'avg'
+15.1492 	EXP 	window1: blendMode = 'avg'
+15.1659 	EXP 	window1: blendMode = 'avg'
+15.1827 	EXP 	window1: blendMode = 'avg'
+15.1993 	EXP 	window1: blendMode = 'avg'
+15.2160 	EXP 	window1: blendMode = 'avg'
+15.2327 	EXP 	window1: blendMode = 'avg'
+15.2493 	EXP 	window1: blendMode = 'avg'
+15.2664 	EXP 	window1: blendMode = 'avg'
+15.2827 	EXP 	window1: blendMode = 'avg'
+15.2997 	EXP 	window1: blendMode = 'avg'
+15.3160 	EXP 	window1: blendMode = 'avg'
+15.3327 	EXP 	window1: blendMode = 'avg'
+15.3494 	EXP 	window1: blendMode = 'avg'
+15.3661 	EXP 	window1: blendMode = 'avg'
+15.3829 	EXP 	window1: blendMode = 'avg'
+15.3998 	EXP 	window1: blendMode = 'avg'
+15.4168 	EXP 	window1: blendMode = 'avg'
+15.4321 	EXP 	window1: blendMode = 'avg'
+15.4495 	EXP 	window1: blendMode = 'avg'
+15.4662 	EXP 	window1: blendMode = 'avg'
+15.4830 	EXP 	window1: blendMode = 'avg'
+15.4996 	EXP 	window1: blendMode = 'avg'
+15.5163 	EXP 	window1: blendMode = 'avg'
+15.5330 	EXP 	window1: blendMode = 'avg'
+15.5496 	EXP 	window1: blendMode = 'avg'
+15.5663 	EXP 	window1: blendMode = 'avg'
+15.5830 	EXP 	window1: blendMode = 'avg'
+15.5997 	EXP 	window1: blendMode = 'avg'
+15.6165 	EXP 	window1: blendMode = 'avg'
+15.6331 	EXP 	window1: blendMode = 'avg'
+15.6498 	EXP 	window1: blendMode = 'avg'
+15.6664 	EXP 	window1: blendMode = 'avg'
+15.6831 	EXP 	window1: blendMode = 'avg'
+15.6998 	EXP 	window1: blendMode = 'avg'
+15.7165 	EXP 	window1: blendMode = 'avg'
+15.7331 	EXP 	window1: blendMode = 'avg'
+15.7498 	EXP 	window1: blendMode = 'avg'
+15.7665 	EXP 	window1: blendMode = 'avg'
+15.7832 	EXP 	window1: blendMode = 'avg'
+15.7999 	EXP 	window1: blendMode = 'avg'
+15.8168 	EXP 	window1: blendMode = 'avg'
+15.8333 	EXP 	window1: blendMode = 'avg'
+15.8502 	EXP 	window1: blendMode = 'avg'
+15.8667 	EXP 	window1: blendMode = 'avg'
+15.8828 	EXP 	window1: blendMode = 'avg'
+15.8989 	EXP 	window1: blendMode = 'avg'
+15.9155 	EXP 	window1: blendMode = 'avg'
+15.9327 	EXP 	window1: blendMode = 'avg'
+15.9494 	EXP 	window1: blendMode = 'avg'
+15.9668 	EXP 	window1: blendMode = 'avg'
+15.9836 	EXP 	window1: blendMode = 'avg'
+16.0002 	EXP 	window1: blendMode = 'avg'
+16.0168 	EXP 	window1: blendMode = 'avg'
+16.0334 	EXP 	window1: blendMode = 'avg'
+16.0502 	EXP 	window1: blendMode = 'avg'
+16.0668 	EXP 	window1: blendMode = 'avg'
+16.0835 	EXP 	window1: blendMode = 'avg'
+16.1002 	EXP 	window1: blendMode = 'avg'
+16.1171 	EXP 	window1: blendMode = 'avg'
+16.1336 	EXP 	window1: blendMode = 'avg'
+16.1502 	EXP 	window1: blendMode = 'avg'
+16.1670 	EXP 	window1: blendMode = 'avg'
+16.1836 	EXP 	window1: blendMode = 'avg'
+16.2003 	EXP 	window1: blendMode = 'avg'
+16.2170 	EXP 	window1: blendMode = 'avg'
+16.2337 	EXP 	window1: blendMode = 'avg'
+16.2506 	EXP 	window1: blendMode = 'avg'
+16.2671 	EXP 	window1: blendMode = 'avg'
+16.2837 	EXP 	window1: blendMode = 'avg'
+16.3004 	EXP 	window1: blendMode = 'avg'
+16.3171 	EXP 	window1: blendMode = 'avg'
+16.3338 	EXP 	window1: blendMode = 'avg'
+16.3504 	EXP 	window1: blendMode = 'avg'
+16.3671 	EXP 	window1: blendMode = 'avg'
+16.3838 	EXP 	window1: blendMode = 'avg'
+16.4005 	EXP 	window1: blendMode = 'avg'
+16.4174 	EXP 	window1: blendMode = 'avg'
+16.4184 	DATA 	Keypress: escape
