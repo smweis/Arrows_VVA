@@ -73,17 +73,13 @@ def stim_within_format_order(num_blocks=9,num_exemplars=21):
 
     final_order['match'] = final_order.direction.eq(final_order.direction.shift())
 
-    print('There are {} matches'.format(np.sum(final_order['match'])))
+    matches = np.sum(final_order['match'])
     
     final_order = final_order[['direction','format','number']]
     
     final_order['Stimulus_stem'] = final_order.apply('_'.join,axis=1)
 
-    return final_order[['direction','format','number','Stimulus_stem']]
-
-
-final_within_whi_order = stim_within_format_order()
-final_within_scr_order = stim_within_format_order()
+    return final_order[['direction','format','number','Stimulus_stem']],matches
 
 
 def add_whi_suffix(row):
@@ -94,13 +90,51 @@ def add_scr_suffix(row):
     newrow = row + '_SCR.jpg'
     return newrow
 
-final_within_whi_order['Stimulus'] = final_within_whi_order['Stimulus_stem'].apply(add_whi_suffix)
-final_within_scr_order['Stimulus'] = final_within_scr_order['Stimulus_stem'].apply(add_scr_suffix)
 
-final_within_whi_order.to_csv('vva_within_whi_order.csv',columns=['direction','format','number','Stimulus'],index=False)
-final_within_scr_order.to_csv('vva_within_scr_order.csv',columns=['direction','format','number','Stimulus'],index=False)
+matches_whi = []
+matches_scr = []
 
 
 
+# Establish the mean and SD of the number of matches for a sequence
+# We'll use any sequences that have a number of matches within 1 SD of the mean
+# Running this 10000 times yielded M: 56.62, SD: 6.35
+
+#for i in range(10000):
+#    final_within_whi_order,match_whi = stim_within_format_order()
+#    matches_whi.append(match_whi)
+#print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
+#print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
 
 
+match_max = 63 #exclusive
+match_min = 50 #exclusive
+
+for i in range(14):
+    participant_num = 1001+i
+    filename_whi = str(participant_num) + 'vva_within_whi_order.csv'
+    filename_scr = str(participant_num) + 'vva_within_scr_order.csv'
+    
+        
+    final_within_whi_order,match_whi = stim_within_format_order()
+    final_within_scr_order,match_scr = stim_within_format_order()
+    
+    while match_whi <= match_min or match_whi >= match_max: 
+        final_within_whi_order,match_whi = stim_within_format_order()
+        
+    while match_scr <= match_min or match_scr > match_max:
+        final_within_scr_order,match_scr = stim_within_format_order()
+
+        
+    final_within_whi_order['Stimulus'] = final_within_whi_order['Stimulus_stem'].apply(add_whi_suffix)
+    final_within_scr_order['Stimulus'] = final_within_scr_order['Stimulus_stem'].apply(add_scr_suffix)
+    final_within_whi_order.to_csv(filename_whi,columns=['direction','format','number','Stimulus'],index=False)
+    final_within_scr_order.to_csv(filename_scr,columns=['direction','format','number','Stimulus'],index=False)
+    matches_whi.append(match_whi)
+    matches_scr.append(match_scr)
+        
+
+print("SCR match mean: {} +/- {}".format(np.mean(matches_scr),np.std(matches_scr)))
+print("SCR max = {}, min = {}".format(max(matches_scr),min(matches_scr)))
+print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
+print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
