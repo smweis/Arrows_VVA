@@ -563,7 +563,7 @@
     </LoopInitiator>
     <Routine name="color_practice_instructions"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
-      <Param name="conditionsFile" updates="None" val="color_practice.xlsx" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Sequences\color_practice.xlsx" valType="str"/>
       <Param name="name" updates="None" val="trials_3" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
@@ -578,7 +578,7 @@
     <LoopTerminator name="repeat_color_practice"/>
     <Routine name="color_instructions_3"/>
     <LoopInitiator loopType="TrialHandler" name="trials_2">
-      <Param name="conditionsFile" updates="None" val="color.xlsx" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="Sequences\color.xlsx" valType="str"/>
       <Param name="name" updates="None" val="trials_2" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
