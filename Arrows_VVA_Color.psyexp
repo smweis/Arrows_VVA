@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="1.85.2">
+<PsychoPy2experiment encoding="utf-8" version="1.83.04">
   <Settings>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="color" updates="None" val="$[.4,.4,.4]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="Experiment info" updates="None" val="{u'participant': u''}" valType="code"/>
-    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
     <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
     <Param name="Save excel file" updates="None" val="True" valType="bool"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
@@ -333,7 +333,7 @@
       <CodeComponent name="code_6">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_6" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw.&quot;)&amp;#10;elif repeat_color_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw. For the first trial, just say 'GO.' [Experimenter: Press Green for SAME, Red for DIFFERENT]&quot;)&amp;#10;elif repeat_color_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
