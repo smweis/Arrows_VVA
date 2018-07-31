@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="1.85.2">
+<PsychoPy2experiment encoding="utf-8" version="1.83.04">
   <Settings>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="color" updates="None" val="$[.4,.4,.4]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="Experiment info" updates="None" val="{u'participant': u'', u'Scr or Whi': u'Whi'}" valType="code"/>
-    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
     <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
     <Param name="Save excel file" updates="None" val="True" valType="bool"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
@@ -34,7 +34,7 @@
         <Param name="name" updates="None" val="text_4" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="1.5" valType="code"/>
         <Param name="color" updates="constant" val="black" valType="str"/>
-        <Param name="text" updates="constant" val="This task is just like the previous one, except with spatial directions instead of colors. Your job is to determine whether the spatial direction that is currently on the screen is the SAME spatial direction as the one that you just saw or a DIFFERENT spatial direction.&amp;#10;&amp;#10;&amp;#10;" valType="str"/>
+        <Param name="text" updates="constant" val="This task is just like the previous one, except with spatial directions instead of colors. Your job is to determine whether the spatial direction that is currently on the screen is the SAME spatial direction as the one that you just saw or a DIFFERENT spatial direction.&amp;#10;&amp;#10;[Experimenter - Green for SAME, Red for DIFFERENT]&amp;#10;&amp;#10;&amp;#10;" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
@@ -181,7 +181,7 @@
       <CodeComponent name="code_6">
         <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_6" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="practice_formats = ['image','schema','word']&amp;#10;&amp;#10;random.shuffle(practice_formats)&amp;#10;&amp;#10;practice_format_conditions = practice_formats.pop(0)&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'&amp;#10;&amp;#10;if repeat_spatial_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw.&quot;)&amp;#10;elif repeat_spatial_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="practice_formats = ['image','schema','word']&amp;#10;&amp;#10;random.shuffle(practice_formats)&amp;#10;&amp;#10;practice_format_conditions = practice_formats.pop(0)&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'&amp;#10;&amp;#10;if repeat_spatial_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw. For the first trial, just say 'GO'.&quot;)&amp;#10;elif repeat_spatial_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -230,7 +230,7 @@
         <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;+&quot;)" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_3" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if trials_2 &gt; 0 and (trials_2.thisN +1) % 21 == 0:&amp;#10;    between_format_text.draw()&amp;#10;    win.flip()&amp;#10;    event.clearEvents()&amp;#10;    event.waitKeys(keyList=['space'])" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if trials_2 &gt; 0 and (trials_2.thisN +1) % 21 == 0:&amp;#10;    between_format_text.draw()&amp;#10;    win.flip()&amp;#10;    event.clearEvents()&amp;#10;    event.waitKeys(keyList=['d'])" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
