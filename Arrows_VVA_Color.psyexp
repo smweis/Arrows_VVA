@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="1.83.04">
+<PsychoPy2experiment encoding="utf-8" version="1.85.2">
   <Settings>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="color" updates="None" val="$[.4,.4,.4]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="Experiment info" updates="None" val="{u'participant': u''}" valType="code"/>
-    <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="Save excel file" updates="None" val="True" valType="bool"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
@@ -27,56 +27,6 @@
     <Param name="Screen" updates="None" val="1" valType="num"/>
   </Settings>
   <Routines>
-    <Routine name="color_sample">
-      <TextComponent name="text_2">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="name" updates="None" val="text_2" valType="code"/>
-        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
-        <Param name="color" updates="constant" val="black" valType="str"/>
-        <Param name="text" updates="constant" val="These are all RED" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(-.5, .75)" valType="code"/>
-        <Param name="flip" updates="constant" val="" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
-      </TextComponent>
-      <TextComponent name="text_11">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="name" updates="None" val="text_11" valType="code"/>
-        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
-        <Param name="color" updates="constant" val="black" valType="str"/>
-        <Param name="text" updates="constant" val="These are all BLUE." valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(.5,.75)" valType="code"/>
-        <Param name="flip" updates="constant" val="" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
-      </TextComponent>
-      <CodeComponent name="code_5">
-        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="name" updates="None" val="code_5" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if color_sample_loop.thisN == 0:&amp;#10;    num_im = -1&amp;#10;img = []&amp;#10;for i,totalN in enumerate(color_sample_loop.trialList):&amp;#10;    img.append(visual.Rect(win=win,autoDraw=True,width=(0.5,0.5)[0],height=(0.5,0.5)[1],pos=[totalN['x'],totalN['y']],fillColor=totalN['color'],opacity=0))&amp;#10;    &amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="for x in img:&amp;#10;    x.setAutoDraw(False)&amp;#10;&amp;#10;color_sample_loop.finished=True" valType="extendedCode"/>
-        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Each Frame" updates="constant" val="keys = event.getKeys()&amp;#10;&amp;#10;if keys:&amp;#10;    if 'escape' in keys:&amp;#10;        core.quit()&amp;#10;    elif 'space' in keys and num_im &lt; 5:&amp;#10;        num_im += 1    &amp;#10;        img[num_im].opacity=1&amp;#10;    elif 'space' in keys and num_im == 5:&amp;#10;        continueRoutine=False&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
-      </CodeComponent>
-    </Routine>
     <Routine name="end">
       <TextComponent name="text">
         <Param name="opacity" updates="constant" val="1" valType="code"/>
@@ -119,8 +69,8 @@
       <CodeComponent name="code_3">
         <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;vertexOptions = [3,4,5,6,999]" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_3" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_3.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_3.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_3.answer and key_resp_11.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_3.answer and key_resp_11.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_3.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;&amp;#10;trials_3.addData('colorpractice_correct',correct)&amp;#10;trials_3.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_3.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_3.thisN % 2 == 1:&amp;#10;    text_same_practice.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same_practice.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_3.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_3.answer and key_resp_11.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_3.answer and key_resp_11.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_3.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;if trials_3.thisN % 2 == 1:&amp;#10;    trials_3.addData('colorpractice_correct',correct)&amp;#10;&amp;#10;trials_3.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
@@ -141,6 +91,26 @@
         <Param name="ori" updates="constant" val="0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <TextComponent name="text_same_practice">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_same_practice" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -.8)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
@@ -203,23 +173,21 @@
       <CodeComponent name="code">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_2.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_2.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_2.answer and color_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_2.answer and color_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_2.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;&amp;#10;trials_2.addData('colorpractice_correct',correct)&amp;#10;trials_2.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_2.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_2.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_2.answer and color_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_2.answer and color_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_2.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    trials_2.addData('colorpractice_correct',correct)&amp;#10;&amp;#10;trials_2.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
-    </Routine>
-    <Routine name="color_practice_feedback">
-      <TextComponent name="text_7">
+      <TextComponent name="text_same">
         <Param name="opacity" updates="constant" val="1" valType="code"/>
         <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="name" updates="None" val="text_7" valType="code"/>
+        <Param name="name" updates="None" val="text_same" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="text" updates="constant" val="" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -.8)" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -230,30 +198,6 @@
         <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
-      <CodeComponent name="code_4">
-        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="name" updates="None" val="code_4" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
-      </CodeComponent>
-      <KeyboardComponent name="key_resp_12">
-        <Param name="correctAns" updates="constant" val="" valType="str"/>
-        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="key_resp_12" valType="code"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="store" updates="constant" val="last key" valType="str"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-      </KeyboardComponent>
     </Routine>
     <Routine name="color_instructions_3">
       <TextComponent name="text_10">
@@ -286,7 +230,7 @@
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="discard previous" updates="constant" val="True" valType="bool"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="allowedKeys" updates="constant" val="'s','a','d','f','g'" valType="code"/>
+        <Param name="allowedKeys" updates="constant" val="'s','d','g'" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="store" updates="constant" val="last key" valType="str"/>
@@ -324,7 +268,7 @@
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="discard previous" updates="constant" val="True" valType="bool"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="allowedKeys" updates="constant" val="'s','a','d','f','g'" valType="code"/>
+        <Param name="allowedKeys" updates="constant" val="'s','d','g'" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="store" updates="constant" val="last key" valType="str"/>
@@ -333,7 +277,7 @@
       <CodeComponent name="code_6">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_6" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw. For the first trial, just say 'GO.' [Experimenter: Press Green for SAME, Red for DIFFERENT]&quot;)&amp;#10;elif repeat_color_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw. For the first stimulus, just say 'GO.' Then when it says 'Same?' underneath, tell the experimenter whether you see the same color or a different color [Experimenter: Press Green for SAME, Red for DIFFERENT]&quot;)&amp;#10;elif repeat_color_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -418,52 +362,6 @@
         <Param name="store" updates="constant" val="last key" valType="str"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
-    </Routine>
-    <Routine name="color_feedback">
-      <TextComponent name="text_8">
-        <Param name="opacity" updates="constant" val="1" valType="code"/>
-        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
-        <Param name="name" updates="None" val="text_8" valType="code"/>
-        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
-        <Param name="color" updates="constant" val="black" valType="str"/>
-        <Param name="text" updates="constant" val="&amp;#10;" valType="str"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
-        <Param name="flip" updates="constant" val="" valType="str"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="ori" updates="constant" val="0" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
-      </TextComponent>
-      <KeyboardComponent name="key_resp_10">
-        <Param name="correctAns" updates="constant" val="" valType="str"/>
-        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
-        <Param name="name" updates="None" val="key_resp_10" valType="code"/>
-        <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
-        <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
-        <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="allowedKeys" updates="constant" val="'y','n','left','right','space'" valType="code"/>
-        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="0.0" valType="code"/>
-        <Param name="store" updates="constant" val="last key" valType="str"/>
-        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-      </KeyboardComponent>
-      <CodeComponent name="code_2">
-        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="name" updates="None" val="code_2" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="text_8.setText(&quot;You answered %s correct out of %s&quot; % (number_correct,trials_2.nTotal))" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
-      </CodeComponent>
     </Routine>
     <Routine name="color_sample_diff">
       <PolygonComponent name="polygon_4">
@@ -568,7 +466,7 @@
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="conditions" updates="None" val="[{'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}]" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>
@@ -583,7 +481,7 @@
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="nReps" updates="None" val="2" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="conditions" updates="None" val="[{'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#d7191c', 'answer': u'r'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#fdae61', 'answer': u'o'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}, {'color': u'#2c7bb6', 'answer': u'b'}]" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>

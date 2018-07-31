@@ -15,7 +15,7 @@ import random
 import numpy as np
 import pandas as pd
 
-def stim_within_format_order(num_blocks=9,num_exemplars=21):
+def stim_within_format_order(num_blocks=18,num_exemplars=21):
 	# num_blocks: how many within-format blocks?
 	# num_exemplars: how many exemplars per format+direction? 
 	# defaults are for the VVA design
@@ -32,11 +32,11 @@ def stim_within_format_order(num_blocks=9,num_exemplars=21):
 
 
     all_format_orders = list(itertools.permutations(formats))
-
+    random.shuffle(all_format_orders)
     #These are hard-coded to select a counter-balanced set of orders
-    selected_orders = all_format_orders[0], all_format_orders[3], all_format_orders[4]
+    #selected_orders = all_format_orders[0], all_format_orders[3], all_format_orders[4]
 
-    selected_orders = np.reshape(selected_orders,num_blocks)
+    selected_orders = np.reshape(all_format_orders,num_blocks)
     final_format_order = np.repeat(selected_orders,num_exemplars)
 
 
@@ -78,7 +78,7 @@ def stim_within_format_order(num_blocks=9,num_exemplars=21):
     final_order = final_order[['direction','format','number']]
     
     final_order['Stimulus_stem'] = final_order.apply('_'.join,axis=1)
-
+    #debug print('we are trying...', matches)
     return final_order[['direction','format','number','Stimulus_stem']],matches
 
 
@@ -98,7 +98,7 @@ matches_scr = []
 
 # Establish the mean and SD of the number of matches for a sequence
 # We'll use any sequences that have a number of matches within 1 SD of the mean
-# Running this 10000 times yielded M: 56.62, SD: 6.35
+# Running this 10000 times yielded M: 113.74, SD: 8.98
 
 #for i in range(10000):
 #    final_within_whi_order,match_whi = stim_within_format_order()
@@ -107,8 +107,8 @@ matches_scr = []
 #print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
 
 
-match_max = 63 #exclusive
-match_min = 50 #exclusive
+match_max = 113.74 + 8.98 #exclusive
+match_min = 113.74 - 8.98 #exclusive
 
 for i in range(14):
     participant_num = 1001+i
