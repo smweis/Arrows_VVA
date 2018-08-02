@@ -73,7 +73,7 @@ def stim_within_format_order(num_blocks=18,num_exemplars=21):
 
     final_order['match'] = final_order.direction.eq(final_order.direction.shift())
 
-    matches = np.sum(final_order['match'])
+    matches = np.sum(final_order['match'][1::2])
     
     final_order = final_order[['direction','format','number']]
     
@@ -101,15 +101,17 @@ matches_scr = []
 # Running this 10000 times yielded M: 113.74, SD: 8.98
 
 #for i in range(10000):
+#    if i % 100 == 0:
+#        print(i)
 #    final_within_whi_order,match_whi = stim_within_format_order()
 #    matches_whi.append(match_whi)
 #print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
 #print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
 
 
-match_max = 113.74 + 8.98 #exclusive
-match_min = 113.74 - 8.98 #exclusive
-
+match_max = 57.03 + 6.53 #exclusive
+match_min = 57.03 - 6.53 #exclusive
+"""
 for i in range(14):
     participant_num = 1001+i
     filename_whi = str(participant_num) + 'vva_within_whi_order.csv'
@@ -138,3 +140,4 @@ print("SCR match mean: {} +/- {}".format(np.mean(matches_scr),np.std(matches_scr
 print("SCR max = {}, min = {}".format(max(matches_scr),min(matches_scr)))
 print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
 print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
+"""
