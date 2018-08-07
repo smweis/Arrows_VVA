@@ -1,0 +1,353 @@
+8.4397 	INFO 	Loaded monitor calibration from ['2013_02_18 13:37']
+12.7913 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.7919 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x09117D10>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1600,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.7920 	EXP 	window1: recordFrameIntervals = False
+13.1423 	EXP 	window1: recordFrameIntervals = True
+13.2143 	WARNING 	t of last frame was 38.40ms (=1/26)
+13.2349 	WARNING 	t of last frame was 20.54ms (=1/48)
+13.2566 	WARNING 	t of last frame was 21.78ms (=1/45)
+13.2965 	WARNING 	t of last frame was 20.63ms (=1/48)
+13.3170 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.3166 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+16.5126 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+16.5136 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+16.5147 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5198 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.,  1.]), texRes=128, units='height', win=Window(...))
+16.5209 	EXP 	Created text_same_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5278 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+16.5290 	EXP 	Created text_11 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_11', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5321 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.        ,  1.77777778]), texRes=128, units=u'norm', win=Window(...))
+16.5332 	EXP 	Created text_same_practice_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_2', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5377 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+16.5388 	EXP 	Created text_12 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_12', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5418 	EXP 	Created image_4 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 1.        ,  1.77777778]), texRes=128, units=u'norm', win=Window(...))
+16.5429 	EXP 	Created text_same_practice_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_3', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5664 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.5687 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.75,  1.  ]), texRes=128, units='norm', win=Window(...))
+16.5743 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+16.5751 	EXP 	Created text_same = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text_same', opacity=1.0, ori=0, pos=array([ 0. ,  0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+16.5928 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+16.5957 	EXP 	window1: blendMode = 'avg'
+16.6265 	EXP 	text_4: autoDraw = True
+16.6273 	EXP 	window1: blendMode = 'avg'
+16.6582 	EXP 	window1: blendMode = 'avg'
+16.6810 	EXP 	window1: blendMode = 'avg'
+16.7214 	EXP 	window1: blendMode = 'avg'
+16.7430 	EXP 	window1: blendMode = 'avg'
+16.7634 	EXP 	window1: blendMode = 'avg'
+16.7831 	EXP 	window1: blendMode = 'avg'
+16.8132 	EXP 	window1: blendMode = 'avg'
+16.8340 	EXP 	window1: blendMode = 'avg'
+16.8545 	EXP 	window1: blendMode = 'avg'
+16.8743 	EXP 	window1: blendMode = 'avg'
+16.9052 	EXP 	window1: blendMode = 'avg'
+16.9256 	EXP 	window1: blendMode = 'avg'
+17.0293 	EXP 	window1: blendMode = 'avg'
+17.1270 	DATA 	Keypress: d
+17.1282 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+17.1286 	EXP 	New trial (rep=0, index=0): None
+17.2159 	EXP 	window1: blendMode = 'avg'
+17.2348 	EXP 	text_4: autoDraw = False
+17.2348 	EXP 	text_6: text = "Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw. For the first stimulus, just say 'GO.' Then when it says 'Same?' underneath, tell the experimenter whether you see the same direction or a different direction"
+17.2348 	EXP 	text_6: autoDraw = True
+17.2356 	EXP 	window1: blendMode = 'avg'
+17.2576 	EXP 	window1: blendMode = 'avg'
+17.2757 	EXP 	window1: blendMode = 'avg'
+17.2965 	EXP 	window1: blendMode = 'avg'
+17.3177 	EXP 	window1: blendMode = 'avg'
+17.3375 	EXP 	window1: blendMode = 'avg'
+17.3726 	EXP 	window1: blendMode = 'avg'
+17.4046 	EXP 	window1: blendMode = 'avg'
+17.4354 	EXP 	window1: blendMode = 'avg'
+17.4665 	EXP 	window1: blendMode = 'avg'
+17.5666 	DATA 	Keypress: s
+17.5846 	DEBUG 	Read excel file with pandas: Extra_Stimuli//practice_order_WHI_image.xlsx
+17.5856 	EXP 	Imported Extra_Stimuli//practice_order_WHI_image.xlsx as conditions, 9 conditions, 5 params
+17.5859 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+17.5864 	EXP 	New trial (rep=0, index=0): {'Stimulus_Practice': u'right_image_3_WHI.jpg', 'Direction': u'right', 'Number': 3, 'Background': u'_WHI', 'Format': u'image'}
+17.6216 	EXP 	window1: blendMode = 'avg'
+17.6253 	EXP 	window1: blendMode = 'avg'
+17.6699 	EXP 	text_6: autoDraw = False
+17.6699 	EXP 	image: image = u'Extra_Stimuli//right_image_3_WHI.jpg'
+17.6699 	EXP 	text_same_practice: text = ''
+17.6699 	EXP 	text_9: autoDraw = True
+17.6699 	EXP 	image: autoDraw = True
+17.6699 	EXP 	text_same_practice: autoDraw = True
+17.6705 	EXP 	window1: blendMode = 'avg'
+17.6710 	EXP 	window1: blendMode = 'avg'
+17.7012 	EXP 	window1: blendMode = 'avg'
+17.7016 	EXP 	window1: blendMode = 'avg'
+17.7205 	EXP 	window1: blendMode = 'avg'
+17.7207 	EXP 	window1: blendMode = 'avg'
+17.7408 	EXP 	window1: blendMode = 'avg'
+17.7411 	EXP 	window1: blendMode = 'avg'
+17.7609 	EXP 	window1: blendMode = 'avg'
+17.7612 	EXP 	window1: blendMode = 'avg'
+17.7818 	EXP 	window1: blendMode = 'avg'
+17.7821 	EXP 	window1: blendMode = 'avg'
+17.8142 	EXP 	window1: blendMode = 'avg'
+17.8144 	EXP 	window1: blendMode = 'avg'
+17.8348 	EXP 	window1: blendMode = 'avg'
+17.8350 	EXP 	window1: blendMode = 'avg'
+17.8549 	EXP 	window1: blendMode = 'avg'
+17.8551 	EXP 	window1: blendMode = 'avg'
+17.8744 	EXP 	window1: blendMode = 'avg'
+17.8747 	EXP 	window1: blendMode = 'avg'
+17.9061 	EXP 	window1: blendMode = 'avg'
+17.9063 	EXP 	window1: blendMode = 'avg'
+17.9285 	EXP 	window1: blendMode = 'avg'
+17.9288 	EXP 	window1: blendMode = 'avg'
+18.0617 	EXP 	window1: blendMode = 'avg'
+18.0620 	EXP 	window1: blendMode = 'avg'
+18.0930 	EXP 	window1: blendMode = 'avg'
+18.0932 	EXP 	window1: blendMode = 'avg'
+18.1245 	EXP 	window1: blendMode = 'avg'
+18.1248 	EXP 	window1: blendMode = 'avg'
+18.1556 	EXP 	window1: blendMode = 'avg'
+18.1559 	EXP 	window1: blendMode = 'avg'
+18.1888 	EXP 	window1: blendMode = 'avg'
+18.1891 	EXP 	window1: blendMode = 'avg'
+18.2150 	EXP 	window1: blendMode = 'avg'
+18.2153 	EXP 	window1: blendMode = 'avg'
+18.2356 	EXP 	window1: blendMode = 'avg'
+18.2359 	EXP 	window1: blendMode = 'avg'
+18.2562 	EXP 	window1: blendMode = 'avg'
+18.2564 	EXP 	window1: blendMode = 'avg'
+18.2786 	EXP 	window1: blendMode = 'avg'
+18.2789 	EXP 	window1: blendMode = 'avg'
+18.2986 	EXP 	window1: blendMode = 'avg'
+18.2988 	EXP 	window1: blendMode = 'avg'
+18.3171 	EXP 	window1: blendMode = 'avg'
+18.3174 	EXP 	window1: blendMode = 'avg'
+18.3490 	EXP 	window1: blendMode = 'avg'
+18.3493 	EXP 	window1: blendMode = 'avg'
+18.3718 	EXP 	window1: blendMode = 'avg'
+18.3720 	EXP 	window1: blendMode = 'avg'
+18.3928 	EXP 	window1: blendMode = 'avg'
+18.3930 	EXP 	window1: blendMode = 'avg'
+18.4244 	EXP 	window1: blendMode = 'avg'
+18.4248 	EXP 	window1: blendMode = 'avg'
+18.4551 	EXP 	window1: blendMode = 'avg'
+18.4553 	EXP 	window1: blendMode = 'avg'
+18.5715 	EXP 	window1: blendMode = 'avg'
+18.5721 	EXP 	window1: blendMode = 'avg'
+18.6016 	EXP 	window1: blendMode = 'avg'
+18.6018 	EXP 	window1: blendMode = 'avg'
+18.6329 	EXP 	window1: blendMode = 'avg'
+18.6331 	EXP 	window1: blendMode = 'avg'
+18.6647 	EXP 	window1: blendMode = 'avg'
+18.6650 	EXP 	window1: blendMode = 'avg'
+18.7000 	DATA 	Keypress: d
+18.7006 	EXP 	window1: blendMode = 'avg'
+18.7010 	EXP 	window1: blendMode = 'avg'
+18.7203 	EXP 	window1: blendMode = 'avg'
+18.7206 	EXP 	window1: blendMode = 'avg'
+18.7406 	EXP 	window1: blendMode = 'avg'
+18.7410 	EXP 	window1: blendMode = 'avg'
+18.7612 	EXP 	window1: blendMode = 'avg'
+18.7616 	EXP 	window1: blendMode = 'avg'
+18.7809 	EXP 	window1: blendMode = 'avg'
+18.7812 	EXP 	window1: blendMode = 'avg'
+18.8013 	EXP 	window1: blendMode = 'avg'
+18.8015 	EXP 	window1: blendMode = 'avg'
+18.8232 	EXP 	window1: blendMode = 'avg'
+18.8234 	EXP 	window1: blendMode = 'avg'
+18.8417 	EXP 	window1: blendMode = 'avg'
+18.8421 	EXP 	window1: blendMode = 'avg'
+18.8632 	EXP 	window1: blendMode = 'avg'
+18.8634 	EXP 	window1: blendMode = 'avg'
+18.8927 	EXP 	window1: blendMode = 'avg'
+18.8931 	EXP 	window1: blendMode = 'avg'
+18.9140 	EXP 	window1: blendMode = 'avg'
+18.9144 	EXP 	window1: blendMode = 'avg'
+18.9340 	EXP 	window1: blendMode = 'avg'
+18.9344 	EXP 	window1: blendMode = 'avg'
+19.1439 	EXP 	window1: blendMode = 'avg'
+19.1443 	EXP 	window1: blendMode = 'avg'
+19.1708 	EXP 	window1: blendMode = 'avg'
+19.1711 	EXP 	window1: blendMode = 'avg'
+19.1995 	DATA 	Keypress: f
+19.2024 	EXP 	New trial (rep=0, index=1): {'Stimulus_Practice': u'ahead_image_1_WHI.jpg', 'Direction': u'ahead', 'Number': 1, 'Background': u'_WHI', 'Format': u'image'}
+19.2451 	EXP 	window1: blendMode = 'avg'
+19.2463 	EXP 	window1: blendMode = 'avg'
+19.2597 	EXP 	text_9: autoDraw = False
+19.2597 	EXP 	image: autoDraw = False
+19.2597 	EXP 	text_same_practice: autoDraw = False
+19.2597 	EXP 	image: image = u'Extra_Stimuli//ahead_image_1_WHI.jpg'
+19.2597 	EXP 	text_same_practice: text = 'SAME?'
+19.2597 	EXP 	text_9: autoDraw = True
+19.2597 	EXP 	image: autoDraw = True
+19.2597 	EXP 	text_same_practice: autoDraw = True
+19.2604 	EXP 	window1: blendMode = 'avg'
+19.2608 	EXP 	window1: blendMode = 'avg'
+19.2809 	EXP 	window1: blendMode = 'avg'
+19.2814 	EXP 	window1: blendMode = 'avg'
+19.3020 	EXP 	window1: blendMode = 'avg'
+19.3023 	EXP 	window1: blendMode = 'avg'
+19.3329 	EXP 	window1: blendMode = 'avg'
+19.3333 	EXP 	window1: blendMode = 'avg'
+19.3640 	EXP 	window1: blendMode = 'avg'
+19.3644 	EXP 	window1: blendMode = 'avg'
+19.3842 	EXP 	window1: blendMode = 'avg'
+19.3848 	EXP 	window1: blendMode = 'avg'
+19.4122 	EXP 	window1: blendMode = 'avg'
+19.4133 	EXP 	window1: blendMode = 'avg'
+19.4417 	EXP 	window1: blendMode = 'avg'
+19.4423 	EXP 	window1: blendMode = 'avg'
+19.4727 	EXP 	window1: blendMode = 'avg'
+19.4732 	EXP 	window1: blendMode = 'avg'
+19.5035 	EXP 	window1: blendMode = 'avg'
+19.5039 	EXP 	window1: blendMode = 'avg'
+19.5350 	EXP 	window1: blendMode = 'avg'
+19.5354 	EXP 	window1: blendMode = 'avg'
+19.5661 	EXP 	window1: blendMode = 'avg'
+19.5665 	EXP 	window1: blendMode = 'avg'
+19.5973 	EXP 	window1: blendMode = 'avg'
+19.5977 	EXP 	window1: blendMode = 'avg'
+19.6287 	EXP 	window1: blendMode = 'avg'
+19.6291 	EXP 	window1: blendMode = 'avg'
+19.6603 	EXP 	window1: blendMode = 'avg'
+19.6607 	EXP 	window1: blendMode = 'avg'
+19.6966 	EXP 	window1: blendMode = 'avg'
+19.6970 	EXP 	window1: blendMode = 'avg'
+19.7173 	EXP 	window1: blendMode = 'avg'
+19.7179 	EXP 	window1: blendMode = 'avg'
+19.7375 	EXP 	window1: blendMode = 'avg'
+19.7381 	EXP 	window1: blendMode = 'avg'
+19.7579 	EXP 	window1: blendMode = 'avg'
+19.7588 	EXP 	window1: blendMode = 'avg'
+19.7777 	EXP 	window1: blendMode = 'avg'
+19.7783 	EXP 	window1: blendMode = 'avg'
+19.8087 	EXP 	window1: blendMode = 'avg'
+19.8092 	EXP 	window1: blendMode = 'avg'
+19.8399 	EXP 	window1: blendMode = 'avg'
+19.8404 	EXP 	window1: blendMode = 'avg'
+19.8666 	EXP 	window1: blendMode = 'avg'
+19.8672 	EXP 	window1: blendMode = 'avg'
+19.8863 	EXP 	window1: blendMode = 'avg'
+19.8870 	EXP 	window1: blendMode = 'avg'
+19.9061 	EXP 	window1: blendMode = 'avg'
+19.9067 	EXP 	window1: blendMode = 'avg'
+19.9400 	EXP 	window1: blendMode = 'avg'
+19.9405 	EXP 	window1: blendMode = 'avg'
+19.9715 	EXP 	window1: blendMode = 'avg'
+19.9722 	EXP 	window1: blendMode = 'avg'
+19.9916 	EXP 	window1: blendMode = 'avg'
+19.9923 	EXP 	window1: blendMode = 'avg'
+20.0119 	EXP 	window1: blendMode = 'avg'
+20.0127 	EXP 	window1: blendMode = 'avg'
+20.0323 	EXP 	window1: blendMode = 'avg'
+20.0329 	EXP 	window1: blendMode = 'avg'
+20.0523 	EXP 	window1: blendMode = 'avg'
+20.0529 	EXP 	window1: blendMode = 'avg'
+20.0725 	EXP 	window1: blendMode = 'avg'
+20.0731 	EXP 	window1: blendMode = 'avg'
+20.1050 	DATA 	Keypress: a
+20.1065 	EXP 	New trial (rep=0, index=2): {'Stimulus_Practice': u'left_image_1_WHI.jpg', 'Direction': u'left', 'Number': 1, 'Background': u'_WHI', 'Format': u'image'}
+20.1466 	EXP 	window1: blendMode = 'avg'
+20.1469 	EXP 	window1: blendMode = 'avg'
+20.1759 	EXP 	text_9: autoDraw = False
+20.1759 	EXP 	image: autoDraw = False
+20.1759 	EXP 	text_same_practice: autoDraw = False
+20.1759 	EXP 	image: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+20.1759 	EXP 	text_same_practice: text = ''
+20.1759 	EXP 	text_9: autoDraw = True
+20.1759 	EXP 	image: autoDraw = True
+20.1759 	EXP 	text_same_practice: autoDraw = True
+20.1763 	EXP 	window1: blendMode = 'avg'
+20.1766 	EXP 	window1: blendMode = 'avg'
+20.1992 	EXP 	window1: blendMode = 'avg'
+20.1996 	EXP 	window1: blendMode = 'avg'
+20.2194 	EXP 	window1: blendMode = 'avg'
+20.2197 	EXP 	window1: blendMode = 'avg'
+20.2580 	EXP 	window1: blendMode = 'avg'
+20.2582 	EXP 	window1: blendMode = 'avg'
+20.2798 	EXP 	window1: blendMode = 'avg'
+20.2801 	EXP 	window1: blendMode = 'avg'
+20.3246 	EXP 	window1: blendMode = 'avg'
+20.3250 	EXP 	window1: blendMode = 'avg'
+20.3680 	EXP 	window1: blendMode = 'avg'
+20.3684 	EXP 	window1: blendMode = 'avg'
+20.3883 	EXP 	window1: blendMode = 'avg'
+20.3887 	EXP 	window1: blendMode = 'avg'
+20.4081 	EXP 	window1: blendMode = 'avg'
+20.4086 	EXP 	window1: blendMode = 'avg'
+20.6184 	DATA 	Keypress: f
+20.6188 	EXP 	window1: blendMode = 'avg'
+20.6192 	EXP 	window1: blendMode = 'avg'
+20.6486 	EXP 	New trial (rep=0, index=3): {'Stimulus_Practice': u'ahead_image_3_WHI.jpg', 'Direction': u'ahead', 'Number': 3, 'Background': u'_WHI', 'Format': u'image'}
+20.6913 	EXP 	window1: blendMode = 'avg'
+20.6923 	EXP 	window1: blendMode = 'avg'
+20.7074 	EXP 	text_9: autoDraw = False
+20.7074 	EXP 	image: autoDraw = False
+20.7074 	EXP 	text_same_practice: autoDraw = False
+20.7074 	EXP 	image: image = u'Extra_Stimuli//ahead_image_3_WHI.jpg'
+20.7074 	EXP 	text_same_practice: text = 'SAME?'
+20.7074 	EXP 	text_9: autoDraw = True
+20.7074 	EXP 	image: autoDraw = True
+20.7074 	EXP 	text_same_practice: autoDraw = True
+20.7082 	EXP 	window1: blendMode = 'avg'
+20.7088 	EXP 	window1: blendMode = 'avg'
+20.7283 	EXP 	window1: blendMode = 'avg'
+20.7288 	EXP 	window1: blendMode = 'avg'
+20.7482 	EXP 	window1: blendMode = 'avg'
+20.7488 	EXP 	window1: blendMode = 'avg'
+20.7680 	EXP 	window1: blendMode = 'avg'
+20.7686 	EXP 	window1: blendMode = 'avg'
+20.7883 	EXP 	window1: blendMode = 'avg'
+20.7888 	EXP 	window1: blendMode = 'avg'
+20.8083 	EXP 	window1: blendMode = 'avg'
+20.8089 	EXP 	window1: blendMode = 'avg'
+20.8284 	EXP 	window1: blendMode = 'avg'
+20.8289 	EXP 	window1: blendMode = 'avg'
+20.8484 	EXP 	window1: blendMode = 'avg'
+20.8489 	EXP 	window1: blendMode = 'avg'
+20.8681 	EXP 	window1: blendMode = 'avg'
+20.8686 	EXP 	window1: blendMode = 'avg'
+20.8881 	EXP 	window1: blendMode = 'avg'
+20.8887 	EXP 	window1: blendMode = 'avg'
+20.9093 	EXP 	window1: blendMode = 'avg'
+20.9100 	EXP 	window1: blendMode = 'avg'
+20.9285 	EXP 	window1: blendMode = 'avg'
+20.9292 	EXP 	window1: blendMode = 'avg'
+20.9490 	EXP 	window1: blendMode = 'avg'
+20.9496 	EXP 	window1: blendMode = 'avg'
+20.9699 	EXP 	window1: blendMode = 'avg'
+20.9705 	EXP 	window1: blendMode = 'avg'
+20.9894 	EXP 	window1: blendMode = 'avg'
+20.9901 	EXP 	window1: blendMode = 'avg'
+21.0095 	EXP 	window1: blendMode = 'avg'
+21.0102 	EXP 	window1: blendMode = 'avg'
+21.2151 	EXP 	window1: blendMode = 'avg'
+21.2157 	EXP 	window1: blendMode = 'avg'
+21.2417 	EXP 	window1: blendMode = 'avg'
+21.2423 	EXP 	window1: blendMode = 'avg'
+21.2646 	EXP 	window1: blendMode = 'avg'
+21.2652 	EXP 	window1: blendMode = 'avg'
+21.3010 	EXP 	window1: blendMode = 'avg'
+21.3017 	EXP 	window1: blendMode = 'avg'
+21.3211 	EXP 	window1: blendMode = 'avg'
+21.3215 	EXP 	window1: blendMode = 'avg'
+21.3422 	EXP 	window1: blendMode = 'avg'
+21.3427 	EXP 	window1: blendMode = 'avg'
+21.3736 	EXP 	window1: blendMode = 'avg'
+21.3740 	EXP 	window1: blendMode = 'avg'
+21.3937 	EXP 	window1: blendMode = 'avg'
+21.3943 	EXP 	window1: blendMode = 'avg'
+21.4131 	EXP 	window1: blendMode = 'avg'
+21.4137 	EXP 	window1: blendMode = 'avg'
+21.4334 	EXP 	window1: blendMode = 'avg'
+21.4341 	EXP 	window1: blendMode = 'avg'
+21.4566 	EXP 	window1: blendMode = 'avg'
+21.4573 	EXP 	window1: blendMode = 'avg'
+21.4874 	EXP 	window1: blendMode = 'avg'
+21.4879 	EXP 	window1: blendMode = 'avg'
+21.5186 	EXP 	window1: blendMode = 'avg'
+21.5189 	EXP 	window1: blendMode = 'avg'
+21.5498 	DATA 	Keypress: escape

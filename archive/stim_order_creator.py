@@ -70,7 +70,8 @@ def stim_within_format_order(num_blocks=18,num_exemplars=21):
 
     final_order.sort_index(inplace=True)
     
-
+    final_order = final_order[final_order.index % 21 != 0]
+    final_order.reset_index(inplace=True)
     final_order['match'] = final_order.direction.eq(final_order.direction.shift())
 
     matches = np.sum(final_order['match'][1::2])
@@ -98,20 +99,28 @@ matches_scr = []
 
 # Establish the mean and SD of the number of matches for a sequence
 # We'll use any sequences that have a number of matches within 1 SD of the mean
-# Running this 10000 times yielded M: 113.74, SD: 8.98
-
-#for i in range(10000):
-#    if i % 100 == 0:
-#        print(i)
-#    final_within_whi_order,match_whi = stim_within_format_order()
-#    matches_whi.append(match_whi)
-#print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
-#print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
-
-
-match_max = 57.03 + 6.53 #exclusive
-match_min = 57.03 - 6.53 #exclusive
+# Running this 2000 times (after which avgs. stabilize) yielded M: 53.96, SD: 6.33
 """
+for i in range(2000):
+    if i % 100 == 0:
+        print(i)
+    final_within_whi_order,match_whi = stim_within_format_order()
+    matches_whi.append(match_whi)
+print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
+print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
+
+
+aves = []
+for i in range(1,len(matches_whi)):
+    aves.append(np.std(matches_whi[0:i]))
+
+plt.plot(aves)    
+
+"""
+match_max = 53.96 + 6.33 #exclusive
+match_min = 53.96 - 6.33 #exclusive
+
+
 for i in range(14):
     participant_num = 1001+i
     filename_whi = str(participant_num) + 'vva_within_whi_order.csv'
@@ -126,7 +135,6 @@ for i in range(14):
         
     while match_scr <= match_min or match_scr > match_max:
         final_within_scr_order,match_scr = stim_within_format_order()
-
         
     final_within_whi_order['Stimulus'] = final_within_whi_order['Stimulus_stem'].apply(add_whi_suffix)
     final_within_scr_order['Stimulus'] = final_within_scr_order['Stimulus_stem'].apply(add_scr_suffix)
@@ -140,4 +148,3 @@ print("SCR match mean: {} +/- {}".format(np.mean(matches_scr),np.std(matches_scr
 print("SCR max = {}, min = {}".format(max(matches_scr),min(matches_scr)))
 print("WHI match mean: {} +/- {}".format(np.mean(matches_whi),np.std(matches_whi)))
 print("WHI max = {}, min = {}".format(max(matches_whi),min(matches_whi)))
-"""

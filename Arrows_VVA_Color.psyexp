@@ -69,7 +69,7 @@
       <CodeComponent name="code_3">
         <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;vertexOptions = [3,4,5,6,999]" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_3" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_3.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_3.thisN % 2 == 1:&amp;#10;    text_same_practice.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same_practice.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_3.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_3.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_3.thisN % 2 == 1:&amp;#10;    text_same_practice.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same_practice.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_3.color,edges=nVertices,units='height',size=[.5,.5])&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="if trials_3.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_3.answer and key_resp_11.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_3.answer and key_resp_11.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_3.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;if trials_3.thisN % 2 == 1:&amp;#10;    trials_3.addData('colorpractice_correct',correct)&amp;#10;&amp;#10;trials_3.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -173,7 +173,7 @@
       <CodeComponent name="code">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_2.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_2.color,edges=nVertices)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_2.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_2.color,edges=nVertices,units='height',size=[.5,.5])&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_2.answer and color_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_2.answer and color_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_2.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    trials_2.addData('colorpractice_correct',correct)&amp;#10;&amp;#10;trials_2.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -291,11 +291,11 @@
         <Param name="fillColor" updates="constant" val="#d7191c" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(-.3, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(-.3, -.2)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="lineWidth" updates="constant" val="1" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
@@ -312,11 +312,11 @@
         <Param name="fillColor" updates="constant" val="#d7191c" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(.3, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(.3, -.2)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="lineWidth" updates="constant" val="1" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
@@ -371,11 +371,11 @@
         <Param name="fillColor" updates="constant" val="#fdae61" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(.3, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(.3, -.2)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="lineWidth" updates="constant" val="1" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
@@ -392,11 +392,11 @@
         <Param name="fillColor" updates="constant" val="#2c7bb6" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="pos" updates="constant" val="(-.3, 0)" valType="code"/>
+        <Param name="pos" updates="constant" val="(-.3, -.2)" valType="code"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="lineWidth" updates="constant" val="1" valType="code"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="height" valType="str"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
         <Param name="ori" updates="constant" val="0" valType="code"/>
