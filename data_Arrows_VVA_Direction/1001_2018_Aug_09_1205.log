@@ -1,0 +1,891 @@
+28.5901 	INFO 	Loaded monitor calibration from ['2016_05_25 15:27']
+32.0257 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+32.0263 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x05423DC8>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+32.0264 	EXP 	window1: recordFrameIntervals = False
+32.2950 	EXP 	window1: recordFrameIntervals = True
+32.3757 	WARNING 	t of last frame was 31.89ms (=1/31)
+32.4129 	WARNING 	t of last frame was 20.54ms (=1/48)
+32.4449 	WARNING 	t of last frame was 32.02ms (=1/31)
+32.4773 	WARNING 	t of last frame was 32.40ms (=1/30)
+32.5085 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+32.6879 	DEBUG 	Screen (0) actual frame rate measured at 60.23
+32.6880 	EXP 	window1: recordFrameIntervals = True
+32.8693 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+32.8701 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+32.8708 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.8741 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+32.8749 	EXP 	Created text_same_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.9093 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.5, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+32.9100 	EXP 	Created text_11 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_11', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.9124 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+32.9131 	EXP 	Created text_same_practice_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_2', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.9157 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.5, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+32.9165 	EXP 	Created text_12 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_12', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.9190 	EXP 	Created image_4 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+32.9197 	EXP 	Created text_same_practice_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_3', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+32.9715 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+32.9763 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+32.9926 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.5, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+32.9934 	EXP 	Created text_same = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=u'black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font=u'Arial', fontFiles=[], height=0.1, italic=False, name='text_same', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+33.0026 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+33.0234 	EXP 	text_4: autoDraw = True
+39.9020 	DATA 	Keypress: d
+39.9192 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+39.9200 	EXP 	New trial (rep=0, index=0): None
+40.0856 	EXP 	text_4: autoDraw = False
+40.0856 	EXP 	text_6: text = "Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw. For the first stimulus, just say 'GO.' Then when it says 'Same?' underneath, tell the experimenter whether you see the same direction or a different direction"
+40.0856 	EXP 	text_6: autoDraw = True
+40.3536 	DATA 	Keypress: s
+40.4160 	EXP 	Imported Extra_Stimuli//practice_order_WHI_image.xlsx as conditions, 9 conditions, 5 params
+40.4166 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+40.4175 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_image_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+40.5356 	EXP 	text_6: autoDraw = False
+40.5356 	EXP 	image: image = u'Extra_Stimuli//right_image_1_WHI.jpg'
+40.5356 	EXP 	text_same_practice: text = ''
+40.5356 	EXP 	text_9: autoDraw = True
+40.5356 	EXP 	image: autoDraw = True
+40.5356 	EXP 	text_same_practice: autoDraw = True
+40.8027 	DATA 	Keypress: f
+40.8036 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'right_image_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+40.8686 	EXP 	text_9: autoDraw = False
+40.8686 	EXP 	image: autoDraw = False
+40.8686 	EXP 	text_same_practice: autoDraw = False
+40.8686 	EXP 	image: image = u'Extra_Stimuli//right_image_3_WHI.jpg'
+40.8686 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+40.8686 	EXP 	text_9: autoDraw = True
+40.8686 	EXP 	image: autoDraw = True
+40.8686 	EXP 	text_same_practice: autoDraw = True
+41.1200 	DATA 	Keypress: a
+41.1219 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_image_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+41.2354 	EXP 	text_9: autoDraw = False
+41.2354 	EXP 	image: autoDraw = False
+41.2354 	EXP 	text_same_practice: autoDraw = False
+41.2354 	EXP 	image: image = u'Extra_Stimuli//left_image_3_WHI.jpg'
+41.2354 	EXP 	text_same_practice: text = ''
+41.2354 	EXP 	text_9: autoDraw = True
+41.2354 	EXP 	image: autoDraw = True
+41.2354 	EXP 	text_same_practice: autoDraw = True
+41.4382 	DATA 	Keypress: f
+41.4400 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'ahead_image_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+41.5683 	EXP 	text_9: autoDraw = False
+41.5683 	EXP 	image: autoDraw = False
+41.5683 	EXP 	text_same_practice: autoDraw = False
+41.5683 	EXP 	image: image = u'Extra_Stimuli//ahead_image_2_WHI.jpg'
+41.5683 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+41.5683 	EXP 	text_9: autoDraw = True
+41.5683 	EXP 	image: autoDraw = True
+41.5683 	EXP 	text_same_practice: autoDraw = True
+41.6860 	DATA 	Keypress: a
+41.6871 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_image_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+41.7685 	EXP 	text_9: autoDraw = False
+41.7685 	EXP 	image: autoDraw = False
+41.7685 	EXP 	text_same_practice: autoDraw = False
+41.7685 	EXP 	image: image = u'Extra_Stimuli//ahead_image_3_WHI.jpg'
+41.7685 	EXP 	text_same_practice: text = ''
+41.7685 	EXP 	text_9: autoDraw = True
+41.7685 	EXP 	image: autoDraw = True
+41.7685 	EXP 	text_same_practice: autoDraw = True
+41.9361 	DATA 	Keypress: f
+41.9372 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'right_image_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+42.0180 	EXP 	text_9: autoDraw = False
+42.0180 	EXP 	image: autoDraw = False
+42.0180 	EXP 	text_same_practice: autoDraw = False
+42.0180 	EXP 	image: image = u'Extra_Stimuli//right_image_2_WHI.jpg'
+42.0180 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+42.0180 	EXP 	text_9: autoDraw = True
+42.0180 	EXP 	image: autoDraw = True
+42.0180 	EXP 	text_same_practice: autoDraw = True
+42.1693 	DATA 	Keypress: a
+42.1711 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'left_image_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+42.2679 	EXP 	text_9: autoDraw = False
+42.2679 	EXP 	image: autoDraw = False
+42.2679 	EXP 	text_same_practice: autoDraw = False
+42.2679 	EXP 	image: image = u'Extra_Stimuli//left_image_2_WHI.jpg'
+42.2679 	EXP 	text_same_practice: text = ''
+42.2679 	EXP 	text_9: autoDraw = True
+42.2679 	EXP 	image: autoDraw = True
+42.2679 	EXP 	text_same_practice: autoDraw = True
+42.4360 	DATA 	Keypress: f
+42.4378 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'left_image_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+42.5845 	EXP 	text_9: autoDraw = False
+42.5845 	EXP 	image: autoDraw = False
+42.5845 	EXP 	text_same_practice: autoDraw = False
+42.5845 	EXP 	image: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+42.5845 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+42.5845 	EXP 	text_9: autoDraw = True
+42.5845 	EXP 	image: autoDraw = True
+42.5845 	EXP 	text_same_practice: autoDraw = True
+42.8352 	DATA 	Keypress: a
+42.8849 	EXP 	text_9: autoDraw = False
+42.8849 	EXP 	image: autoDraw = False
+42.8849 	EXP 	text_same_practice: autoDraw = False
+42.8849 	EXP 	text_2: autoDraw = True
+43.1520 	DATA 	Keypress: d
+43.1752 	EXP 	Imported Extra_Stimuli//practice_order_WHI_word.xlsx as conditions, 9 conditions, 5 params
+43.1761 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+43.1773 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'ahead_word_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+43.3173 	EXP 	text_2: autoDraw = False
+43.3173 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_2_WHI.jpg'
+43.3173 	EXP 	text_same_practice_2: text = ''
+43.3173 	EXP 	text_11: autoDraw = True
+43.3173 	EXP 	image_3: autoDraw = True
+43.3173 	EXP 	text_same_practice_2: autoDraw = True
+43.5854 	DATA 	Keypress: f
+43.5884 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'left_word_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+43.7171 	EXP 	text_11: autoDraw = False
+43.7171 	EXP 	image_3: autoDraw = False
+43.7171 	EXP 	text_same_practice_2: autoDraw = False
+43.7171 	EXP 	image_3: image = u'Extra_Stimuli//left_word_1_WHI.jpg'
+43.7171 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+43.7171 	EXP 	text_11: autoDraw = True
+43.7171 	EXP 	image_3: autoDraw = True
+43.7171 	EXP 	text_same_practice_2: autoDraw = True
+43.8515 	DATA 	Keypress: a
+43.8529 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'ahead_word_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+43.9344 	EXP 	text_11: autoDraw = False
+43.9344 	EXP 	image_3: autoDraw = False
+43.9344 	EXP 	text_same_practice_2: autoDraw = False
+43.9344 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_1_WHI.jpg'
+43.9344 	EXP 	text_same_practice_2: text = ''
+43.9344 	EXP 	text_11: autoDraw = True
+43.9344 	EXP 	image_3: autoDraw = True
+43.9344 	EXP 	text_same_practice_2: autoDraw = True
+44.0345 	DATA 	Keypress: f
+44.0352 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'right_word_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+44.1004 	EXP 	text_11: autoDraw = False
+44.1004 	EXP 	image_3: autoDraw = False
+44.1004 	EXP 	text_same_practice_2: autoDraw = False
+44.1004 	EXP 	image_3: image = u'Extra_Stimuli//right_word_1_WHI.jpg'
+44.1004 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+44.1004 	EXP 	text_11: autoDraw = True
+44.1004 	EXP 	image_3: autoDraw = True
+44.1004 	EXP 	text_same_practice_2: autoDraw = True
+44.2523 	DATA 	Keypress: a
+44.2547 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'right_word_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+44.3505 	EXP 	text_11: autoDraw = False
+44.3505 	EXP 	image_3: autoDraw = False
+44.3505 	EXP 	text_same_practice_2: autoDraw = False
+44.3505 	EXP 	image_3: image = u'Extra_Stimuli//right_word_3_WHI.jpg'
+44.3505 	EXP 	text_same_practice_2: text = ''
+44.3505 	EXP 	text_11: autoDraw = True
+44.3505 	EXP 	image_3: autoDraw = True
+44.3505 	EXP 	text_same_practice_2: autoDraw = True
+44.4679 	DATA 	Keypress: f
+44.4697 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'right_word_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+44.5836 	EXP 	text_11: autoDraw = False
+44.5836 	EXP 	image_3: autoDraw = False
+44.5836 	EXP 	text_same_practice_2: autoDraw = False
+44.5836 	EXP 	image_3: image = u'Extra_Stimuli//right_word_2_WHI.jpg'
+44.5836 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+44.5836 	EXP 	text_11: autoDraw = True
+44.5836 	EXP 	image_3: autoDraw = True
+44.5836 	EXP 	text_same_practice_2: autoDraw = True
+44.6845 	DATA 	Keypress: a
+44.6856 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'left_word_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+44.7509 	EXP 	text_11: autoDraw = False
+44.7509 	EXP 	image_3: autoDraw = False
+44.7509 	EXP 	text_same_practice_2: autoDraw = False
+44.7509 	EXP 	image_3: image = u'Extra_Stimuli//left_word_2_WHI.jpg'
+44.7509 	EXP 	text_same_practice_2: text = ''
+44.7509 	EXP 	text_11: autoDraw = True
+44.7509 	EXP 	image_3: autoDraw = True
+44.7509 	EXP 	text_same_practice_2: autoDraw = True
+44.8846 	DATA 	Keypress: f
+44.8853 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'ahead_word_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+44.9343 	EXP 	text_11: autoDraw = False
+44.9343 	EXP 	image_3: autoDraw = False
+44.9343 	EXP 	text_same_practice_2: autoDraw = False
+44.9343 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_3_WHI.jpg'
+44.9343 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+44.9343 	EXP 	text_11: autoDraw = True
+44.9343 	EXP 	image_3: autoDraw = True
+44.9343 	EXP 	text_same_practice_2: autoDraw = True
+45.1505 	DATA 	Keypress: a
+45.2332 	EXP 	text_11: autoDraw = False
+45.2332 	EXP 	image_3: autoDraw = False
+45.2332 	EXP 	text_same_practice_2: autoDraw = False
+45.2332 	EXP 	text_2: autoDraw = True
+45.5185 	DATA 	Keypress: d
+45.5574 	EXP 	Imported Extra_Stimuli//practice_order_WHI_schema.xlsx as conditions, 9 conditions, 5 params
+45.5583 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+45.5595 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'left_schema_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+45.6666 	EXP 	text_2: autoDraw = False
+45.6666 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+45.6666 	EXP 	text_same_practice_3: text = ''
+45.6666 	EXP 	text_12: autoDraw = True
+45.6666 	EXP 	image_4: autoDraw = True
+45.6666 	EXP 	text_same_practice_3: autoDraw = True
+45.8334 	DATA 	Keypress: f
+45.8342 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'right_schema_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+45.8827 	EXP 	text_12: autoDraw = False
+45.8827 	EXP 	image_4: autoDraw = False
+45.8827 	EXP 	text_same_practice_3: autoDraw = False
+45.8827 	EXP 	image_4: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+45.8827 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+45.8827 	EXP 	text_12: autoDraw = True
+45.8827 	EXP 	image_4: autoDraw = True
+45.8827 	EXP 	text_same_practice_3: autoDraw = True
+46.0499 	DATA 	Keypress: a
+46.0505 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'right_schema_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+46.0994 	EXP 	text_12: autoDraw = False
+46.0994 	EXP 	image_4: autoDraw = False
+46.0994 	EXP 	text_same_practice_3: autoDraw = False
+46.0994 	EXP 	image_4: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+46.0994 	EXP 	text_same_practice_3: text = ''
+46.0994 	EXP 	text_12: autoDraw = True
+46.0994 	EXP 	image_4: autoDraw = True
+46.0994 	EXP 	text_same_practice_3: autoDraw = True
+46.2501 	DATA 	Keypress: f
+46.2508 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+46.3167 	EXP 	text_12: autoDraw = False
+46.3167 	EXP 	image_4: autoDraw = False
+46.3167 	EXP 	text_same_practice_3: autoDraw = False
+46.3167 	EXP 	image_4: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+46.3167 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+46.3167 	EXP 	text_12: autoDraw = True
+46.3167 	EXP 	image_4: autoDraw = True
+46.3167 	EXP 	text_same_practice_3: autoDraw = True
+46.4505 	DATA 	Keypress: a
+46.4523 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'left_schema_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+46.5323 	EXP 	text_12: autoDraw = False
+46.5323 	EXP 	image_4: autoDraw = False
+46.5323 	EXP 	text_same_practice_3: autoDraw = False
+46.5323 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+46.5323 	EXP 	text_same_practice_3: text = ''
+46.5323 	EXP 	text_12: autoDraw = True
+46.5323 	EXP 	image_4: autoDraw = True
+46.5323 	EXP 	text_same_practice_3: autoDraw = True
+46.6505 	DATA 	Keypress: f
+46.6523 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'left_schema_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+46.7489 	EXP 	text_12: autoDraw = False
+46.7489 	EXP 	image_4: autoDraw = False
+46.7489 	EXP 	text_same_practice_3: autoDraw = False
+46.7489 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+46.7489 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+46.7489 	EXP 	text_12: autoDraw = True
+46.7489 	EXP 	image_4: autoDraw = True
+46.7489 	EXP 	text_same_practice_3: autoDraw = True
+46.8668 	DATA 	Keypress: a
+46.8688 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+46.9327 	EXP 	text_12: autoDraw = False
+46.9327 	EXP 	image_4: autoDraw = False
+46.9327 	EXP 	text_same_practice_3: autoDraw = False
+46.9327 	EXP 	image_4: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+46.9327 	EXP 	text_same_practice_3: text = ''
+46.9327 	EXP 	text_12: autoDraw = True
+46.9327 	EXP 	image_4: autoDraw = True
+46.9327 	EXP 	text_same_practice_3: autoDraw = True
+47.0831 	DATA 	Keypress: f
+47.0839 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'right_schema_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+47.1325 	EXP 	text_12: autoDraw = False
+47.1325 	EXP 	image_4: autoDraw = False
+47.1325 	EXP 	text_same_practice_3: autoDraw = False
+47.1325 	EXP 	image_4: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+47.1325 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+47.1325 	EXP 	text_12: autoDraw = True
+47.1325 	EXP 	image_4: autoDraw = True
+47.1325 	EXP 	text_same_practice_3: autoDraw = True
+47.4023 	DATA 	Keypress: a
+47.5543 	EXP 	New trial (rep=1, index=0): None
+47.6008 	EXP 	text_12: autoDraw = False
+47.6008 	EXP 	image_4: autoDraw = False
+47.6008 	EXP 	text_same_practice_3: autoDraw = False
+47.6008 	EXP 	text_6: text = 'Ok, before we practice one more time - do you have any questions about the task?'
+47.6008 	EXP 	text_6: autoDraw = True
+47.9672 	DATA 	Keypress: d
+47.9751 	EXP 	Imported Extra_Stimuli//practice_order_WHI_image.xlsx as conditions, 9 conditions, 5 params
+47.9754 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+47.9758 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_image_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+48.0337 	EXP 	text_6: autoDraw = False
+48.0337 	EXP 	image: image = u'Extra_Stimuli//right_image_1_WHI.jpg'
+48.0337 	EXP 	text_same_practice: text = ''
+48.0337 	EXP 	text_9: autoDraw = True
+48.0337 	EXP 	image: autoDraw = True
+48.0337 	EXP 	text_same_practice: autoDraw = True
+48.3011 	DATA 	Keypress: f
+48.3023 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'left_image_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+48.3675 	EXP 	text_9: autoDraw = False
+48.3675 	EXP 	image: autoDraw = False
+48.3675 	EXP 	text_same_practice: autoDraw = False
+48.3675 	EXP 	image: image = u'Extra_Stimuli//left_image_2_WHI.jpg'
+48.3675 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+48.3675 	EXP 	text_9: autoDraw = True
+48.3675 	EXP 	image: autoDraw = True
+48.3675 	EXP 	text_same_practice: autoDraw = True
+48.5347 	DATA 	Keypress: a
+48.5364 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_image_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+48.6165 	EXP 	text_9: autoDraw = False
+48.6165 	EXP 	image: autoDraw = False
+48.6165 	EXP 	text_same_practice: autoDraw = False
+48.6165 	EXP 	image: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+48.6165 	EXP 	text_same_practice: text = ''
+48.6165 	EXP 	text_9: autoDraw = True
+48.6165 	EXP 	image: autoDraw = True
+48.6165 	EXP 	text_same_practice: autoDraw = True
+48.6841 	DATA 	Keypress: f
+48.6849 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'left_image_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+48.7669 	EXP 	text_9: autoDraw = False
+48.7669 	EXP 	image: autoDraw = False
+48.7669 	EXP 	text_same_practice: autoDraw = False
+48.7669 	EXP 	image: image = u'Extra_Stimuli//left_image_3_WHI.jpg'
+48.7669 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+48.7669 	EXP 	text_9: autoDraw = True
+48.7669 	EXP 	image: autoDraw = True
+48.7669 	EXP 	text_same_practice: autoDraw = True
+48.7837 	DATA 	Keypress: a
+48.7843 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'right_image_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+48.8497 	EXP 	text_9: autoDraw = False
+48.8497 	EXP 	image: autoDraw = False
+48.8497 	EXP 	text_same_practice: autoDraw = False
+48.8497 	EXP 	image: image = u'Extra_Stimuli//right_image_3_WHI.jpg'
+48.8497 	EXP 	text_same_practice: text = ''
+48.8497 	EXP 	text_9: autoDraw = True
+48.8497 	EXP 	image: autoDraw = True
+48.8497 	EXP 	text_same_practice: autoDraw = True
+48.8842 	DATA 	Keypress: f
+48.8849 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'right_image_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+48.9670 	EXP 	text_9: autoDraw = False
+48.9670 	EXP 	image: autoDraw = False
+48.9670 	EXP 	text_same_practice: autoDraw = False
+48.9670 	EXP 	image: image = u'Extra_Stimuli//right_image_2_WHI.jpg'
+48.9670 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+48.9670 	EXP 	text_9: autoDraw = True
+48.9670 	EXP 	image: autoDraw = True
+48.9670 	EXP 	text_same_practice: autoDraw = True
+48.9838 	DATA 	Keypress: a
+48.9855 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'ahead_image_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+49.0494 	EXP 	text_9: autoDraw = False
+49.0494 	EXP 	image: autoDraw = False
+49.0494 	EXP 	text_same_practice: autoDraw = False
+49.0494 	EXP 	image: image = u'Extra_Stimuli//ahead_image_3_WHI.jpg'
+49.0494 	EXP 	text_same_practice: text = ''
+49.0494 	EXP 	text_9: autoDraw = True
+49.0494 	EXP 	image: autoDraw = True
+49.0494 	EXP 	text_same_practice: autoDraw = True
+49.1020 	DATA 	Keypress: f
+49.1187 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'ahead_image_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+49.2095 	DATA 	Keypress: a
+49.2328 	EXP 	text_9: autoDraw = False
+49.2328 	EXP 	image: autoDraw = False
+49.2328 	EXP 	text_same_practice: autoDraw = False
+49.2328 	EXP 	image: image = u'Extra_Stimuli//ahead_image_2_WHI.jpg'
+49.2328 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+49.2328 	EXP 	text_9: autoDraw = True
+49.2328 	EXP 	image: autoDraw = True
+49.2328 	EXP 	text_same_practice: autoDraw = True
+49.7057 	DATA 	Keypress: f
+49.8285 	EXP 	text_9: autoDraw = False
+49.8285 	EXP 	image: autoDraw = False
+49.8285 	EXP 	text_same_practice: autoDraw = False
+49.8285 	EXP 	text_2: autoDraw = True
+50.1122 	DATA 	Keypress: d
+50.1358 	EXP 	Imported Extra_Stimuli//practice_order_WHI_word.xlsx as conditions, 9 conditions, 5 params
+50.1368 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+50.1383 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_word_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+50.2107 	EXP 	text_2: autoDraw = False
+50.2107 	EXP 	image_3: image = u'Extra_Stimuli//right_word_2_WHI.jpg'
+50.2107 	EXP 	text_same_practice_2: text = ''
+50.2107 	EXP 	text_11: autoDraw = True
+50.2107 	EXP 	image_3: autoDraw = True
+50.2107 	EXP 	text_same_practice_2: autoDraw = True
+50.3617 	DATA 	Keypress: f
+50.3627 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'ahead_word_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+50.4276 	EXP 	text_11: autoDraw = False
+50.4276 	EXP 	image_3: autoDraw = False
+50.4276 	EXP 	text_same_practice_2: autoDraw = False
+50.4276 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_1_WHI.jpg'
+50.4276 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+50.4276 	EXP 	text_11: autoDraw = True
+50.4276 	EXP 	image_3: autoDraw = True
+50.4276 	EXP 	text_same_practice_2: autoDraw = True
+50.7284 	DATA 	Keypress: a
+50.7303 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_word_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+50.8120 	EXP 	text_11: autoDraw = False
+50.8120 	EXP 	image_3: autoDraw = False
+50.8120 	EXP 	text_same_practice_2: autoDraw = False
+50.8120 	EXP 	image_3: image = u'Extra_Stimuli//left_word_1_WHI.jpg'
+50.8120 	EXP 	text_same_practice_2: text = ''
+50.8120 	EXP 	text_11: autoDraw = True
+50.8120 	EXP 	image_3: autoDraw = True
+50.8120 	EXP 	text_same_practice_2: autoDraw = True
+50.8945 	DATA 	Keypress: f
+50.8963 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'right_word_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+50.9773 	EXP 	text_11: autoDraw = False
+50.9773 	EXP 	image_3: autoDraw = False
+50.9773 	EXP 	text_same_practice_2: autoDraw = False
+50.9773 	EXP 	image_3: image = u'Extra_Stimuli//right_word_3_WHI.jpg'
+50.9773 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+50.9773 	EXP 	text_11: autoDraw = True
+50.9773 	EXP 	image_3: autoDraw = True
+50.9773 	EXP 	text_same_practice_2: autoDraw = True
+51.0610 	DATA 	Keypress: a
+51.0616 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_word_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+51.1105 	EXP 	text_11: autoDraw = False
+51.1105 	EXP 	image_3: autoDraw = False
+51.1105 	EXP 	text_same_practice_2: autoDraw = False
+51.1105 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_3_WHI.jpg'
+51.1105 	EXP 	text_same_practice_2: text = ''
+51.1105 	EXP 	text_11: autoDraw = True
+51.1105 	EXP 	image_3: autoDraw = True
+51.1105 	EXP 	text_same_practice_2: autoDraw = True
+51.2449 	DATA 	Keypress: f
+51.2468 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'right_word_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+51.3268 	EXP 	text_11: autoDraw = False
+51.3268 	EXP 	image_3: autoDraw = False
+51.3268 	EXP 	text_same_practice_2: autoDraw = False
+51.3268 	EXP 	image_3: image = u'Extra_Stimuli//right_word_1_WHI.jpg'
+51.3268 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+51.3268 	EXP 	text_11: autoDraw = True
+51.3268 	EXP 	image_3: autoDraw = True
+51.3268 	EXP 	text_same_practice_2: autoDraw = True
+51.3950 	DATA 	Keypress: a
+51.3968 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'ahead_word_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+51.4935 	EXP 	text_11: autoDraw = False
+51.4935 	EXP 	image_3: autoDraw = False
+51.4935 	EXP 	text_same_practice_2: autoDraw = False
+51.4935 	EXP 	image_3: image = u'Extra_Stimuli//ahead_word_2_WHI.jpg'
+51.4935 	EXP 	text_same_practice_2: text = ''
+51.4935 	EXP 	text_11: autoDraw = True
+51.4935 	EXP 	image_3: autoDraw = True
+51.4935 	EXP 	text_same_practice_2: autoDraw = True
+51.5614 	DATA 	Keypress: f
+51.5632 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'left_word_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+51.6601 	EXP 	text_11: autoDraw = False
+51.6601 	EXP 	image_3: autoDraw = False
+51.6601 	EXP 	text_same_practice_2: autoDraw = False
+51.6601 	EXP 	image_3: image = u'Extra_Stimuli//left_word_3_WHI.jpg'
+51.6601 	EXP 	text_same_practice_2: text = 'SAME / DIFFERENT?'
+51.6601 	EXP 	text_11: autoDraw = True
+51.6601 	EXP 	image_3: autoDraw = True
+51.6601 	EXP 	text_same_practice_2: autoDraw = True
+51.8273 	DATA 	Keypress: a
+51.9770 	EXP 	text_11: autoDraw = False
+51.9770 	EXP 	image_3: autoDraw = False
+51.9770 	EXP 	text_same_practice_2: autoDraw = False
+51.9770 	EXP 	text_2: autoDraw = True
+52.0608 	DATA 	Keypress: d
+52.0794 	EXP 	Imported Extra_Stimuli//practice_order_WHI_schema.xlsx as conditions, 9 conditions, 5 params
+52.0801 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+52.0809 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_schema_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+52.1429 	EXP 	text_2: autoDraw = False
+52.1429 	EXP 	image_4: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+52.1429 	EXP 	text_same_practice_3: text = ''
+52.1429 	EXP 	text_12: autoDraw = True
+52.1429 	EXP 	image_4: autoDraw = True
+52.1429 	EXP 	text_same_practice_3: autoDraw = True
+52.3123 	DATA 	Keypress: f
+52.3293 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+52.4095 	EXP 	text_12: autoDraw = False
+52.4095 	EXP 	image_4: autoDraw = False
+52.4095 	EXP 	text_same_practice_3: autoDraw = False
+52.4095 	EXP 	image_4: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+52.4095 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+52.4095 	EXP 	text_12: autoDraw = True
+52.4095 	EXP 	image_4: autoDraw = True
+52.4095 	EXP 	text_same_practice_3: autoDraw = True
+52.5467 	DATA 	Keypress: a
+52.5625 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+52.6429 	EXP 	text_12: autoDraw = False
+52.6429 	EXP 	image_4: autoDraw = False
+52.6429 	EXP 	text_same_practice_3: autoDraw = False
+52.6429 	EXP 	image_4: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+52.6429 	EXP 	text_same_practice_3: text = ''
+52.6429 	EXP 	text_12: autoDraw = True
+52.6429 	EXP 	image_4: autoDraw = True
+52.6429 	EXP 	text_same_practice_3: autoDraw = True
+52.7109 	DATA 	Keypress: f
+52.7122 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'left_schema_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+52.7761 	EXP 	text_12: autoDraw = False
+52.7761 	EXP 	image_4: autoDraw = False
+52.7761 	EXP 	text_same_practice_3: autoDraw = False
+52.7761 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+52.7761 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+52.7761 	EXP 	text_12: autoDraw = True
+52.7761 	EXP 	image_4: autoDraw = True
+52.7761 	EXP 	text_same_practice_3: autoDraw = True
+52.8601 	DATA 	Keypress: a
+52.8607 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_schema_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+52.9094 	EXP 	text_12: autoDraw = False
+52.9094 	EXP 	image_4: autoDraw = False
+52.9094 	EXP 	text_same_practice_3: autoDraw = False
+52.9094 	EXP 	image_4: image = u'Extra_Stimuli//ahead_schema_3_WHI.jpg'
+52.9094 	EXP 	text_same_practice_3: text = ''
+52.9094 	EXP 	text_12: autoDraw = True
+52.9094 	EXP 	image_4: autoDraw = True
+52.9094 	EXP 	text_same_practice_3: autoDraw = True
+52.9933 	DATA 	Keypress: f
+52.9939 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'left_schema_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+53.0425 	EXP 	text_12: autoDraw = False
+53.0425 	EXP 	image_4: autoDraw = False
+53.0425 	EXP 	text_same_practice_3: autoDraw = False
+53.0425 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+53.0425 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+53.0425 	EXP 	text_12: autoDraw = True
+53.0425 	EXP 	image_4: autoDraw = True
+53.0425 	EXP 	text_same_practice_3: autoDraw = True
+53.1108 	DATA 	Keypress: a
+53.1126 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'right_schema_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+53.1925 	EXP 	text_12: autoDraw = False
+53.1925 	EXP 	image_4: autoDraw = False
+53.1925 	EXP 	text_same_practice_3: autoDraw = False
+53.1925 	EXP 	image_4: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+53.1925 	EXP 	text_same_practice_3: text = ''
+53.1925 	EXP 	text_12: autoDraw = True
+53.1925 	EXP 	image_4: autoDraw = True
+53.1925 	EXP 	text_same_practice_3: autoDraw = True
+53.2445 	DATA 	Keypress: f
+53.2463 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'left_schema_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+53.3424 	EXP 	text_12: autoDraw = False
+53.3424 	EXP 	image_4: autoDraw = False
+53.3424 	EXP 	text_same_practice_3: autoDraw = False
+53.3424 	EXP 	image_4: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+53.3424 	EXP 	text_same_practice_3: text = 'SAME / DIFFERENT?'
+53.3424 	EXP 	text_12: autoDraw = True
+53.3424 	EXP 	image_4: autoDraw = True
+53.3424 	EXP 	text_same_practice_3: autoDraw = True
+53.3428 	DATA 	Keypress: a
+53.4801 	EXP 	text_12: autoDraw = False
+53.4801 	EXP 	image_4: autoDraw = False
+53.4801 	EXP 	text_same_practice_3: autoDraw = False
+53.4801 	EXP 	text_10: autoDraw = True
+53.7144 	DATA 	Keypress: d
+53.7387 	EXP 	Imported Sequences//1001vva_within_whi_order.csv as conditions, 360 conditions, 4 params
+53.7419 	EXP 	Created sequence: sequential, trialTypes=360, nReps=1, seed=None
+53.7424 	EXP 	New trial (rep=0, index=0): {'Stimulus': u'left_schema_5_WHI.jpg', 'direction': u'left', 'number': 5, 'format': u'schema'}
+53.8128 	EXP 	text_10: autoDraw = False
+53.8128 	EXP 	image_2: image = u'21_Stimuli//left_schema_5_WHI.jpg'
+53.8128 	EXP 	text_same: text = ''
+53.8128 	EXP 	image_2: autoDraw = True
+53.8128 	EXP 	text_same: autoDraw = True
+53.9814 	DATA 	Keypress: f
+53.9829 	EXP 	New trial (rep=0, index=1): {'Stimulus': u'ahead_schema_6_WHI.jpg', 'direction': u'ahead', 'number': 6, 'format': u'schema'}
+54.0461 	EXP 	image_2: autoDraw = False
+54.0461 	EXP 	text_same: autoDraw = False
+54.0461 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_6_WHI.jpg'
+54.0461 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+54.0461 	EXP 	image_2: autoDraw = True
+54.0461 	EXP 	text_same: autoDraw = True
+54.1809 	DATA 	Keypress: a
+54.1832 	EXP 	New trial (rep=0, index=2): {'Stimulus': u'left_schema_4_WHI.jpg', 'direction': u'left', 'number': 4, 'format': u'schema'}
+54.3130 	EXP 	image_2: autoDraw = False
+54.3130 	EXP 	text_same: autoDraw = False
+54.3130 	EXP 	image_2: image = u'21_Stimuli//left_schema_4_WHI.jpg'
+54.3130 	EXP 	text_same: text = ''
+54.3130 	EXP 	image_2: autoDraw = True
+54.3130 	EXP 	text_same: autoDraw = True
+54.3135 	DATA 	Keypress: f
+54.3153 	EXP 	New trial (rep=0, index=3): {'Stimulus': u'left_schema_15_WHI.jpg', 'direction': u'left', 'number': 15, 'format': u'schema'}
+54.4025 	DATA 	Keypress: a
+54.4180 	EXP 	image_2: autoDraw = False
+54.4180 	EXP 	text_same: autoDraw = False
+54.4180 	EXP 	image_2: image = u'21_Stimuli//left_schema_15_WHI.jpg'
+54.4180 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+54.4180 	EXP 	image_2: autoDraw = True
+54.4180 	EXP 	text_same: autoDraw = True
+54.5207 	DATA 	Keypress: f
+54.5375 	EXP 	New trial (rep=0, index=4): {'Stimulus': u'ahead_schema_7_WHI.jpg', 'direction': u'ahead', 'number': 7, 'format': u'schema'}
+54.6475 	DATA 	Keypress: a
+54.6761 	EXP 	image_2: autoDraw = False
+54.6761 	EXP 	text_same: autoDraw = False
+54.6761 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_7_WHI.jpg'
+54.6761 	EXP 	text_same: text = ''
+54.6761 	EXP 	image_2: autoDraw = True
+54.6761 	EXP 	text_same: autoDraw = True
+54.7267 	DATA 	Keypress: f
+54.7274 	EXP 	New trial (rep=0, index=5): {'Stimulus': u'left_schema_14_WHI.jpg', 'direction': u'left', 'number': 14, 'format': u'schema'}
+54.8092 	EXP 	image_2: autoDraw = False
+54.8092 	EXP 	text_same: autoDraw = False
+54.8092 	EXP 	image_2: image = u'21_Stimuli//left_schema_14_WHI.jpg'
+54.8092 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+54.8092 	EXP 	image_2: autoDraw = True
+54.8092 	EXP 	text_same: autoDraw = True
+54.8432 	DATA 	Keypress: a
+54.8440 	EXP 	New trial (rep=0, index=6): {'Stimulus': u'left_schema_6_WHI.jpg', 'direction': u'left', 'number': 6, 'format': u'schema'}
+54.8925 	EXP 	image_2: autoDraw = False
+54.8925 	EXP 	text_same: autoDraw = False
+54.8925 	EXP 	image_2: image = u'21_Stimuli//left_schema_6_WHI.jpg'
+54.8925 	EXP 	text_same: text = ''
+54.8925 	EXP 	image_2: autoDraw = True
+54.8925 	EXP 	text_same: autoDraw = True
+55.0596 	DATA 	Keypress: f
+55.0603 	EXP 	New trial (rep=0, index=7): {'Stimulus': u'ahead_schema_13_WHI.jpg', 'direction': u'ahead', 'number': 13, 'format': u'schema'}
+55.1090 	EXP 	image_2: autoDraw = False
+55.1090 	EXP 	text_same: autoDraw = False
+55.1090 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_13_WHI.jpg'
+55.1090 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+55.1090 	EXP 	image_2: autoDraw = True
+55.1090 	EXP 	text_same: autoDraw = True
+55.2440 	DATA 	Keypress: a
+55.2461 	EXP 	New trial (rep=0, index=8): {'Stimulus': u'ahead_schema_10_WHI.jpg', 'direction': u'ahead', 'number': 10, 'format': u'schema'}
+55.3927 	EXP 	image_2: autoDraw = False
+55.3927 	EXP 	text_same: autoDraw = False
+55.3927 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_10_WHI.jpg'
+55.3927 	EXP 	text_same: text = ''
+55.3927 	EXP 	image_2: autoDraw = True
+55.3927 	EXP 	text_same: autoDraw = True
+55.4609 	DATA 	Keypress: f
+55.4627 	EXP 	New trial (rep=0, index=9): {'Stimulus': u'right_schema_7_WHI.jpg', 'direction': u'right', 'number': 7, 'format': u'schema'}
+55.6422 	EXP 	image_2: autoDraw = False
+55.6422 	EXP 	text_same: autoDraw = False
+55.6422 	EXP 	image_2: image = u'21_Stimuli//right_schema_7_WHI.jpg'
+55.6422 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+55.6422 	EXP 	image_2: autoDraw = True
+55.6422 	EXP 	text_same: autoDraw = True
+55.6763 	DATA 	Keypress: a
+55.6772 	EXP 	New trial (rep=0, index=10): {'Stimulus': u'right_schema_21_WHI.jpg', 'direction': u'right', 'number': 21, 'format': u'schema'}
+55.7256 	EXP 	image_2: autoDraw = False
+55.7256 	EXP 	text_same: autoDraw = False
+55.7256 	EXP 	image_2: image = u'21_Stimuli//right_schema_21_WHI.jpg'
+55.7256 	EXP 	text_same: text = ''
+55.7256 	EXP 	image_2: autoDraw = True
+55.7256 	EXP 	text_same: autoDraw = True
+55.8765 	DATA 	Keypress: f
+55.8783 	EXP 	New trial (rep=0, index=11): {'Stimulus': u'right_schema_20_WHI.jpg', 'direction': u'right', 'number': 20, 'format': u'schema'}
+55.9585 	EXP 	image_2: autoDraw = False
+55.9585 	EXP 	text_same: autoDraw = False
+55.9585 	EXP 	image_2: image = u'21_Stimuli//right_schema_20_WHI.jpg'
+55.9585 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+55.9585 	EXP 	image_2: autoDraw = True
+55.9585 	EXP 	text_same: autoDraw = True
+56.0930 	DATA 	Keypress: a
+56.0952 	EXP 	New trial (rep=0, index=12): {'Stimulus': u'right_schema_14_WHI.jpg', 'direction': u'right', 'number': 14, 'format': u'schema'}
+56.2338 	EXP 	image_2: autoDraw = False
+56.2338 	EXP 	text_same: autoDraw = False
+56.2338 	EXP 	image_2: image = u'21_Stimuli//right_schema_14_WHI.jpg'
+56.2338 	EXP 	text_same: text = ''
+56.2338 	EXP 	image_2: autoDraw = True
+56.2338 	EXP 	text_same: autoDraw = True
+56.3517 	DATA 	Keypress: f
+56.3535 	EXP 	New trial (rep=0, index=13): {'Stimulus': u'right_schema_16_WHI.jpg', 'direction': u'right', 'number': 16, 'format': u'schema'}
+56.4727 	EXP 	image_2: autoDraw = False
+56.4727 	EXP 	text_same: autoDraw = False
+56.4727 	EXP 	image_2: image = u'21_Stimuli//right_schema_16_WHI.jpg'
+56.4727 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+56.4727 	EXP 	image_2: autoDraw = True
+56.4727 	EXP 	text_same: autoDraw = True
+56.6252 	DATA 	Keypress: a
+56.6273 	EXP 	New trial (rep=0, index=14): {'Stimulus': u'ahead_schema_14_WHI.jpg', 'direction': u'ahead', 'number': 14, 'format': u'schema'}
+56.7058 	EXP 	image_2: autoDraw = False
+56.7058 	EXP 	text_same: autoDraw = False
+56.7058 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_14_WHI.jpg'
+56.7058 	EXP 	text_same: text = ''
+56.7058 	EXP 	image_2: autoDraw = True
+56.7058 	EXP 	text_same: autoDraw = True
+56.9737 	DATA 	Keypress: f
+56.9753 	EXP 	New trial (rep=0, index=15): {'Stimulus': u'right_schema_13_WHI.jpg', 'direction': u'right', 'number': 13, 'format': u'schema'}
+57.0555 	EXP 	image_2: autoDraw = False
+57.0555 	EXP 	text_same: autoDraw = False
+57.0555 	EXP 	image_2: image = u'21_Stimuli//right_schema_13_WHI.jpg'
+57.0555 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+57.0555 	EXP 	image_2: autoDraw = True
+57.0555 	EXP 	text_same: autoDraw = True
+57.2903 	DATA 	Keypress: a
+57.2924 	EXP 	New trial (rep=0, index=16): {'Stimulus': u'ahead_schema_17_WHI.jpg', 'direction': u'ahead', 'number': 17, 'format': u'schema'}
+57.3886 	EXP 	image_2: autoDraw = False
+57.3886 	EXP 	text_same: autoDraw = False
+57.3886 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_17_WHI.jpg'
+57.3886 	EXP 	text_same: text = ''
+57.3886 	EXP 	image_2: autoDraw = True
+57.3886 	EXP 	text_same: autoDraw = True
+57.5788 	DATA 	Keypress: f
+57.5807 	EXP 	New trial (rep=0, index=17): {'Stimulus': u'left_schema_17_WHI.jpg', 'direction': u'left', 'number': 17, 'format': u'schema'}
+57.7054 	EXP 	image_2: autoDraw = False
+57.7054 	EXP 	text_same: autoDraw = False
+57.7054 	EXP 	image_2: image = u'21_Stimuli//left_schema_17_WHI.jpg'
+57.7054 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+57.7054 	EXP 	image_2: autoDraw = True
+57.7054 	EXP 	text_same: autoDraw = True
+57.9888 	DATA 	Keypress: a
+57.9896 	EXP 	New trial (rep=0, index=18): {'Stimulus': u'ahead_schema_1_WHI.jpg', 'direction': u'ahead', 'number': 1, 'format': u'schema'}
+58.0384 	EXP 	image_2: autoDraw = False
+58.0384 	EXP 	text_same: autoDraw = False
+58.0384 	EXP 	image_2: image = u'21_Stimuli//ahead_schema_1_WHI.jpg'
+58.0384 	EXP 	text_same: text = ''
+58.0384 	EXP 	image_2: autoDraw = True
+58.0384 	EXP 	text_same: autoDraw = True
+58.3724 	DATA 	Keypress: d
+58.7724 	DATA 	Keypress: f
+58.7743 	EXP 	New trial (rep=0, index=19): {'Stimulus': u'right_schema_10_WHI.jpg', 'direction': u'right', 'number': 10, 'format': u'schema'}
+58.8717 	EXP 	image_2: autoDraw = False
+58.8717 	EXP 	text_same: autoDraw = False
+58.8717 	EXP 	image_2: image = u'21_Stimuli//right_schema_10_WHI.jpg'
+58.8717 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+58.8717 	EXP 	image_2: autoDraw = True
+58.8717 	EXP 	text_same: autoDraw = True
+59.2610 	DATA 	Keypress: a
+59.2770 	EXP 	image_2: autoDraw = False
+59.2770 	EXP 	text_same: autoDraw = False
+59.8805 	DATA 	Keypress: d
+59.8810 	EXP 	New trial (rep=0, index=20): {'Stimulus': u'ahead_image_6_WHI.jpg', 'direction': u'ahead', 'number': 6, 'format': u'image'}
+59.9595 	EXP 	image_2: image = u'21_Stimuli//ahead_image_6_WHI.jpg'
+59.9595 	EXP 	text_same: text = ''
+59.9595 	EXP 	image_2: autoDraw = True
+59.9595 	EXP 	text_same: autoDraw = True
+60.2274 	DATA 	Keypress: f
+60.2288 	EXP 	New trial (rep=0, index=21): {'Stimulus': u'left_image_2_WHI.jpg', 'direction': u'left', 'number': 2, 'format': u'image'}
+60.3094 	EXP 	image_2: autoDraw = False
+60.3094 	EXP 	text_same: autoDraw = False
+60.3094 	EXP 	image_2: image = u'21_Stimuli//left_image_2_WHI.jpg'
+60.3094 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+60.3094 	EXP 	image_2: autoDraw = True
+60.3094 	EXP 	text_same: autoDraw = True
+60.6265 	DATA 	Keypress: a
+60.6273 	EXP 	New trial (rep=0, index=22): {'Stimulus': u'right_image_10_WHI.jpg', 'direction': u'right', 'number': 10, 'format': u'image'}
+60.7090 	EXP 	image_2: autoDraw = False
+60.7090 	EXP 	text_same: autoDraw = False
+60.7090 	EXP 	image_2: image = u'21_Stimuli//right_image_10_WHI.jpg'
+60.7090 	EXP 	text_same: text = ''
+60.7090 	EXP 	image_2: autoDraw = True
+60.7090 	EXP 	text_same: autoDraw = True
+60.8769 	DATA 	Keypress: f
+60.8787 	EXP 	New trial (rep=0, index=23): {'Stimulus': u'left_image_12_WHI.jpg', 'direction': u'left', 'number': 12, 'format': u'image'}
+61.0012 	EXP 	image_2: autoDraw = False
+61.0012 	EXP 	text_same: autoDraw = False
+61.0012 	EXP 	image_2: image = u'21_Stimuli//left_image_12_WHI.jpg'
+61.0012 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+61.0012 	EXP 	image_2: autoDraw = True
+61.0012 	EXP 	text_same: autoDraw = True
+61.1182 	DATA 	Keypress: a
+61.1190 	EXP 	New trial (rep=0, index=24): {'Stimulus': u'left_image_8_WHI.jpg', 'direction': u'left', 'number': 8, 'format': u'image'}
+61.1678 	EXP 	image_2: autoDraw = False
+61.1678 	EXP 	text_same: autoDraw = False
+61.1678 	EXP 	image_2: image = u'21_Stimuli//left_image_8_WHI.jpg'
+61.1678 	EXP 	text_same: text = ''
+61.1678 	EXP 	image_2: autoDraw = True
+61.1678 	EXP 	text_same: autoDraw = True
+61.3854 	DATA 	Keypress: f
+61.3872 	EXP 	New trial (rep=0, index=25): {'Stimulus': u'ahead_image_9_WHI.jpg', 'direction': u'ahead', 'number': 9, 'format': u'image'}
+61.9205 	DATA 	Keypress: a
+61.9501 	EXP 	image_2: autoDraw = False
+61.9501 	EXP 	text_same: autoDraw = False
+61.9501 	EXP 	image_2: image = u'21_Stimuli//ahead_image_9_WHI.jpg'
+61.9501 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+61.9501 	EXP 	image_2: autoDraw = True
+61.9501 	EXP 	text_same: autoDraw = True
+62.6344 	DATA 	Keypress: f
+62.6365 	EXP 	New trial (rep=0, index=26): {'Stimulus': u'ahead_image_19_WHI.jpg', 'direction': u'ahead', 'number': 19, 'format': u'image'}
+62.7328 	EXP 	image_2: autoDraw = False
+62.7328 	EXP 	text_same: autoDraw = False
+62.7328 	EXP 	image_2: image = u'21_Stimuli//ahead_image_19_WHI.jpg'
+62.7328 	EXP 	text_same: text = ''
+62.7328 	EXP 	image_2: autoDraw = True
+62.7328 	EXP 	text_same: autoDraw = True
+63.0565 	DATA 	Keypress: a
+63.0583 	EXP 	New trial (rep=0, index=27): {'Stimulus': u'ahead_image_21_WHI.jpg', 'direction': u'ahead', 'number': 21, 'format': u'image'}
+63.4601 	EXP 	image_2: autoDraw = False
+63.4601 	EXP 	text_same: autoDraw = False
+63.4601 	EXP 	image_2: image = u'21_Stimuli//ahead_image_21_WHI.jpg'
+63.4601 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+63.4601 	EXP 	image_2: autoDraw = True
+63.4601 	EXP 	text_same: autoDraw = True
+63.7613 	DATA 	Keypress: f
+63.7634 	EXP 	New trial (rep=0, index=28): {'Stimulus': u'right_image_2_WHI.jpg', 'direction': u'right', 'number': 2, 'format': u'image'}
+63.8964 	EXP 	image_2: autoDraw = False
+63.8964 	EXP 	text_same: autoDraw = False
+63.8964 	EXP 	image_2: image = u'21_Stimuli//right_image_2_WHI.jpg'
+63.8964 	EXP 	text_same: text = ''
+63.8964 	EXP 	image_2: autoDraw = True
+63.8964 	EXP 	text_same: autoDraw = True
+64.0809 	DATA 	Keypress: f
+64.0828 	EXP 	New trial (rep=0, index=29): {'Stimulus': u'right_image_16_WHI.jpg', 'direction': u'right', 'number': 16, 'format': u'image'}
+64.2146 	EXP 	image_2: autoDraw = False
+64.2146 	EXP 	text_same: autoDraw = False
+64.2146 	EXP 	image_2: image = u'21_Stimuli//right_image_16_WHI.jpg'
+64.2146 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+64.2146 	EXP 	image_2: autoDraw = True
+64.2146 	EXP 	text_same: autoDraw = True
+64.3482 	DATA 	Keypress: f
+64.3489 	EXP 	New trial (rep=0, index=30): {'Stimulus': u'left_image_13_WHI.jpg', 'direction': u'left', 'number': 13, 'format': u'image'}
+64.3978 	EXP 	image_2: autoDraw = False
+64.3978 	EXP 	text_same: autoDraw = False
+64.3978 	EXP 	image_2: image = u'21_Stimuli//left_image_13_WHI.jpg'
+64.3978 	EXP 	text_same: text = ''
+64.3978 	EXP 	image_2: autoDraw = True
+64.3978 	EXP 	text_same: autoDraw = True
+64.5822 	DATA 	Keypress: f
+64.5841 	EXP 	New trial (rep=0, index=31): {'Stimulus': u'left_image_15_WHI.jpg', 'direction': u'left', 'number': 15, 'format': u'image'}
+64.7394 	EXP 	image_2: autoDraw = False
+64.7394 	EXP 	text_same: autoDraw = False
+64.7394 	EXP 	image_2: image = u'21_Stimuli//left_image_15_WHI.jpg'
+64.7394 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+64.7394 	EXP 	image_2: autoDraw = True
+64.7394 	EXP 	text_same: autoDraw = True
+65.0581 	DATA 	Keypress: f
+65.0603 	EXP 	New trial (rep=0, index=32): {'Stimulus': u'left_image_14_WHI.jpg', 'direction': u'left', 'number': 14, 'format': u'image'}
+65.1871 	EXP 	image_2: autoDraw = False
+65.1871 	EXP 	text_same: autoDraw = False
+65.1871 	EXP 	image_2: image = u'21_Stimuli//left_image_14_WHI.jpg'
+65.1871 	EXP 	text_same: text = ''
+65.1871 	EXP 	image_2: autoDraw = True
+65.1871 	EXP 	text_same: autoDraw = True
+65.4382 	DATA 	Keypress: f
+65.4390 	EXP 	New trial (rep=0, index=33): {'Stimulus': u'ahead_image_1_WHI.jpg', 'direction': u'ahead', 'number': 1, 'format': u'image'}
+65.5202 	EXP 	image_2: autoDraw = False
+65.5202 	EXP 	text_same: autoDraw = False
+65.5202 	EXP 	image_2: image = u'21_Stimuli//ahead_image_1_WHI.jpg'
+65.5202 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+65.5202 	EXP 	image_2: autoDraw = True
+65.5202 	EXP 	text_same: autoDraw = True
+65.7727 	DATA 	Keypress: f
+65.7898 	EXP 	New trial (rep=0, index=34): {'Stimulus': u'ahead_image_18_WHI.jpg', 'direction': u'ahead', 'number': 18, 'format': u'image'}
+65.9365 	EXP 	image_2: autoDraw = False
+65.9365 	EXP 	text_same: autoDraw = False
+65.9365 	EXP 	image_2: image = u'21_Stimuli//ahead_image_18_WHI.jpg'
+65.9365 	EXP 	text_same: text = ''
+65.9365 	EXP 	image_2: autoDraw = True
+65.9365 	EXP 	text_same: autoDraw = True
+66.1889 	DATA 	Keypress: f
+66.2059 	EXP 	New trial (rep=0, index=35): {'Stimulus': u'ahead_image_10_WHI.jpg', 'direction': u'ahead', 'number': 10, 'format': u'image'}
+66.3531 	EXP 	image_2: autoDraw = False
+66.3531 	EXP 	text_same: autoDraw = False
+66.3531 	EXP 	image_2: image = u'21_Stimuli//ahead_image_10_WHI.jpg'
+66.3531 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+66.3531 	EXP 	image_2: autoDraw = True
+66.3531 	EXP 	text_same: autoDraw = True
+66.5876 	DATA 	Keypress: f
+66.5897 	EXP 	New trial (rep=0, index=36): {'Stimulus': u'right_image_15_WHI.jpg', 'direction': u'right', 'number': 15, 'format': u'image'}
+66.7531 	EXP 	image_2: autoDraw = False
+66.7531 	EXP 	text_same: autoDraw = False
+66.7531 	EXP 	image_2: image = u'21_Stimuli//right_image_15_WHI.jpg'
+66.7531 	EXP 	text_same: text = ''
+66.7531 	EXP 	image_2: autoDraw = True
+66.7531 	EXP 	text_same: autoDraw = True
+67.0209 	DATA 	Keypress: f
+67.0227 	EXP 	New trial (rep=0, index=37): {'Stimulus': u'right_image_14_WHI.jpg', 'direction': u'right', 'number': 14, 'format': u'image'}
+67.1526 	EXP 	image_2: autoDraw = False
+67.1526 	EXP 	text_same: autoDraw = False
+67.1526 	EXP 	image_2: image = u'21_Stimuli//right_image_14_WHI.jpg'
+67.1526 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+67.1526 	EXP 	image_2: autoDraw = True
+67.1526 	EXP 	text_same: autoDraw = True
+67.4203 	DATA 	Keypress: f
+67.4225 	EXP 	New trial (rep=0, index=38): {'Stimulus': u'right_image_7_WHI.jpg', 'direction': u'right', 'number': 7, 'format': u'image'}
+67.5858 	EXP 	image_2: autoDraw = False
+67.5858 	EXP 	text_same: autoDraw = False
+67.5858 	EXP 	image_2: image = u'21_Stimuli//right_image_7_WHI.jpg'
+67.5858 	EXP 	text_same: text = ''
+67.5858 	EXP 	image_2: autoDraw = True
+67.5858 	EXP 	text_same: autoDraw = True
+67.8368 	DATA 	Keypress: f
+67.8386 	EXP 	New trial (rep=0, index=39): {'Stimulus': u'right_image_17_WHI.jpg', 'direction': u'right', 'number': 17, 'format': u'image'}
+67.9841 	EXP 	image_2: autoDraw = False
+67.9841 	EXP 	text_same: autoDraw = False
+67.9841 	EXP 	image_2: image = u'21_Stimuli//right_image_17_WHI.jpg'
+67.9841 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+67.9841 	EXP 	image_2: autoDraw = True
+67.9841 	EXP 	text_same: autoDraw = True
+68.4187 	DATA 	Keypress: f
+68.4344 	EXP 	image_2: autoDraw = False
+68.4344 	EXP 	text_same: autoDraw = False
+71.8535 	DATA 	Keypress: escape
+72.8944 	DATA 	Keypress: escape
+73.5426 	DATA 	Keypress: d
+73.5431 	EXP 	New trial (rep=0, index=40): {'Stimulus': u'left_word_17_WHI.jpg', 'direction': u'left', 'number': 17, 'format': u'word'}
+73.5810 	EXP 	image_2: image = u'21_Stimuli//left_word_17_WHI.jpg'
+73.5810 	EXP 	text_same: text = ''
+73.5810 	EXP 	image_2: autoDraw = True
+73.5810 	EXP 	text_same: autoDraw = True
+73.7654 	DATA 	Keypress: escape

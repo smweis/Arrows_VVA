@@ -1,0 +1,418 @@
+11.5285 	INFO 	Loaded monitor calibration from ['2016_05_25 15:27']
+12.7420 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x05487AA8>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.7420 	EXP 	window1: recordFrameIntervals = False
+12.9083 	EXP 	window1: recordFrameIntervals = True
+13.0918 	DEBUG 	Screen (0) actual frame rate measured at 60.04
+13.0919 	EXP 	window1: recordFrameIntervals = False
+13.2562 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+13.2930 	EXP 	Created polygon_2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor='#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.0), pos=array([-0.3,  0. ]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.2945 	EXP 	Created polygon_3 = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor='#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.0), pos=array([ 0.3,  0. ]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.3206 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='norm', win=Window(...), wrapWidth=1)
+13.3222 	EXP 	Created polygon_4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor='#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.0), pos=array([ 0.3,  0. ]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.3237 	EXP 	Created polygon_5 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor='#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.0), pos=array([-0.3,  0. ]), size=array([ 0.5,  0.5]), units=u'norm', vertices=ndarray(...), win=Window(...))
+13.3542 	EXP 	Created text_5 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_5', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+13.3549 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+13.3555 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+13.3842 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+13.3984 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+13.4260 	EXP 	text_4: autoDraw = True
+27.0011 	DATA 	Keypress: f
+27.0335 	EXP 	text_4: autoDraw = False
+27.0335 	EXP 	polygon_2: autoDraw = True
+27.0335 	EXP 	polygon_3: autoDraw = True
+27.0335 	EXP 	text_3: autoDraw = True
+36.9125 	DATA 	Keypress: f
+36.9451 	EXP 	polygon_2: autoDraw = False
+36.9451 	EXP 	polygon_3: autoDraw = False
+36.9451 	EXP 	text_3: autoDraw = False
+36.9451 	EXP 	polygon_4: autoDraw = True
+36.9451 	EXP 	polygon_5: autoDraw = True
+36.9451 	EXP 	text_5: autoDraw = True
+45.9766 	DATA 	Keypress: f
+45.9922 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+45.9931 	EXP 	New trial (rep=0, index=0): None
+46.1235 	EXP 	polygon_4: autoDraw = False
+46.1235 	EXP 	polygon_5: autoDraw = False
+46.1235 	EXP 	text_5: autoDraw = False
+46.1235 	EXP 	text_6: text = "Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw. For the first trial, just say 'GO.' [Experimenter: Press Green for SAME, Red for DIFFERENT]"
+46.1235 	EXP 	text_6: autoDraw = True
+76.8920 	DATA 	Keypress: f
+76.9432 	EXP 	Imported Sequences\color_practice.xlsx as conditions, 9 conditions, 2 params
+76.9436 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+76.9440 	EXP 	New trial (rep=0, index=0): {u'color': u'#fdae61', u'answer': u'o'}
+76.9588 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+76.9741 	EXP 	text_6: autoDraw = False
+76.9741 	EXP 	text_9: autoDraw = True
+82.7897 	DATA 	Keypress: f
+82.8082 	EXP 	New trial (rep=0, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+82.8143 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+82.8382 	EXP 	text_9: autoDraw = False
+82.8382 	EXP 	unnamed Polygon: autoDraw = False
+82.8382 	EXP 	text_9: autoDraw = True
+84.4392 	DATA 	Keypress: a
+84.4417 	EXP 	New trial (rep=0, index=2): {u'color': u'#fdae61', u'answer': u'o'}
+84.4474 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+84.4710 	EXP 	text_9: autoDraw = False
+84.4710 	EXP 	unnamed Polygon: autoDraw = False
+84.4710 	EXP 	text_9: autoDraw = True
+87.6376 	DATA 	Keypress: a
+87.6399 	EXP 	New trial (rep=0, index=3): {u'color': u'#2c7bb6', u'answer': u'b'}
+87.6456 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+87.6691 	EXP 	text_9: autoDraw = False
+87.6691 	EXP 	unnamed Polygon: autoDraw = False
+87.6691 	EXP 	text_9: autoDraw = True
+89.5861 	DATA 	Keypress: a
+89.5884 	EXP 	New trial (rep=0, index=4): {u'color': u'#d7191c', u'answer': u'r'}
+89.5943 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+89.6181 	EXP 	text_9: autoDraw = False
+89.6181 	EXP 	unnamed Polygon: autoDraw = False
+89.6181 	EXP 	text_9: autoDraw = True
+92.7187 	DATA 	Keypress: f
+92.7363 	EXP 	New trial (rep=0, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+92.7420 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+92.7664 	EXP 	text_9: autoDraw = False
+92.7664 	EXP 	unnamed Polygon: autoDraw = False
+92.7664 	EXP 	text_9: autoDraw = True
+96.1658 	DATA 	Keypress: a
+96.1682 	EXP 	New trial (rep=0, index=6): {u'color': u'#2c7bb6', u'answer': u'b'}
+96.2008 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+96.2143 	EXP 	text_9: autoDraw = False
+96.2143 	EXP 	unnamed Polygon: autoDraw = False
+96.2143 	EXP 	text_9: autoDraw = True
+97.6651 	DATA 	Keypress: f
+97.6674 	EXP 	New trial (rep=0, index=7): {u'color': u'#fdae61', u'answer': u'o'}
+97.6731 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+97.6974 	EXP 	text_9: autoDraw = False
+97.6974 	EXP 	unnamed Polygon: autoDraw = False
+97.6974 	EXP 	text_9: autoDraw = True
+101.8719 	DATA 	Keypress: a
+101.8960 	EXP 	New trial (rep=0, index=8): {u'color': u'#d7191c', u'answer': u'r'}
+101.8977 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+101.9116 	EXP 	text_9: autoDraw = False
+101.9116 	EXP 	unnamed Polygon: autoDraw = False
+101.9116 	EXP 	text_9: autoDraw = True
+104.1784 	DATA 	Keypress: a
+104.2424 	EXP 	New trial (rep=1, index=0): None
+104.2770 	EXP 	text_9: autoDraw = False
+104.2770 	EXP 	unnamed Polygon: autoDraw = False
+104.2770 	EXP 	text_6: text = 'Ok, before we practice one more time - do you have any questions about the task?'
+104.2770 	EXP 	text_6: autoDraw = True
+126.3165 	DATA 	Keypress: f
+126.3249 	EXP 	Imported Sequences\color_practice.xlsx as conditions, 9 conditions, 2 params
+126.3252 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+126.3255 	EXP 	New trial (rep=0, index=0): {u'color': u'#fdae61', u'answer': u'o'}
+126.3273 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+126.3492 	EXP 	text_6: autoDraw = False
+126.3492 	EXP 	text_9: autoDraw = True
+130.9310 	DATA 	Keypress: f
+130.9320 	EXP 	New trial (rep=0, index=1): {u'color': u'#fdae61', u'answer': u'o'}
+130.9339 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+130.9471 	EXP 	text_9: autoDraw = False
+130.9471 	EXP 	unnamed Polygon: autoDraw = False
+130.9471 	EXP 	text_9: autoDraw = True
+132.3633 	DATA 	Keypress: f
+132.3642 	EXP 	New trial (rep=0, index=2): {u'color': u'#d7191c', u'answer': u'r'}
+132.3660 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+132.3799 	EXP 	text_9: autoDraw = False
+132.3799 	EXP 	unnamed Polygon: autoDraw = False
+132.3799 	EXP 	text_9: autoDraw = True
+135.1621 	DATA 	Keypress: a
+135.1630 	EXP 	New trial (rep=0, index=3): {u'color': u'#fdae61', u'answer': u'o'}
+135.1648 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+135.1784 	EXP 	text_9: autoDraw = False
+135.1784 	EXP 	unnamed Polygon: autoDraw = False
+135.1784 	EXP 	text_9: autoDraw = True
+137.1445 	DATA 	Keypress: a
+137.1453 	EXP 	New trial (rep=0, index=4): {u'color': u'#2c7bb6', u'answer': u'b'}
+137.1472 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+137.1605 	EXP 	text_9: autoDraw = False
+137.1605 	EXP 	unnamed Polygon: autoDraw = False
+137.1605 	EXP 	text_9: autoDraw = True
+138.8271 	DATA 	Keypress: a
+138.8279 	EXP 	New trial (rep=0, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+138.8298 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+138.8431 	EXP 	text_9: autoDraw = False
+138.8431 	EXP 	unnamed Polygon: autoDraw = False
+138.8431 	EXP 	text_9: autoDraw = True
+140.3425 	DATA 	Keypress: f
+140.3434 	EXP 	New trial (rep=0, index=6): {u'color': u'#d7191c', u'answer': u'r'}
+140.3545 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+140.3753 	EXP 	text_9: autoDraw = False
+140.3753 	EXP 	unnamed Polygon: autoDraw = False
+140.3753 	EXP 	text_9: autoDraw = True
+141.7421 	DATA 	Keypress: a
+141.7434 	EXP 	New trial (rep=0, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+141.7464 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+141.7746 	EXP 	text_9: autoDraw = False
+141.7746 	EXP 	unnamed Polygon: autoDraw = False
+141.7746 	EXP 	text_9: autoDraw = True
+143.8078 	DATA 	Keypress: a
+143.8091 	EXP 	New trial (rep=0, index=8): {u'color': u'#d7191c', u'answer': u'r'}
+143.8119 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+143.8239 	EXP 	text_9: autoDraw = False
+143.8239 	EXP 	unnamed Polygon: autoDraw = False
+143.8239 	EXP 	text_9: autoDraw = True
+145.8899 	DATA 	Keypress: a
+146.0226 	EXP 	text_9: autoDraw = False
+146.0226 	EXP 	unnamed Polygon: autoDraw = False
+146.0226 	EXP 	text_10: autoDraw = True
+157.8671 	DATA 	Keypress: f
+157.8785 	EXP 	Imported Sequences\color.xlsx as conditions, 63 conditions, 2 params
+157.8790 	EXP 	Created sequence: random, trialTypes=63, nReps=1, seed=None
+157.8794 	EXP 	New trial (rep=0, index=0): {u'color': u'#d7191c', u'answer': u'r'}
+157.8905 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+157.9164 	EXP 	text_10: autoDraw = False
+162.7981 	DATA 	Keypress: f
+162.7997 	EXP 	New trial (rep=0, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+162.8025 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+162.8143 	EXP 	unnamed Polygon: autoDraw = False
+164.0972 	DATA 	Keypress: f
+164.0984 	EXP 	New trial (rep=0, index=2): {u'color': u'#fdae61', u'answer': u'o'}
+164.1172 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+164.1298 	EXP 	unnamed Polygon: autoDraw = False
+165.4798 	DATA 	Keypress: a
+165.4806 	EXP 	New trial (rep=0, index=3): {u'color': u'#d7191c', u'answer': u'r'}
+165.4823 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+165.4963 	EXP 	unnamed Polygon: autoDraw = False
+166.9124 	DATA 	Keypress: a
+166.9132 	EXP 	New trial (rep=0, index=4): {u'color': u'#fdae61', u'answer': u'o'}
+166.9151 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+166.9288 	EXP 	unnamed Polygon: autoDraw = False
+168.2951 	DATA 	Keypress: a
+168.2960 	EXP 	New trial (rep=0, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+168.2978 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+168.3113 	EXP 	unnamed Polygon: autoDraw = False
+169.5780 	DATA 	Keypress: a
+169.5793 	EXP 	New trial (rep=0, index=6): {u'color': u'#d7191c', u'answer': u'r'}
+169.5824 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+169.6104 	EXP 	unnamed Polygon: autoDraw = False
+170.8274 	DATA 	Keypress: a
+170.8286 	EXP 	New trial (rep=0, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+170.8314 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+170.8438 	EXP 	unnamed Polygon: autoDraw = False
+172.2096 	DATA 	Keypress: a
+172.2105 	EXP 	New trial (rep=0, index=8): {u'color': u'#fdae61', u'answer': u'o'}
+172.2219 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+172.2424 	EXP 	unnamed Polygon: autoDraw = False
+174.2256 	DATA 	Keypress: a
+174.2263 	EXP 	New trial (rep=0, index=9): {u'color': u'#d7191c', u'answer': u'r'}
+174.2283 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+174.2417 	EXP 	unnamed Polygon: autoDraw = False
+175.6915 	DATA 	Keypress: a
+175.6924 	EXP 	New trial (rep=0, index=10): {u'color': u'#fdae61', u'answer': u'o'}
+175.6943 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+175.7075 	EXP 	unnamed Polygon: autoDraw = False
+177.9068 	DATA 	Keypress: a
+177.9076 	EXP 	New trial (rep=0, index=11): {u'color': u'#d7191c', u'answer': u'r'}
+177.9189 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+177.9394 	EXP 	unnamed Polygon: autoDraw = False
+180.1057 	DATA 	Keypress: a
+180.1066 	EXP 	New trial (rep=0, index=12): {u'color': u'#2c7bb6', u'answer': u'b'}
+180.1085 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+180.1218 	EXP 	unnamed Polygon: autoDraw = False
+181.5881 	DATA 	Keypress: a
+181.5889 	EXP 	New trial (rep=0, index=13): {u'color': u'#2c7bb6', u'answer': u'b'}
+181.5907 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+181.6044 	EXP 	unnamed Polygon: autoDraw = False
+182.7548 	DATA 	Keypress: f
+182.7555 	EXP 	New trial (rep=0, index=14): {u'color': u'#fdae61', u'answer': u'o'}
+182.7574 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+182.7708 	EXP 	unnamed Polygon: autoDraw = False
+184.0204 	DATA 	Keypress: a
+184.0212 	EXP 	New trial (rep=0, index=15): {u'color': u'#fdae61', u'answer': u'o'}
+184.0233 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+184.0367 	EXP 	unnamed Polygon: autoDraw = False
+186.0026 	DATA 	Keypress: f
+186.0034 	EXP 	New trial (rep=0, index=16): {u'color': u'#fdae61', u'answer': u'o'}
+186.0052 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+186.0191 	EXP 	unnamed Polygon: autoDraw = False
+187.2521 	DATA 	Keypress: f
+187.2529 	EXP 	New trial (rep=0, index=17): {u'color': u'#d7191c', u'answer': u'r'}
+187.2548 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+187.2684 	EXP 	unnamed Polygon: autoDraw = False
+189.2176 	DATA 	Keypress: a
+189.2185 	EXP 	New trial (rep=0, index=18): {u'color': u'#fdae61', u'answer': u'o'}
+189.2296 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+189.2503 	EXP 	unnamed Polygon: autoDraw = False
+191.4002 	DATA 	Keypress: a
+191.4009 	EXP 	New trial (rep=0, index=19): {u'color': u'#2c7bb6', u'answer': u'b'}
+191.4028 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+191.4163 	EXP 	unnamed Polygon: autoDraw = False
+192.8826 	DATA 	Keypress: a
+192.8837 	EXP 	New trial (rep=0, index=20): {u'color': u'#2c7bb6', u'answer': u'b'}
+192.9012 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+192.9151 	EXP 	unnamed Polygon: autoDraw = False
+194.1988 	DATA 	Keypress: f
+194.1996 	EXP 	New trial (rep=0, index=21): {u'color': u'#fdae61', u'answer': u'o'}
+194.2015 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+194.2148 	EXP 	unnamed Polygon: autoDraw = False
+195.4978 	DATA 	Keypress: a
+195.4986 	EXP 	New trial (rep=0, index=22): {u'color': u'#2c7bb6', u'answer': u'b'}
+195.5004 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+195.5141 	EXP 	unnamed Polygon: autoDraw = False
+197.5469 	DATA 	Keypress: a
+197.5477 	EXP 	New trial (rep=0, index=23): {u'color': u'#fdae61', u'answer': u'o'}
+197.5495 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+197.5631 	EXP 	unnamed Polygon: autoDraw = False
+199.0631 	DATA 	Keypress: a
+199.0800 	EXP 	New trial (rep=0, index=24): {u'color': u'#d7191c', u'answer': u'r'}
+199.0819 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+199.0957 	EXP 	unnamed Polygon: autoDraw = False
+200.7451 	DATA 	Keypress: a
+200.7459 	EXP 	New trial (rep=0, index=25): {u'color': u'#d7191c', u'answer': u'r'}
+200.7477 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+200.7615 	EXP 	unnamed Polygon: autoDraw = False
+202.3944 	DATA 	Keypress: f
+202.3952 	EXP 	New trial (rep=0, index=26): {u'color': u'#2c7bb6', u'answer': u'b'}
+202.3970 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+202.4107 	EXP 	unnamed Polygon: autoDraw = False
+203.6937 	DATA 	Keypress: a
+203.7108 	EXP 	New trial (rep=0, index=27): {u'color': u'#fdae61', u'answer': u'o'}
+203.7128 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+203.7266 	EXP 	unnamed Polygon: autoDraw = False
+205.3261 	DATA 	Keypress: a
+205.3269 	EXP 	New trial (rep=0, index=28): {u'color': u'#d7191c', u'answer': u'r'}
+205.3380 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+205.3587 	EXP 	unnamed Polygon: autoDraw = False
+206.6088 	DATA 	Keypress: a
+206.6096 	EXP 	New trial (rep=0, index=29): {u'color': u'#fdae61', u'answer': u'o'}
+206.6115 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+206.6251 	EXP 	unnamed Polygon: autoDraw = False
+208.0746 	DATA 	Keypress: a
+208.0755 	EXP 	New trial (rep=0, index=30): {u'color': u'#2c7bb6', u'answer': u'b'}
+208.0773 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+208.0910 	EXP 	unnamed Polygon: autoDraw = False
+209.5573 	DATA 	Keypress: a
+209.5581 	EXP 	New trial (rep=0, index=31): {u'color': u'#fdae61', u'answer': u'o'}
+209.5599 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+209.5737 	EXP 	unnamed Polygon: autoDraw = False
+211.2397 	DATA 	Keypress: a
+211.2405 	EXP 	New trial (rep=0, index=32): {u'color': u'#2c7bb6', u'answer': u'b'}
+211.2424 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+211.2561 	EXP 	unnamed Polygon: autoDraw = False
+213.3224 	DATA 	Keypress: a
+213.3395 	EXP 	New trial (rep=0, index=33): {u'color': u'#fdae61', u'answer': u'o'}
+213.3506 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+213.3714 	EXP 	unnamed Polygon: autoDraw = False
+215.0379 	DATA 	Keypress: a
+215.0387 	EXP 	New trial (rep=0, index=34): {u'color': u'#2c7bb6', u'answer': u'b'}
+215.0406 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+215.0543 	EXP 	unnamed Polygon: autoDraw = False
+216.5039 	DATA 	Keypress: a
+216.5046 	EXP 	New trial (rep=0, index=35): {u'color': u'#fdae61', u'answer': u'o'}
+216.5065 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+216.5201 	EXP 	unnamed Polygon: autoDraw = False
+218.1198 	DATA 	Keypress: a
+218.1209 	EXP 	New trial (rep=0, index=36): {u'color': u'#d7191c', u'answer': u'r'}
+218.1236 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+218.1360 	EXP 	unnamed Polygon: autoDraw = False
+219.6188 	DATA 	Keypress: a
+219.6197 	EXP 	New trial (rep=0, index=37): {u'color': u'#d7191c', u'answer': u'r'}
+219.6216 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+219.6351 	EXP 	unnamed Polygon: autoDraw = False
+221.1682 	DATA 	Keypress: f
+221.1689 	EXP 	New trial (rep=0, index=38): {u'color': u'#fdae61', u'answer': u'o'}
+221.1708 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+221.1846 	EXP 	unnamed Polygon: autoDraw = False
+223.2839 	DATA 	Keypress: a
+223.2846 	EXP 	New trial (rep=0, index=39): {u'color': u'#2c7bb6', u'answer': u'b'}
+223.2865 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+223.3001 	EXP 	unnamed Polygon: autoDraw = False
+224.9497 	DATA 	Keypress: a
+224.9506 	EXP 	New trial (rep=0, index=40): {u'color': u'#fdae61', u'answer': u'o'}
+224.9524 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+224.9658 	EXP 	unnamed Polygon: autoDraw = False
+226.9818 	DATA 	Keypress: a
+226.9826 	EXP 	New trial (rep=0, index=41): {u'color': u'#2c7bb6', u'answer': u'b'}
+226.9937 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+227.0146 	EXP 	unnamed Polygon: autoDraw = False
+228.8307 	DATA 	Keypress: a
+228.8315 	EXP 	New trial (rep=0, index=42): {u'color': u'#2c7bb6', u'answer': u'b'}
+228.8333 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+228.8472 	EXP 	unnamed Polygon: autoDraw = False
+229.9468 	DATA 	Keypress: f
+229.9476 	EXP 	New trial (rep=0, index=43): {u'color': u'#fdae61', u'answer': u'o'}
+229.9495 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+229.9632 	EXP 	unnamed Polygon: autoDraw = False
+231.4962 	DATA 	Keypress: a
+231.4970 	EXP 	New trial (rep=0, index=44): {u'color': u'#fdae61', u'answer': u'o'}
+231.4988 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+231.5124 	EXP 	unnamed Polygon: autoDraw = False
+232.5621 	DATA 	Keypress: f
+232.5629 	EXP 	New trial (rep=0, index=45): {u'color': u'#fdae61', u'answer': u'o'}
+232.5648 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+232.5786 	EXP 	unnamed Polygon: autoDraw = False
+233.6786 	DATA 	Keypress: f
+233.6794 	EXP 	New trial (rep=0, index=46): {u'color': u'#2c7bb6', u'answer': u'b'}
+233.6906 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+233.7110 	EXP 	unnamed Polygon: autoDraw = False
+234.7947 	DATA 	Keypress: a
+234.7958 	EXP 	New trial (rep=0, index=47): {u'color': u'#2c7bb6', u'answer': u'b'}
+234.7987 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+234.8271 	EXP 	unnamed Polygon: autoDraw = False
+236.0777 	DATA 	Keypress: f
+236.0944 	EXP 	New trial (rep=0, index=48): {u'color': u'#d7191c', u'answer': u'r'}
+236.0963 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+236.1101 	EXP 	unnamed Polygon: autoDraw = False
+237.3597 	DATA 	Keypress: a
+237.3605 	EXP 	New trial (rep=0, index=49): {u'color': u'#d7191c', u'answer': u'r'}
+237.3623 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+237.3762 	EXP 	unnamed Polygon: autoDraw = False
+238.7093 	DATA 	Keypress: f
+238.7101 	EXP 	New trial (rep=0, index=50): {u'color': u'#2c7bb6', u'answer': u'b'}
+238.7212 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+238.7419 	EXP 	unnamed Polygon: autoDraw = False
+240.0251 	DATA 	Keypress: a
+240.0260 	EXP 	New trial (rep=0, index=51): {u'color': u'#d7191c', u'answer': u'r'}
+240.0279 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+240.0414 	EXP 	unnamed Polygon: autoDraw = False
+241.4079 	DATA 	Keypress: a
+241.4087 	EXP 	New trial (rep=0, index=52): {u'color': u'#d7191c', u'answer': u'r'}
+241.4106 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+241.4240 	EXP 	unnamed Polygon: autoDraw = False
+242.7573 	DATA 	Keypress: f
+242.7581 	EXP 	New trial (rep=0, index=53): {u'color': u'#d7191c', u'answer': u'r'}
+242.7693 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+242.7897 	EXP 	unnamed Polygon: autoDraw = False
+243.8733 	DATA 	Keypress: f
+243.8743 	EXP 	New trial (rep=0, index=54): {u'color': u'#d7191c', u'answer': u'r'}
+243.8762 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+243.8894 	EXP 	unnamed Polygon: autoDraw = False
+244.9728 	DATA 	Keypress: f
+244.9736 	EXP 	New trial (rep=0, index=55): {u'color': u'#d7191c', u'answer': u'r'}
+244.9754 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+244.9890 	EXP 	unnamed Polygon: autoDraw = False
+246.2053 	DATA 	Keypress: f
+246.2061 	EXP 	New trial (rep=0, index=56): {u'color': u'#d7191c', u'answer': u'r'}
+246.2173 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+246.2382 	EXP 	unnamed Polygon: autoDraw = False
+247.3880 	DATA 	Keypress: f
+247.3887 	EXP 	New trial (rep=0, index=57): {u'color': u'#fdae61', u'answer': u'o'}
+247.3907 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+247.4042 	EXP 	unnamed Polygon: autoDraw = False
+248.7877 	DATA 	Keypress: a
+248.7884 	EXP 	New trial (rep=0, index=58): {u'color': u'#2c7bb6', u'answer': u'b'}
+248.7903 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+248.8038 	EXP 	unnamed Polygon: autoDraw = False
+250.6530 	DATA 	Keypress: a
+250.6538 	EXP 	New trial (rep=0, index=59): {u'color': u'#2c7bb6', u'answer': u'b'}
+250.6557 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+250.6694 	EXP 	unnamed Polygon: autoDraw = False
+252.1688 	DATA 	Keypress: f
+252.1696 	EXP 	New trial (rep=0, index=60): {u'color': u'#2c7bb6', u'answer': u'b'}
+252.1714 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+252.1851 	EXP 	unnamed Polygon: autoDraw = False
+253.4182 	DATA 	Keypress: f
+253.4191 	EXP 	New trial (rep=0, index=61): {u'color': u'#2c7bb6', u'answer': u'b'}
+253.4209 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+253.4349 	EXP 	unnamed Polygon: autoDraw = False
+254.7342 	DATA 	Keypress: f
+254.7350 	EXP 	New trial (rep=0, index=62): {u'color': u'#d7191c', u'answer': u'r'}
+254.7368 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...))
+254.7505 	EXP 	unnamed Polygon: autoDraw = False
+255.8008 	DATA 	Keypress: a
+256.0668 	EXP 	unnamed Polygon: autoDraw = False
+256.0668 	EXP 	text: autoDraw = True
+258.8279 	INFO 	saved data to u'C:\\Users\\chatterjeelab\\Documents\\Arrows_VVA\\data_Arrows_VVA_Color\\1001_2018_Jul_20_1125.csv'
+258.8362 	INFO 	saved data to C:\Users\chatterjeelab\Documents\Arrows_VVA\data_Arrows_VVA_Color\1001_2018_Jul_20_1125.psydat
+258.8554 	EXP 	window1: mouseVisible = True
