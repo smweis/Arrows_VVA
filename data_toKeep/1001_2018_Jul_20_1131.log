@@ -1,0 +1,307 @@
+16.9235 	INFO 	Loaded monitor calibration from ['2016_05_25 15:27']
+18.0438 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0B0B7BE8>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.0439 	EXP 	window1: recordFrameIntervals = False
+18.2099 	EXP 	window1: recordFrameIntervals = True
+18.3938 	DEBUG 	Screen (0) actual frame rate measured at 60.04
+18.3939 	EXP 	window1: recordFrameIntervals = False
+18.5883 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+18.5890 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+18.5897 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+18.5931 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+18.5973 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+18.5980 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+18.6003 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+18.6031 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+18.6039 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+18.6064 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+18.6386 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.6407 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.83333333,  1.48148148]), texRes=128, units=u'norm', win=Window(...))
+18.6448 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+18.6544 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.6778 	EXP 	text_4: autoDraw = True
+41.0326 	DATA 	Keypress: f
+52.8778 	DATA 	Keypress: d
+52.8940 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+52.8949 	EXP 	New trial (rep=0, index=0): None
+52.9745 	EXP 	text_4: autoDraw = False
+52.9745 	EXP 	text_6: text = "Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw. For the first trial, just say 'GO'."
+52.9745 	EXP 	text_6: autoDraw = True
+76.3470 	DATA 	Keypress: d
+76.3961 	EXP 	Imported Extra_Stimuli//practice_order_WHI_schema.xlsx as conditions, 9 conditions, 5 params
+76.3966 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+76.3972 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'left_schema_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+78.9836 	DATA 	Keypress: f
+78.9838 	DATA 	Keypress: d
+79.0112 	EXP 	text_6: autoDraw = False
+79.0112 	EXP 	image: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+79.0112 	EXP 	text_9: autoDraw = True
+79.0112 	EXP 	image: autoDraw = True
+85.9921 	DATA 	Keypress: f
+85.9944 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'right_schema_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+86.0744 	EXP 	text_9: autoDraw = False
+86.0744 	EXP 	image: autoDraw = False
+86.0744 	EXP 	image: image = u'Extra_Stimuli//right_schema_3_WHI.jpg'
+86.0744 	EXP 	text_9: autoDraw = True
+86.0744 	EXP 	image: autoDraw = True
+88.1743 	DATA 	Keypress: a
+88.1761 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_schema_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+88.2399 	EXP 	text_9: autoDraw = False
+88.2399 	EXP 	image: autoDraw = False
+88.2399 	EXP 	image: image = u'Extra_Stimuli//left_schema_3_WHI.jpg'
+88.2399 	EXP 	text_9: autoDraw = True
+88.2399 	EXP 	image: autoDraw = True
+91.1394 	DATA 	Keypress: a
+91.1411 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'right_schema_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+91.2049 	EXP 	text_9: autoDraw = False
+91.2049 	EXP 	image: autoDraw = False
+91.2049 	EXP 	image: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+91.2049 	EXP 	text_9: autoDraw = True
+91.2049 	EXP 	image: autoDraw = True
+93.2051 	DATA 	Keypress: f
+93.2069 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_schema_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'schema'}
+93.3204 	EXP 	text_9: autoDraw = False
+93.3204 	EXP 	image: autoDraw = False
+93.3204 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_3_WHI.jpg'
+93.3204 	EXP 	text_9: autoDraw = True
+93.3204 	EXP 	image: autoDraw = True
+96.7193 	DATA 	Keypress: a
+96.7202 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'ahead_schema_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'schema'}
+96.8353 	EXP 	text_9: autoDraw = False
+96.8353 	EXP 	image: autoDraw = False
+96.8353 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+96.8353 	EXP 	text_9: autoDraw = True
+96.8353 	EXP 	image: autoDraw = True
+98.3028 	DATA 	Keypress: f
+98.3045 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'left_schema_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+98.3679 	EXP 	text_9: autoDraw = False
+98.3679 	EXP 	image: autoDraw = False
+98.3679 	EXP 	image: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+98.3679 	EXP 	text_9: autoDraw = True
+98.3679 	EXP 	image: autoDraw = True
+100.0682 	DATA 	Keypress: a
+100.0700 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'ahead_schema_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+100.1502 	EXP 	text_9: autoDraw = False
+100.1502 	EXP 	image: autoDraw = False
+100.1502 	EXP 	image: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+100.1502 	EXP 	text_9: autoDraw = True
+100.1502 	EXP 	image: autoDraw = True
+102.3505 	DATA 	Keypress: a
+102.3522 	EXP 	New trial (rep=0, index=8): {u'Stimulus_Practice': u'right_schema_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'schema'}
+102.7157 	EXP 	text_9: autoDraw = False
+102.7157 	EXP 	image: autoDraw = False
+102.7157 	EXP 	image: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+102.7157 	EXP 	text_9: autoDraw = True
+102.7157 	EXP 	image: autoDraw = True
+104.0831 	DATA 	Keypress: a
+104.1651 	EXP 	text_9: autoDraw = False
+104.1651 	EXP 	image: autoDraw = False
+104.1651 	EXP 	text_2: autoDraw = True
+123.8564 	DATA 	Keypress: d
+124.1613 	EXP 	Imported Extra_Stimuli//practice_order_WHI_image.xlsx as conditions, 9 conditions, 5 params
+124.1622 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+124.1633 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'left_image_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+124.2379 	EXP 	text_2: autoDraw = False
+124.2379 	EXP 	image: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+124.2379 	EXP 	text_9: autoDraw = True
+124.2379 	EXP 	image: autoDraw = True
+126.7712 	DATA 	Keypress: f
+126.7733 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'right_image_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+126.8699 	EXP 	text_9: autoDraw = False
+126.8699 	EXP 	image: autoDraw = False
+126.8699 	EXP 	image: image = u'Extra_Stimuli//right_image_1_WHI.jpg'
+126.8699 	EXP 	text_9: autoDraw = True
+126.8699 	EXP 	image: autoDraw = True
+133.6846 	DATA 	Keypress: a
+133.6865 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_image_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+133.7830 	EXP 	text_9: autoDraw = False
+133.7830 	EXP 	image: autoDraw = False
+133.7830 	EXP 	image: image = u'Extra_Stimuli//left_image_3_WHI.jpg'
+133.7830 	EXP 	text_9: autoDraw = True
+133.7830 	EXP 	image: autoDraw = True
+137.3157 	DATA 	Keypress: a
+137.3175 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'left_image_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+137.3980 	EXP 	text_9: autoDraw = False
+137.3980 	EXP 	image: autoDraw = False
+137.3980 	EXP 	image: image = u'Extra_Stimuli//left_image_2_WHI.jpg'
+137.3980 	EXP 	text_9: autoDraw = True
+137.3980 	EXP 	image: autoDraw = True
+144.9955 	DATA 	Keypress: a
+144.9973 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'right_image_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+145.0939 	EXP 	text_9: autoDraw = False
+145.0939 	EXP 	image: autoDraw = False
+145.0939 	EXP 	image: image = u'Extra_Stimuli//right_image_3_WHI.jpg'
+145.0939 	EXP 	text_9: autoDraw = True
+145.0939 	EXP 	image: autoDraw = True
+152.3585 	DATA 	Keypress: a
+152.3603 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'ahead_image_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+152.4402 	EXP 	text_9: autoDraw = False
+152.4402 	EXP 	image: autoDraw = False
+152.4402 	EXP 	image: image = u'Extra_Stimuli//ahead_image_2_WHI.jpg'
+152.4402 	EXP 	text_9: autoDraw = True
+152.4402 	EXP 	image: autoDraw = True
+157.8554 	DATA 	Keypress: a
+157.8578 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'right_image_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+157.9373 	EXP 	text_9: autoDraw = False
+157.9373 	EXP 	image: autoDraw = False
+157.9373 	EXP 	image: image = u'Extra_Stimuli//right_image_2_WHI.jpg'
+157.9373 	EXP 	text_9: autoDraw = True
+157.9373 	EXP 	image: autoDraw = True
+160.4211 	DATA 	Keypress: a
+160.4230 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'ahead_image_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+160.5193 	EXP 	text_9: autoDraw = False
+160.5193 	EXP 	image: autoDraw = False
+160.5193 	EXP 	image: image = u'Extra_Stimuli//ahead_image_3_WHI.jpg'
+160.5193 	EXP 	text_9: autoDraw = True
+160.5193 	EXP 	image: autoDraw = True
+163.2727 	DATA 	Keypress: a
+163.2742 	EXP 	New trial (rep=0, index=8): {u'Stimulus_Practice': u'ahead_image_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+163.3346 	EXP 	text_9: autoDraw = False
+163.3346 	EXP 	image: autoDraw = False
+163.3346 	EXP 	image: image = u'Extra_Stimuli//ahead_image_1_WHI.jpg'
+163.3346 	EXP 	text_9: autoDraw = True
+163.3346 	EXP 	image: autoDraw = True
+166.2676 	DATA 	Keypress: a
+166.4003 	EXP 	text_9: autoDraw = False
+166.4003 	EXP 	image: autoDraw = False
+166.4003 	EXP 	text_2: autoDraw = True
+213.4770 	DATA 	Keypress: d
+215.9557 	EXP 	Imported Extra_Stimuli//practice_order_WHI_word.xlsx as conditions, 9 conditions, 5 params
+215.9564 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+215.9571 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_word_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+216.0128 	DATA 	Keypress: d
+216.0407 	EXP 	text_2: autoDraw = False
+216.0407 	EXP 	image: image = u'Extra_Stimuli//right_word_2_WHI.jpg'
+216.0407 	EXP 	text_9: autoDraw = True
+216.0407 	EXP 	image: autoDraw = True
+219.1906 	DATA 	Keypress: f
+219.1927 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'left_word_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+221.4579 	DATA 	Keypress: f
+221.4713 	EXP 	text_9: autoDraw = False
+221.4713 	EXP 	image: autoDraw = False
+221.4713 	EXP 	image: image = u'Extra_Stimuli//left_word_2_WHI.jpg'
+221.4713 	EXP 	text_9: autoDraw = True
+221.4713 	EXP 	image: autoDraw = True
+224.7874 	DATA 	Keypress: a
+224.7891 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_word_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+224.8528 	EXP 	text_9: autoDraw = False
+224.8528 	EXP 	image: autoDraw = False
+224.8528 	EXP 	image: image = u'Extra_Stimuli//left_word_1_WHI.jpg'
+224.8528 	EXP 	text_9: autoDraw = True
+224.8528 	EXP 	image: autoDraw = True
+227.8362 	DATA 	Keypress: f
+227.8381 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'left_word_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+227.9514 	EXP 	text_9: autoDraw = False
+227.9514 	EXP 	image: autoDraw = False
+227.9514 	EXP 	image: image = u'Extra_Stimuli//left_word_3_WHI.jpg'
+227.9514 	EXP 	text_9: autoDraw = True
+227.9514 	EXP 	image: autoDraw = True
+229.7015 	DATA 	Keypress: f
+229.7033 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_word_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+230.0501 	EXP 	text_9: autoDraw = False
+230.0501 	EXP 	image: autoDraw = False
+230.0501 	EXP 	image: image = u'Extra_Stimuli//ahead_word_3_WHI.jpg'
+230.0501 	EXP 	text_9: autoDraw = True
+230.0501 	EXP 	image: autoDraw = True
+232.2510 	DATA 	Keypress: a
+232.2531 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'right_word_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+232.3155 	EXP 	text_9: autoDraw = False
+232.3155 	EXP 	image: autoDraw = False
+232.3155 	EXP 	image: image = u'Extra_Stimuli//right_word_1_WHI.jpg'
+232.3155 	EXP 	text_9: autoDraw = True
+232.3155 	EXP 	image: autoDraw = True
+233.9997 	DATA 	Keypress: a
+234.0016 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'ahead_word_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'word'}
+234.0814 	EXP 	text_9: autoDraw = False
+234.0814 	EXP 	image: autoDraw = False
+234.0814 	EXP 	image: image = u'Extra_Stimuli//ahead_word_1_WHI.jpg'
+234.0814 	EXP 	text_9: autoDraw = True
+234.0814 	EXP 	image: autoDraw = True
+236.2818 	DATA 	Keypress: a
+236.2836 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'ahead_word_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'word'}
+236.3635 	EXP 	text_9: autoDraw = False
+236.3635 	EXP 	image: autoDraw = False
+236.3635 	EXP 	image: image = u'Extra_Stimuli//ahead_word_2_WHI.jpg'
+236.3635 	EXP 	text_9: autoDraw = True
+236.3635 	EXP 	image: autoDraw = True
+237.9975 	DATA 	Keypress: f
+237.9993 	EXP 	New trial (rep=0, index=8): {u'Stimulus_Practice': u'right_word_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'word'}
+238.0793 	EXP 	text_9: autoDraw = False
+238.0793 	EXP 	image: autoDraw = False
+238.0793 	EXP 	image: image = u'Extra_Stimuli//right_word_3_WHI.jpg'
+238.0793 	EXP 	text_9: autoDraw = True
+238.0793 	EXP 	image: autoDraw = True
+239.8463 	DATA 	Keypress: a
+239.9770 	EXP 	New trial (rep=1, index=0): None
+240.0122 	EXP 	text_9: autoDraw = False
+240.0122 	EXP 	image: autoDraw = False
+240.0122 	EXP 	text_6: text = 'Ok, before we practice one more time - do you have any questions about the task?'
+240.0122 	EXP 	text_6: autoDraw = True
+278.3433 	DATA 	Keypress: d
+278.3729 	EXP 	Imported Extra_Stimuli//practice_order_WHI_image.xlsx as conditions, 9 conditions, 5 params
+278.3738 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+278.3750 	EXP 	New trial (rep=0, index=0): {u'Stimulus_Practice': u'right_image_3_WHI.jpg', u'Direction': u'right', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+278.4418 	EXP 	text_6: autoDraw = False
+278.4418 	EXP 	image: image = u'Extra_Stimuli//right_image_3_WHI.jpg'
+278.4418 	EXP 	text_9: autoDraw = True
+278.4418 	EXP 	image: autoDraw = True
+281.3096 	DATA 	Keypress: f
+281.3121 	EXP 	New trial (rep=0, index=1): {u'Stimulus_Practice': u'ahead_image_1_WHI.jpg', u'Direction': u'ahead', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+281.3904 	EXP 	text_9: autoDraw = False
+281.3904 	EXP 	image: autoDraw = False
+281.3904 	EXP 	image: image = u'Extra_Stimuli//ahead_image_1_WHI.jpg'
+281.3904 	EXP 	text_9: autoDraw = True
+281.3904 	EXP 	image: autoDraw = True
+283.2243 	DATA 	Keypress: a
+283.2261 	EXP 	New trial (rep=0, index=2): {u'Stimulus_Practice': u'left_image_2_WHI.jpg', u'Direction': u'left', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+283.3061 	EXP 	text_9: autoDraw = False
+283.3061 	EXP 	image: autoDraw = False
+283.3061 	EXP 	image: image = u'Extra_Stimuli//left_image_2_WHI.jpg'
+283.3061 	EXP 	text_9: autoDraw = True
+283.3061 	EXP 	image: autoDraw = True
+289.0547 	DATA 	Keypress: a
+289.0565 	EXP 	New trial (rep=0, index=3): {u'Stimulus_Practice': u'right_image_2_WHI.jpg', u'Direction': u'right', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+289.1530 	EXP 	text_9: autoDraw = False
+289.1530 	EXP 	image: autoDraw = False
+289.1530 	EXP 	image: image = u'Extra_Stimuli//right_image_2_WHI.jpg'
+289.1530 	EXP 	text_9: autoDraw = True
+289.1530 	EXP 	image: autoDraw = True
+292.6360 	DATA 	Keypress: f
+292.6379 	EXP 	New trial (rep=0, index=4): {u'Stimulus_Practice': u'ahead_image_3_WHI.jpg', u'Direction': u'ahead', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+292.7179 	EXP 	text_9: autoDraw = False
+292.7179 	EXP 	image: autoDraw = False
+292.7179 	EXP 	image: image = u'Extra_Stimuli//ahead_image_3_WHI.jpg'
+292.7179 	EXP 	text_9: autoDraw = True
+292.7179 	EXP 	image: autoDraw = True
+297.9503 	DATA 	Keypress: a
+297.9528 	EXP 	New trial (rep=0, index=5): {u'Stimulus_Practice': u'ahead_image_2_WHI.jpg', u'Direction': u'ahead', u'Number': 2, u'Background': u'_WHI', u'Format': u'image'}
+298.0318 	EXP 	text_9: autoDraw = False
+298.0318 	EXP 	image: autoDraw = False
+298.0318 	EXP 	image: image = u'Extra_Stimuli//ahead_image_2_WHI.jpg'
+298.0318 	EXP 	text_9: autoDraw = True
+298.0318 	EXP 	image: autoDraw = True
+301.8143 	DATA 	Keypress: a
+301.8162 	EXP 	New trial (rep=0, index=6): {u'Stimulus_Practice': u'right_image_1_WHI.jpg', u'Direction': u'right', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+301.8966 	EXP 	text_9: autoDraw = False
+301.8966 	EXP 	image: autoDraw = False
+301.8966 	EXP 	image: image = u'Extra_Stimuli//right_image_1_WHI.jpg'
+301.8966 	EXP 	text_9: autoDraw = True
+301.8966 	EXP 	image: autoDraw = True
+307.0953 	DATA 	Keypress: a
+307.0971 	EXP 	New trial (rep=0, index=7): {u'Stimulus_Practice': u'left_image_3_WHI.jpg', u'Direction': u'left', u'Number': 3, u'Background': u'_WHI', u'Format': u'image'}
+307.1772 	EXP 	text_9: autoDraw = False
+307.1772 	EXP 	image: autoDraw = False
+307.1772 	EXP 	image: image = u'Extra_Stimuli//left_image_3_WHI.jpg'
+307.1772 	EXP 	text_9: autoDraw = True
+307.1772 	EXP 	image: autoDraw = True
+312.0264 	DATA 	Keypress: f
+312.0282 	EXP 	New trial (rep=0, index=8): {u'Stimulus_Practice': u'left_image_1_WHI.jpg', u'Direction': u'left', u'Number': 1, u'Background': u'_WHI', u'Format': u'image'}
+312.1080 	EXP 	text_9: autoDraw = False
+312.1080 	EXP 	image: autoDraw = False
+312.1080 	EXP 	image: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+312.1080 	EXP 	text_9: autoDraw = True
+312.1080 	EXP 	image: autoDraw = True
+319.9555 	DATA 	Keypress: a
+322.3031 	EXP 	text_9: autoDraw = False
+322.3031 	EXP 	image: autoDraw = False
+322.3031 	EXP 	text_2: autoDraw = True
+344.8917 	DATA 	Keypress: escape
