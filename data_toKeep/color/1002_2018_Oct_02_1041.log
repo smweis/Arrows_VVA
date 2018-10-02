@@ -1,0 +1,1283 @@
+15.5264 	INFO 	Loaded monitor calibration from ['2016_05_25 15:27']
+16.7111 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x05544BC0>, name='window1', pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.7111 	EXP 	window1: recordFrameIntervals = False
+16.8776 	EXP 	window1: recordFrameIntervals = True
+17.0478 	WARNING 	t of last frame was 20.32ms (=1/49)
+17.2273 	DEBUG 	Screen (0) actual frame rate measured at 60.19
+17.2274 	EXP 	window1: recordFrameIntervals = False
+17.3920 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+17.7255 	EXP 	Created polygon_2 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor='#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.0), pos=array([-0.3, -0.2]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+17.7282 	EXP 	Created polygon_3 = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor='#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.0), pos=array([ 0.3, -0.2]), size=array([ 1.,  1.]), units='height', vertices=ndarray(...), win=Window(...))
+17.7718 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='norm', win=Window(...), wrapWidth=1)
+17.7745 	EXP 	Created polygon_4 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0.0, fillColor='#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.0), pos=array([ 0.3, -0.2]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+17.7763 	EXP 	Created polygon_5 = Polygon(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor='#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.0), pos=array([-0.3, -0.2]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+17.8073 	EXP 	Created text_5 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_5', opacity=1.0, ori=0, pos=array([ 0. ,  0.6]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.8080 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+17.8086 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+17.8092 	EXP 	Created text_same_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+17.8385 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.8703 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.5, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+17.8709 	EXP 	Created text_same = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+17.8854 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+17.9116 	EXP 	text_4: autoDraw = True
+27.7887 	DATA 	Keypress: f
+27.8212 	EXP 	text_4: autoDraw = False
+27.8212 	EXP 	polygon_2: autoDraw = True
+27.8212 	EXP 	polygon_3: autoDraw = True
+27.8212 	EXP 	text_3: autoDraw = True
+35.9846 	DATA 	Keypress: f
+36.0169 	EXP 	polygon_2: autoDraw = False
+36.0169 	EXP 	polygon_3: autoDraw = False
+36.0169 	EXP 	text_3: autoDraw = False
+36.0169 	EXP 	polygon_4: autoDraw = True
+36.0169 	EXP 	polygon_5: autoDraw = True
+36.0169 	EXP 	text_5: autoDraw = True
+44.2973 	DATA 	Keypress: f
+44.2987 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+44.2996 	EXP 	New trial (rep=0, index=0): None
+44.4455 	EXP 	polygon_4: autoDraw = False
+44.4455 	EXP 	polygon_5: autoDraw = False
+44.4455 	EXP 	text_5: autoDraw = False
+44.4455 	EXP 	text_6: text = "Let's try a few for practice. You'll see colors one at a time on the screen. They will be either BLUE or RED or ORANGE. Tell the experimenter if the color on the screen is the SAME or DIFFERENT from the color that you just saw. For the first stimulus, just say 'GO.' Then when it says 'Same?' underneath, tell the experimenter whether you see the same color or a different color [Experimenter: Press Green for SAME, Red for DIFFERENT]"
+44.4455 	EXP 	text_6: autoDraw = True
+73.3818 	DATA 	Keypress: f
+74.9976 	DATA 	Keypress: d
+75.0508 	EXP 	Imported Sequences\color_practice.xlsx as conditions, 9 conditions, 2 params
+75.0512 	EXP 	Created sequence: random, trialTypes=9, nReps=2, seed=None
+75.0516 	EXP 	New trial (rep=0, index=0): {u'color': u'#fdae61', u'answer': u'o'}
+75.0543 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+75.0801 	EXP 	text_6: autoDraw = False
+75.0801 	EXP 	text_same_practice: text = ''
+75.0801 	EXP 	text_9: autoDraw = True
+75.0801 	EXP 	text_same_practice: autoDraw = True
+77.8467 	DATA 	Keypress: d
+79.0458 	DATA 	Keypress: f
+79.0485 	EXP 	New trial (rep=0, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+79.0930 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+79.1110 	EXP 	text_9: autoDraw = False
+79.1110 	EXP 	text_same_practice: autoDraw = False
+79.1110 	EXP 	unnamed Polygon: autoDraw = False
+79.1110 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+79.1110 	EXP 	text_9: autoDraw = True
+79.1110 	EXP 	text_same_practice: autoDraw = True
+81.0611 	DATA 	Keypress: a
+81.0635 	EXP 	New trial (rep=0, index=2): {u'color': u'#2c7bb6', u'answer': u'b'}
+81.0698 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+81.0941 	EXP 	text_9: autoDraw = False
+81.0941 	EXP 	text_same_practice: autoDraw = False
+81.0941 	EXP 	unnamed Polygon: autoDraw = False
+81.0941 	EXP 	text_same_practice: text = ''
+81.0941 	EXP 	text_9: autoDraw = True
+81.0941 	EXP 	text_same_practice: autoDraw = True
+88.7578 	DATA 	Keypress: f
+88.7599 	EXP 	New trial (rep=0, index=3): {u'color': u'#fdae61', u'answer': u'o'}
+88.7870 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+88.8060 	EXP 	text_9: autoDraw = False
+88.8060 	EXP 	text_same_practice: autoDraw = False
+88.8060 	EXP 	unnamed Polygon: autoDraw = False
+88.8060 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+88.8060 	EXP 	text_9: autoDraw = True
+88.8060 	EXP 	text_same_practice: autoDraw = True
+90.8061 	DATA 	Keypress: a
+90.8085 	EXP 	New trial (rep=0, index=4): {u'color': u'#2c7bb6', u'answer': u'b'}
+90.8444 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+90.8716 	EXP 	text_9: autoDraw = False
+90.8716 	EXP 	text_same_practice: autoDraw = False
+90.8716 	EXP 	unnamed Polygon: autoDraw = False
+90.8716 	EXP 	text_same_practice: text = ''
+90.8716 	EXP 	text_9: autoDraw = True
+90.8716 	EXP 	text_same_practice: autoDraw = True
+92.0223 	DATA 	Keypress: f
+92.0244 	EXP 	New trial (rep=0, index=5): {u'color': u'#d7191c', u'answer': u'r'}
+92.0500 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+92.0711 	EXP 	text_9: autoDraw = False
+92.0711 	EXP 	text_same_practice: autoDraw = False
+92.0711 	EXP 	unnamed Polygon: autoDraw = False
+92.0711 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+92.0711 	EXP 	text_9: autoDraw = True
+92.0711 	EXP 	text_same_practice: autoDraw = True
+93.1724 	DATA 	Keypress: a
+93.1751 	EXP 	New trial (rep=0, index=6): {u'color': u'#d7191c', u'answer': u'r'}
+93.1816 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+93.2042 	EXP 	text_9: autoDraw = False
+93.2042 	EXP 	text_same_practice: autoDraw = False
+93.2042 	EXP 	unnamed Polygon: autoDraw = False
+93.2042 	EXP 	text_same_practice: text = ''
+93.2042 	EXP 	text_9: autoDraw = True
+93.2042 	EXP 	text_same_practice: autoDraw = True
+94.3712 	DATA 	Keypress: f
+94.3734 	EXP 	New trial (rep=0, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+94.4233 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+94.4365 	EXP 	text_9: autoDraw = False
+94.4365 	EXP 	text_same_practice: autoDraw = False
+94.4365 	EXP 	unnamed Polygon: autoDraw = False
+94.4365 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+94.4365 	EXP 	text_9: autoDraw = True
+94.4365 	EXP 	text_same_practice: autoDraw = True
+95.4711 	DATA 	Keypress: a
+95.4735 	EXP 	New trial (rep=0, index=8): {u'color': u'#fdae61', u'answer': u'o'}
+95.4801 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+95.5029 	EXP 	text_9: autoDraw = False
+95.5029 	EXP 	text_same_practice: autoDraw = False
+95.5029 	EXP 	unnamed Polygon: autoDraw = False
+95.5029 	EXP 	text_same_practice: text = ''
+95.5029 	EXP 	text_9: autoDraw = True
+95.5029 	EXP 	text_same_practice: autoDraw = True
+96.5541 	DATA 	Keypress: f
+96.5562 	EXP 	New trial (rep=1, index=0): {u'color': u'#d7191c', u'answer': u'r'}
+96.5854 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+96.6021 	EXP 	text_9: autoDraw = False
+96.6021 	EXP 	text_same_practice: autoDraw = False
+96.6021 	EXP 	unnamed Polygon: autoDraw = False
+96.6021 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+96.6021 	EXP 	text_9: autoDraw = True
+96.6021 	EXP 	text_same_practice: autoDraw = True
+97.5362 	DATA 	Keypress: a
+97.5386 	EXP 	New trial (rep=1, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+97.5705 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+97.5849 	EXP 	text_9: autoDraw = False
+97.5849 	EXP 	text_same_practice: autoDraw = False
+97.5849 	EXP 	unnamed Polygon: autoDraw = False
+97.5849 	EXP 	text_same_practice: text = ''
+97.5849 	EXP 	text_9: autoDraw = True
+97.5849 	EXP 	text_same_practice: autoDraw = True
+98.5367 	DATA 	Keypress: f
+98.5388 	EXP 	New trial (rep=1, index=2): {u'color': u'#d7191c', u'answer': u'r'}
+98.5667 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+98.5843 	EXP 	text_9: autoDraw = False
+98.5843 	EXP 	text_same_practice: autoDraw = False
+98.5843 	EXP 	unnamed Polygon: autoDraw = False
+98.5843 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+98.5843 	EXP 	text_9: autoDraw = True
+98.5843 	EXP 	text_same_practice: autoDraw = True
+99.6511 	DATA 	Keypress: f
+99.6525 	EXP 	New trial (rep=1, index=3): {u'color': u'#2c7bb6', u'answer': u'b'}
+99.6563 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+99.6838 	EXP 	text_9: autoDraw = False
+99.6838 	EXP 	text_same_practice: autoDraw = False
+99.6838 	EXP 	unnamed Polygon: autoDraw = False
+99.6838 	EXP 	text_same_practice: text = ''
+99.6838 	EXP 	text_9: autoDraw = True
+99.6838 	EXP 	text_same_practice: autoDraw = True
+100.6510 	DATA 	Keypress: f
+100.6532 	EXP 	New trial (rep=1, index=4): {u'color': u'#fdae61', u'answer': u'o'}
+100.6977 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+100.7165 	EXP 	text_9: autoDraw = False
+100.7165 	EXP 	text_same_practice: autoDraw = False
+100.7165 	EXP 	unnamed Polygon: autoDraw = False
+100.7165 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+100.7165 	EXP 	text_9: autoDraw = True
+100.7165 	EXP 	text_same_practice: autoDraw = True
+102.0506 	DATA 	Keypress: a
+102.0530 	EXP 	New trial (rep=1, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+102.0595 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+102.0829 	EXP 	text_9: autoDraw = False
+102.0829 	EXP 	text_same_practice: autoDraw = False
+102.0829 	EXP 	unnamed Polygon: autoDraw = False
+102.0829 	EXP 	text_same_practice: text = ''
+102.0829 	EXP 	text_9: autoDraw = True
+102.0829 	EXP 	text_same_practice: autoDraw = True
+103.1833 	DATA 	Keypress: f
+103.1855 	EXP 	New trial (rep=1, index=6): {u'color': u'#fdae61', u'answer': u'o'}
+103.2147 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+103.2320 	EXP 	text_9: autoDraw = False
+103.2320 	EXP 	text_same_practice: autoDraw = False
+103.2320 	EXP 	unnamed Polygon: autoDraw = False
+103.2320 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+103.2320 	EXP 	text_9: autoDraw = True
+103.2320 	EXP 	text_same_practice: autoDraw = True
+104.3329 	DATA 	Keypress: a
+104.3353 	EXP 	New trial (rep=1, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+104.3420 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+104.3650 	EXP 	text_9: autoDraw = False
+104.3650 	EXP 	text_same_practice: autoDraw = False
+104.3650 	EXP 	unnamed Polygon: autoDraw = False
+104.3650 	EXP 	text_same_practice: text = ''
+104.3650 	EXP 	text_9: autoDraw = True
+104.3650 	EXP 	text_same_practice: autoDraw = True
+105.3987 	DATA 	Keypress: f
+105.4008 	EXP 	New trial (rep=1, index=8): {u'color': u'#fdae61', u'answer': u'o'}
+105.4421 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+105.4642 	EXP 	text_9: autoDraw = False
+105.4642 	EXP 	text_same_practice: autoDraw = False
+105.4642 	EXP 	unnamed Polygon: autoDraw = False
+105.4642 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+105.4642 	EXP 	text_9: autoDraw = True
+105.4642 	EXP 	text_same_practice: autoDraw = True
+106.4650 	DATA 	Keypress: a
+106.5828 	EXP 	New trial (rep=1, index=0): None
+106.6142 	EXP 	text_9: autoDraw = False
+106.6142 	EXP 	text_same_practice: autoDraw = False
+106.6142 	EXP 	unnamed Polygon: autoDraw = False
+106.6142 	EXP 	text_6: text = 'Ok, before we practice one more time - do you have any questions about the task?'
+106.6142 	EXP 	text_6: autoDraw = True
+112.1119 	DATA 	Keypress: f
+113.3616 	DATA 	Keypress: d
+113.3862 	EXP 	Imported Sequences\color_practice.xlsx as conditions, 9 conditions, 2 params
+113.3867 	EXP 	Created sequence: random, trialTypes=9, nReps=2, seed=None
+113.3871 	EXP 	New trial (rep=0, index=0): {u'color': u'#fdae61', u'answer': u'o'}
+113.3901 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+113.4100 	EXP 	text_6: autoDraw = False
+113.4100 	EXP 	text_same_practice: text = ''
+113.4100 	EXP 	text_9: autoDraw = True
+113.4100 	EXP 	text_same_practice: autoDraw = True
+114.8604 	DATA 	Keypress: f
+114.8631 	EXP 	New trial (rep=0, index=1): {u'color': u'#fdae61', u'answer': u'o'}
+114.9045 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+114.9259 	EXP 	text_9: autoDraw = False
+114.9259 	EXP 	text_same_practice: autoDraw = False
+114.9259 	EXP 	unnamed Polygon: autoDraw = False
+114.9259 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+114.9259 	EXP 	text_9: autoDraw = True
+114.9259 	EXP 	text_same_practice: autoDraw = True
+115.8436 	DATA 	Keypress: f
+115.8462 	EXP 	New trial (rep=0, index=2): {u'color': u'#2c7bb6', u'answer': u'b'}
+115.8526 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+115.8758 	EXP 	text_9: autoDraw = False
+115.8758 	EXP 	text_same_practice: autoDraw = False
+115.8758 	EXP 	unnamed Polygon: autoDraw = False
+115.8758 	EXP 	text_same_practice: text = ''
+115.8758 	EXP 	text_9: autoDraw = True
+115.8758 	EXP 	text_same_practice: autoDraw = True
+117.1434 	DATA 	Keypress: f
+117.1456 	EXP 	New trial (rep=0, index=3): {u'color': u'#fdae61', u'answer': u'o'}
+117.1704 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+117.1916 	EXP 	text_9: autoDraw = False
+117.1916 	EXP 	text_same_practice: autoDraw = False
+117.1916 	EXP 	unnamed Polygon: autoDraw = False
+117.1916 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+117.1916 	EXP 	text_9: autoDraw = True
+117.1916 	EXP 	text_same_practice: autoDraw = True
+118.3255 	DATA 	Keypress: a
+118.3279 	EXP 	New trial (rep=0, index=4): {u'color': u'#d7191c', u'answer': u'r'}
+118.3344 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+118.3578 	EXP 	text_9: autoDraw = False
+118.3578 	EXP 	text_same_practice: autoDraw = False
+118.3578 	EXP 	unnamed Polygon: autoDraw = False
+118.3578 	EXP 	text_same_practice: text = ''
+118.3578 	EXP 	text_9: autoDraw = True
+118.3578 	EXP 	text_same_practice: autoDraw = True
+119.4756 	DATA 	Keypress: f
+119.4777 	EXP 	New trial (rep=0, index=5): {u'color': u'#d7191c', u'answer': u'r'}
+119.5037 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+119.5235 	EXP 	text_9: autoDraw = False
+119.5235 	EXP 	text_same_practice: autoDraw = False
+119.5235 	EXP 	unnamed Polygon: autoDraw = False
+119.5235 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+119.5235 	EXP 	text_9: autoDraw = True
+119.5235 	EXP 	text_same_practice: autoDraw = True
+120.6081 	DATA 	Keypress: f
+120.6105 	EXP 	New trial (rep=0, index=6): {u'color': u'#d7191c', u'answer': u'r'}
+120.6173 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+120.6402 	EXP 	text_9: autoDraw = False
+120.6402 	EXP 	text_same_practice: autoDraw = False
+120.6402 	EXP 	unnamed Polygon: autoDraw = False
+120.6402 	EXP 	text_same_practice: text = ''
+120.6402 	EXP 	text_9: autoDraw = True
+120.6402 	EXP 	text_same_practice: autoDraw = True
+121.6578 	DATA 	Keypress: f
+121.6600 	EXP 	New trial (rep=0, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+121.6865 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+121.7058 	EXP 	text_9: autoDraw = False
+121.7058 	EXP 	text_same_practice: autoDraw = False
+121.7058 	EXP 	unnamed Polygon: autoDraw = False
+121.7058 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+121.7058 	EXP 	text_9: autoDraw = True
+121.7058 	EXP 	text_same_practice: autoDraw = True
+122.7065 	DATA 	Keypress: a
+122.7089 	EXP 	New trial (rep=0, index=8): {u'color': u'#2c7bb6', u'answer': u'b'}
+122.7157 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+122.7389 	EXP 	text_9: autoDraw = False
+122.7389 	EXP 	text_same_practice: autoDraw = False
+122.7389 	EXP 	unnamed Polygon: autoDraw = False
+122.7389 	EXP 	text_same_practice: text = ''
+122.7389 	EXP 	text_9: autoDraw = True
+122.7389 	EXP 	text_same_practice: autoDraw = True
+123.7234 	DATA 	Keypress: f
+123.7256 	EXP 	New trial (rep=1, index=0): {u'color': u'#2c7bb6', u'answer': u'b'}
+123.7564 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+123.7713 	EXP 	text_9: autoDraw = False
+123.7713 	EXP 	text_same_practice: autoDraw = False
+123.7713 	EXP 	unnamed Polygon: autoDraw = False
+123.7713 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+123.7713 	EXP 	text_9: autoDraw = True
+123.7713 	EXP 	text_same_practice: autoDraw = True
+124.7725 	DATA 	Keypress: f
+124.7749 	EXP 	New trial (rep=1, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+124.7816 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+124.8046 	EXP 	text_9: autoDraw = False
+124.8046 	EXP 	text_same_practice: autoDraw = False
+124.8046 	EXP 	unnamed Polygon: autoDraw = False
+124.8046 	EXP 	text_same_practice: text = ''
+124.8046 	EXP 	text_9: autoDraw = True
+124.8046 	EXP 	text_same_practice: autoDraw = True
+125.7885 	DATA 	Keypress: f
+125.7898 	EXP 	New trial (rep=1, index=2): {u'color': u'#fdae61', u'answer': u'o'}
+125.8053 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+125.8205 	EXP 	text_9: autoDraw = False
+125.8205 	EXP 	text_same_practice: autoDraw = False
+125.8205 	EXP 	unnamed Polygon: autoDraw = False
+125.8205 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+125.8205 	EXP 	text_9: autoDraw = True
+125.8205 	EXP 	text_same_practice: autoDraw = True
+126.9542 	DATA 	Keypress: a
+126.9566 	EXP 	New trial (rep=1, index=3): {u'color': u'#2c7bb6', u'answer': u'b'}
+126.9631 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+126.9871 	EXP 	text_9: autoDraw = False
+126.9871 	EXP 	text_same_practice: autoDraw = False
+126.9871 	EXP 	unnamed Polygon: autoDraw = False
+126.9871 	EXP 	text_same_practice: text = ''
+126.9871 	EXP 	text_9: autoDraw = True
+126.9871 	EXP 	text_same_practice: autoDraw = True
+127.8375 	DATA 	Keypress: f
+127.8396 	EXP 	New trial (rep=1, index=4): {u'color': u'#d7191c', u'answer': u'r'}
+127.8648 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+127.8859 	EXP 	text_9: autoDraw = False
+127.8859 	EXP 	text_same_practice: autoDraw = False
+127.8859 	EXP 	unnamed Polygon: autoDraw = False
+127.8859 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+127.8859 	EXP 	text_9: autoDraw = True
+127.8859 	EXP 	text_same_practice: autoDraw = True
+128.9031 	DATA 	Keypress: a
+128.9056 	EXP 	New trial (rep=1, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+128.9332 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+128.9521 	EXP 	text_9: autoDraw = False
+128.9521 	EXP 	text_same_practice: autoDraw = False
+128.9521 	EXP 	unnamed Polygon: autoDraw = False
+128.9521 	EXP 	text_same_practice: text = ''
+128.9521 	EXP 	text_9: autoDraw = True
+128.9521 	EXP 	text_same_practice: autoDraw = True
+129.9698 	DATA 	Keypress: f
+129.9719 	EXP 	New trial (rep=1, index=6): {u'color': u'#fdae61', u'answer': u'o'}
+130.0004 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+130.0182 	EXP 	text_9: autoDraw = False
+130.0182 	EXP 	text_same_practice: autoDraw = False
+130.0182 	EXP 	unnamed Polygon: autoDraw = False
+130.0182 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+130.0182 	EXP 	text_9: autoDraw = True
+130.0182 	EXP 	text_same_practice: autoDraw = True
+131.0355 	DATA 	Keypress: a
+131.0379 	EXP 	New trial (rep=1, index=7): {u'color': u'#d7191c', u'answer': u'r'}
+131.0753 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+131.1009 	EXP 	text_9: autoDraw = False
+131.1009 	EXP 	text_same_practice: autoDraw = False
+131.1009 	EXP 	unnamed Polygon: autoDraw = False
+131.1009 	EXP 	text_same_practice: text = ''
+131.1009 	EXP 	text_9: autoDraw = True
+131.1009 	EXP 	text_same_practice: autoDraw = True
+132.1349 	DATA 	Keypress: f
+132.1371 	EXP 	New trial (rep=1, index=8): {u'color': u'#fdae61', u'answer': u'o'}
+132.1578 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+132.1838 	EXP 	text_9: autoDraw = False
+132.1838 	EXP 	text_same_practice: autoDraw = False
+132.1838 	EXP 	unnamed Polygon: autoDraw = False
+132.1838 	EXP 	text_same_practice: text = 'SAME / DIFFERENT?'
+132.1838 	EXP 	text_9: autoDraw = True
+132.1838 	EXP 	text_same_practice: autoDraw = True
+133.1683 	DATA 	Keypress: a
+133.6338 	EXP 	text_9: autoDraw = False
+133.6338 	EXP 	text_same_practice: autoDraw = False
+133.6338 	EXP 	unnamed Polygon: autoDraw = False
+133.6338 	EXP 	text_10: autoDraw = True
+150.9424 	DATA 	Keypress: d
+150.9717 	EXP 	Imported Sequences\color.xlsx as conditions, 63 conditions, 2 params
+150.9726 	EXP 	Created sequence: random, trialTypes=63, nReps=2, seed=None
+150.9731 	EXP 	New trial (rep=0, index=0): {u'color': u'#fdae61', u'answer': u'o'}
+150.9767 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+150.9907 	EXP 	text_10: autoDraw = False
+150.9907 	EXP 	text_same: text = ''
+150.9907 	EXP 	text_same: autoDraw = True
+152.6252 	DATA 	Keypress: f
+152.6280 	EXP 	New trial (rep=0, index=1): {u'color': u'#d7191c', u'answer': u'r'}
+152.6684 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+152.6898 	EXP 	text_same: autoDraw = False
+152.6898 	EXP 	unnamed Polygon: autoDraw = False
+152.6898 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+152.6898 	EXP 	text_same: autoDraw = True
+153.7760 	DATA 	Keypress: a
+153.7926 	EXP 	New trial (rep=0, index=2): {u'color': u'#2c7bb6', u'answer': u'b'}
+153.7993 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+153.8229 	EXP 	text_same: autoDraw = False
+153.8229 	EXP 	unnamed Polygon: autoDraw = False
+153.8229 	EXP 	text_same: text = ''
+153.8229 	EXP 	text_same: autoDraw = True
+154.9564 	DATA 	Keypress: f
+154.9586 	EXP 	New trial (rep=0, index=3): {u'color': u'#fdae61', u'answer': u'o'}
+155.0015 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+155.0220 	EXP 	text_same: autoDraw = False
+155.0220 	EXP 	unnamed Polygon: autoDraw = False
+155.0220 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+155.0220 	EXP 	text_same: autoDraw = True
+155.9559 	DATA 	Keypress: a
+155.9583 	EXP 	New trial (rep=0, index=4): {u'color': u'#d7191c', u'answer': u'r'}
+155.9651 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+155.9885 	EXP 	text_same: autoDraw = False
+155.9885 	EXP 	unnamed Polygon: autoDraw = False
+155.9885 	EXP 	text_same: text = ''
+155.9885 	EXP 	text_same: autoDraw = True
+156.9559 	DATA 	Keypress: f
+156.9581 	EXP 	New trial (rep=0, index=5): {u'color': u'#2c7bb6', u'answer': u'b'}
+157.0084 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+157.0378 	EXP 	text_same: autoDraw = False
+157.0378 	EXP 	unnamed Polygon: autoDraw = False
+157.0378 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+157.0378 	EXP 	text_same: autoDraw = True
+158.0385 	DATA 	Keypress: a
+158.0408 	EXP 	New trial (rep=0, index=6): {u'color': u'#d7191c', u'answer': u'r'}
+158.0476 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+158.0707 	EXP 	text_same: autoDraw = False
+158.0707 	EXP 	unnamed Polygon: autoDraw = False
+158.0707 	EXP 	text_same: text = ''
+158.0707 	EXP 	text_same: autoDraw = True
+159.1878 	DATA 	Keypress: f
+159.1899 	EXP 	New trial (rep=0, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+159.2184 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+159.2365 	EXP 	text_same: autoDraw = False
+159.2365 	EXP 	unnamed Polygon: autoDraw = False
+159.2365 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+159.2365 	EXP 	text_same: autoDraw = True
+160.1715 	DATA 	Keypress: a
+160.1738 	EXP 	New trial (rep=0, index=8): {u'color': u'#fdae61', u'answer': u'o'}
+160.1805 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+160.2033 	EXP 	text_same: autoDraw = False
+160.2033 	EXP 	unnamed Polygon: autoDraw = False
+160.2033 	EXP 	text_same: text = ''
+160.2033 	EXP 	text_same: autoDraw = True
+161.3533 	DATA 	Keypress: f
+161.3546 	EXP 	New trial (rep=0, index=9): {u'color': u'#d7191c', u'answer': u'r'}
+161.3818 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+161.4021 	EXP 	text_same: autoDraw = False
+161.4021 	EXP 	unnamed Polygon: autoDraw = False
+161.4021 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+161.4021 	EXP 	text_same: autoDraw = True
+162.3861 	DATA 	Keypress: a
+162.3884 	EXP 	New trial (rep=0, index=10): {u'color': u'#2c7bb6', u'answer': u'b'}
+162.3949 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+162.4187 	EXP 	text_same: autoDraw = False
+162.4187 	EXP 	unnamed Polygon: autoDraw = False
+162.4187 	EXP 	text_same: text = ''
+162.4187 	EXP 	text_same: autoDraw = True
+163.4195 	DATA 	Keypress: f
+163.4216 	EXP 	New trial (rep=0, index=11): {u'color': u'#d7191c', u'answer': u'r'}
+163.4478 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+163.4676 	EXP 	text_same: autoDraw = False
+163.4676 	EXP 	unnamed Polygon: autoDraw = False
+163.4676 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+163.4676 	EXP 	text_same: autoDraw = True
+164.5036 	DATA 	Keypress: a
+164.5204 	EXP 	New trial (rep=0, index=12): {u'color': u'#2c7bb6', u'answer': u'b'}
+164.5237 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+164.5504 	EXP 	text_same: autoDraw = False
+164.5504 	EXP 	unnamed Polygon: autoDraw = False
+164.5504 	EXP 	text_same: text = ''
+164.5504 	EXP 	text_same: autoDraw = True
+165.6177 	DATA 	Keypress: f
+165.6197 	EXP 	New trial (rep=0, index=13): {u'color': u'#fdae61', u'answer': u'o'}
+165.6471 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+165.6665 	EXP 	text_same: autoDraw = False
+165.6665 	EXP 	unnamed Polygon: autoDraw = False
+165.6665 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+165.6665 	EXP 	text_same: autoDraw = True
+166.8009 	DATA 	Keypress: a
+166.8032 	EXP 	New trial (rep=0, index=14): {u'color': u'#d7191c', u'answer': u'r'}
+166.8097 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+166.8333 	EXP 	text_same: autoDraw = False
+166.8333 	EXP 	unnamed Polygon: autoDraw = False
+166.8333 	EXP 	text_same: text = ''
+166.8333 	EXP 	text_same: autoDraw = True
+167.9669 	DATA 	Keypress: f
+167.9690 	EXP 	New trial (rep=0, index=15): {u'color': u'#2c7bb6', u'answer': u'b'}
+167.9932 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+168.0154 	EXP 	text_same: autoDraw = False
+168.0154 	EXP 	unnamed Polygon: autoDraw = False
+168.0154 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+168.0154 	EXP 	text_same: autoDraw = True
+169.0525 	DATA 	Keypress: a
+169.0570 	EXP 	New trial (rep=0, index=16): {u'color': u'#2c7bb6', u'answer': u'b'}
+169.0636 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+169.0822 	EXP 	text_same: autoDraw = False
+169.0822 	EXP 	unnamed Polygon: autoDraw = False
+169.0822 	EXP 	text_same: text = ''
+169.0822 	EXP 	text_same: autoDraw = True
+170.0823 	DATA 	Keypress: f
+170.0844 	EXP 	New trial (rep=0, index=17): {u'color': u'#d7191c', u'answer': u'r'}
+170.1095 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+170.1308 	EXP 	text_same: autoDraw = False
+170.1308 	EXP 	unnamed Polygon: autoDraw = False
+170.1308 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+170.1308 	EXP 	text_same: autoDraw = True
+171.1319 	DATA 	Keypress: a
+171.1343 	EXP 	New trial (rep=0, index=18): {u'color': u'#d7191c', u'answer': u'r'}
+171.1410 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+171.1640 	EXP 	text_same: autoDraw = False
+171.1640 	EXP 	unnamed Polygon: autoDraw = False
+171.1640 	EXP 	text_same: text = ''
+171.1640 	EXP 	text_same: autoDraw = True
+172.0984 	DATA 	Keypress: f
+172.1008 	EXP 	New trial (rep=0, index=19): {u'color': u'#d7191c', u'answer': u'r'}
+172.1258 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+172.1465 	EXP 	text_same: autoDraw = False
+172.1465 	EXP 	unnamed Polygon: autoDraw = False
+172.1465 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+172.1465 	EXP 	text_same: autoDraw = True
+173.6806 	DATA 	Keypress: f
+173.6968 	EXP 	text_same: autoDraw = False
+173.6968 	EXP 	unnamed Polygon: autoDraw = False
+176.4518 	DATA 	Keypress: d
+176.4524 	EXP 	New trial (rep=0, index=20): {u'color': u'#2c7bb6', u'answer': u'b'}
+176.4629 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+176.4778 	EXP 	unnamed Polygon: autoDraw = False
+176.4778 	EXP 	text_same: text = ''
+176.4778 	EXP 	text_same: autoDraw = True
+189.0389 	DATA 	Keypress: f
+189.0396 	EXP 	New trial (rep=0, index=21): {u'color': u'#2c7bb6', u'answer': u'b'}
+189.0490 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+189.0712 	EXP 	text_same: autoDraw = False
+189.0712 	EXP 	unnamed Polygon: autoDraw = False
+189.0712 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+189.0712 	EXP 	text_same: autoDraw = True
+190.3716 	DATA 	Keypress: f
+190.3740 	EXP 	New trial (rep=0, index=22): {u'color': u'#2c7bb6', u'answer': u'b'}
+190.3807 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+190.4041 	EXP 	text_same: autoDraw = False
+190.4041 	EXP 	unnamed Polygon: autoDraw = False
+190.4041 	EXP 	text_same: text = ''
+190.4041 	EXP 	text_same: autoDraw = True
+191.5373 	DATA 	Keypress: f
+191.5386 	EXP 	New trial (rep=0, index=23): {u'color': u'#fdae61', u'answer': u'o'}
+191.5576 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+191.5867 	EXP 	text_same: autoDraw = False
+191.5867 	EXP 	unnamed Polygon: autoDraw = False
+191.5867 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+191.5867 	EXP 	text_same: autoDraw = True
+192.8708 	DATA 	Keypress: a
+192.8731 	EXP 	New trial (rep=0, index=24): {u'color': u'#fdae61', u'answer': u'o'}
+192.8795 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+192.9028 	EXP 	text_same: autoDraw = False
+192.9028 	EXP 	unnamed Polygon: autoDraw = False
+192.9028 	EXP 	text_same: text = ''
+192.9028 	EXP 	text_same: autoDraw = True
+193.8370 	DATA 	Keypress: f
+193.8391 	EXP 	New trial (rep=0, index=25): {u'color': u'#d7191c', u'answer': u'r'}
+193.8665 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+193.8853 	EXP 	text_same: autoDraw = False
+193.8853 	EXP 	unnamed Polygon: autoDraw = False
+193.8853 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+193.8853 	EXP 	text_same: autoDraw = True
+195.0712 	DATA 	Keypress: a
+195.0877 	EXP 	New trial (rep=0, index=26): {u'color': u'#d7191c', u'answer': u'r'}
+195.0942 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+195.1183 	EXP 	text_same: autoDraw = False
+195.1183 	EXP 	unnamed Polygon: autoDraw = False
+195.1183 	EXP 	text_same: text = ''
+195.1183 	EXP 	text_same: autoDraw = True
+196.0856 	DATA 	Keypress: f
+196.0877 	EXP 	New trial (rep=0, index=27): {u'color': u'#fdae61', u'answer': u'o'}
+196.1137 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+196.1341 	EXP 	text_same: autoDraw = False
+196.1341 	EXP 	unnamed Polygon: autoDraw = False
+196.1341 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+196.1341 	EXP 	text_same: autoDraw = True
+197.3518 	DATA 	Keypress: a
+197.3541 	EXP 	New trial (rep=0, index=28): {u'color': u'#2c7bb6', u'answer': u'b'}
+197.3831 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+197.4002 	EXP 	text_same: autoDraw = False
+197.4002 	EXP 	unnamed Polygon: autoDraw = False
+197.4002 	EXP 	text_same: text = ''
+197.4002 	EXP 	text_same: autoDraw = True
+198.3679 	DATA 	Keypress: f
+198.3700 	EXP 	New trial (rep=0, index=29): {u'color': u'#2c7bb6', u'answer': u'b'}
+198.4002 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+198.4162 	EXP 	text_same: autoDraw = False
+198.4162 	EXP 	unnamed Polygon: autoDraw = False
+198.4162 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+198.4162 	EXP 	text_same: autoDraw = True
+199.5188 	DATA 	Keypress: f
+199.5354 	EXP 	New trial (rep=0, index=30): {u'color': u'#fdae61', u'answer': u'o'}
+199.5423 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+199.5660 	EXP 	text_same: autoDraw = False
+199.5660 	EXP 	unnamed Polygon: autoDraw = False
+199.5660 	EXP 	text_same: text = ''
+199.5660 	EXP 	text_same: autoDraw = True
+200.5330 	DATA 	Keypress: f
+200.5351 	EXP 	New trial (rep=0, index=31): {u'color': u'#fdae61', u'answer': u'o'}
+200.5616 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+200.5819 	EXP 	text_same: autoDraw = False
+200.5819 	EXP 	unnamed Polygon: autoDraw = False
+200.5819 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+200.5819 	EXP 	text_same: autoDraw = True
+201.5178 	DATA 	Keypress: f
+201.5202 	EXP 	New trial (rep=0, index=32): {u'color': u'#d7191c', u'answer': u'r'}
+201.5271 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+201.5481 	EXP 	text_same: autoDraw = False
+201.5481 	EXP 	unnamed Polygon: autoDraw = False
+201.5481 	EXP 	text_same: text = ''
+201.5481 	EXP 	text_same: autoDraw = True
+202.4826 	DATA 	Keypress: f
+202.4846 	EXP 	New trial (rep=0, index=33): {u'color': u'#2c7bb6', u'answer': u'b'}
+202.5246 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+202.5474 	EXP 	text_same: autoDraw = False
+202.5474 	EXP 	unnamed Polygon: autoDraw = False
+202.5474 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+202.5474 	EXP 	text_same: autoDraw = True
+203.5151 	DATA 	Keypress: a
+203.5175 	EXP 	New trial (rep=0, index=34): {u'color': u'#d7191c', u'answer': u'r'}
+203.5244 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+203.5473 	EXP 	text_same: autoDraw = False
+203.5473 	EXP 	unnamed Polygon: autoDraw = False
+203.5473 	EXP 	text_same: text = ''
+203.5473 	EXP 	text_same: autoDraw = True
+204.6313 	DATA 	Keypress: f
+204.6334 	EXP 	New trial (rep=0, index=35): {u'color': u'#2c7bb6', u'answer': u'b'}
+204.6626 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+204.6803 	EXP 	text_same: autoDraw = False
+204.6803 	EXP 	unnamed Polygon: autoDraw = False
+204.6803 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+204.6803 	EXP 	text_same: autoDraw = True
+206.5136 	DATA 	Keypress: a
+206.5161 	EXP 	New trial (rep=0, index=36): {u'color': u'#fdae61', u'answer': u'o'}
+206.5231 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+206.5458 	EXP 	text_same: autoDraw = False
+206.5458 	EXP 	unnamed Polygon: autoDraw = False
+206.5458 	EXP 	text_same: text = ''
+206.5458 	EXP 	text_same: autoDraw = True
+207.6459 	DATA 	Keypress: f
+207.6471 	EXP 	New trial (rep=0, index=37): {u'color': u'#2c7bb6', u'answer': u'b'}
+207.6649 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+207.6948 	EXP 	text_same: autoDraw = False
+207.6948 	EXP 	unnamed Polygon: autoDraw = False
+207.6948 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+207.6948 	EXP 	text_same: autoDraw = True
+208.6621 	DATA 	Keypress: a
+208.6645 	EXP 	New trial (rep=0, index=38): {u'color': u'#d7191c', u'answer': u'r'}
+208.6710 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+208.6946 	EXP 	text_same: autoDraw = False
+208.6946 	EXP 	unnamed Polygon: autoDraw = False
+208.6946 	EXP 	text_same: text = ''
+208.6946 	EXP 	text_same: autoDraw = True
+209.8448 	DATA 	Keypress: f
+209.8469 	EXP 	New trial (rep=0, index=39): {u'color': u'#fdae61', u'answer': u'o'}
+209.8774 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+209.8937 	EXP 	text_same: autoDraw = False
+209.8937 	EXP 	unnamed Polygon: autoDraw = False
+209.8937 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+209.8937 	EXP 	text_same: autoDraw = True
+210.9282 	DATA 	Keypress: a
+210.9438 	EXP 	text_same: autoDraw = False
+210.9438 	EXP 	unnamed Polygon: autoDraw = False
+213.7579 	DATA 	Keypress: d
+213.7585 	EXP 	New trial (rep=0, index=40): {u'color': u'#d7191c', u'answer': u'r'}
+213.7605 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+213.7753 	EXP 	unnamed Polygon: autoDraw = False
+213.7753 	EXP 	text_same: text = ''
+213.7753 	EXP 	text_same: autoDraw = True
+222.8554 	DATA 	Keypress: f
+222.8736 	EXP 	New trial (rep=0, index=41): {u'color': u'#2c7bb6', u'answer': u'b'}
+222.9038 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+222.9203 	EXP 	text_same: autoDraw = False
+222.9203 	EXP 	unnamed Polygon: autoDraw = False
+222.9203 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+222.9203 	EXP 	text_same: autoDraw = True
+223.9714 	DATA 	Keypress: a
+223.9738 	EXP 	New trial (rep=0, index=42): {u'color': u'#d7191c', u'answer': u'r'}
+223.9802 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+224.0035 	EXP 	text_same: autoDraw = False
+224.0035 	EXP 	unnamed Polygon: autoDraw = False
+224.0035 	EXP 	text_same: text = ''
+224.0035 	EXP 	text_same: autoDraw = True
+225.1870 	DATA 	Keypress: f
+225.1891 	EXP 	New trial (rep=0, index=43): {u'color': u'#fdae61', u'answer': u'o'}
+225.2195 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+225.2358 	EXP 	text_same: autoDraw = False
+225.2358 	EXP 	unnamed Polygon: autoDraw = False
+225.2358 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+225.2358 	EXP 	text_same: autoDraw = True
+226.2700 	DATA 	Keypress: a
+226.2723 	EXP 	New trial (rep=0, index=44): {u'color': u'#2c7bb6', u'answer': u'b'}
+226.2791 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+226.3022 	EXP 	text_same: autoDraw = False
+226.3022 	EXP 	unnamed Polygon: autoDraw = False
+226.3022 	EXP 	text_same: text = ''
+226.3022 	EXP 	text_same: autoDraw = True
+227.3694 	DATA 	Keypress: f
+227.3715 	EXP 	New trial (rep=0, index=45): {u'color': u'#d7191c', u'answer': u'r'}
+227.4024 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+227.4180 	EXP 	text_same: autoDraw = False
+227.4180 	EXP 	unnamed Polygon: autoDraw = False
+227.4180 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+227.4180 	EXP 	text_same: autoDraw = True
+228.5019 	DATA 	Keypress: a
+228.5042 	EXP 	New trial (rep=0, index=46): {u'color': u'#fdae61', u'answer': u'o'}
+228.5108 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+228.5344 	EXP 	text_same: autoDraw = False
+228.5344 	EXP 	unnamed Polygon: autoDraw = False
+228.5344 	EXP 	text_same: text = ''
+228.5344 	EXP 	text_same: autoDraw = True
+229.5182 	DATA 	Keypress: f
+229.5204 	EXP 	New trial (rep=0, index=47): {u'color': u'#fdae61', u'answer': u'o'}
+229.5626 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+229.5835 	EXP 	text_same: autoDraw = False
+229.5835 	EXP 	unnamed Polygon: autoDraw = False
+229.5835 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+229.5835 	EXP 	text_same: autoDraw = True
+230.6679 	DATA 	Keypress: f
+230.6703 	EXP 	New trial (rep=0, index=48): {u'color': u'#fdae61', u'answer': u'o'}
+230.6767 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+230.7001 	EXP 	text_same: autoDraw = False
+230.7001 	EXP 	unnamed Polygon: autoDraw = False
+230.7001 	EXP 	text_same: text = ''
+230.7001 	EXP 	text_same: autoDraw = True
+231.7174 	DATA 	Keypress: f
+231.7195 	EXP 	New trial (rep=0, index=49): {u'color': u'#d7191c', u'answer': u'r'}
+231.7509 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+231.7658 	EXP 	text_same: autoDraw = False
+231.7658 	EXP 	unnamed Polygon: autoDraw = False
+231.7658 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+231.7658 	EXP 	text_same: autoDraw = True
+232.9335 	DATA 	Keypress: a
+232.9359 	EXP 	New trial (rep=0, index=50): {u'color': u'#d7191c', u'answer': u'r'}
+232.9740 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+232.9986 	EXP 	text_same: autoDraw = False
+232.9986 	EXP 	unnamed Polygon: autoDraw = False
+232.9986 	EXP 	text_same: text = ''
+232.9986 	EXP 	text_same: autoDraw = True
+233.8830 	DATA 	Keypress: f
+233.8853 	EXP 	New trial (rep=0, index=51): {u'color': u'#fdae61', u'answer': u'o'}
+233.9111 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+233.9313 	EXP 	text_same: autoDraw = False
+233.9313 	EXP 	unnamed Polygon: autoDraw = False
+233.9313 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+233.9313 	EXP 	text_same: autoDraw = True
+234.9172 	DATA 	Keypress: a
+234.9339 	EXP 	New trial (rep=0, index=52): {u'color': u'#2c7bb6', u'answer': u'b'}
+234.9698 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+234.9807 	EXP 	text_same: autoDraw = False
+234.9807 	EXP 	unnamed Polygon: autoDraw = False
+234.9807 	EXP 	text_same: text = ''
+234.9807 	EXP 	text_same: autoDraw = True
+235.9150 	DATA 	Keypress: f
+235.9171 	EXP 	New trial (rep=0, index=53): {u'color': u'#d7191c', u'answer': u'r'}
+235.9471 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+235.9636 	EXP 	text_same: autoDraw = False
+235.9636 	EXP 	unnamed Polygon: autoDraw = False
+235.9636 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+235.9636 	EXP 	text_same: autoDraw = True
+237.0482 	DATA 	Keypress: a
+237.0505 	EXP 	New trial (rep=0, index=54): {u'color': u'#fdae61', u'answer': u'o'}
+237.0572 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+237.0801 	EXP 	text_same: autoDraw = False
+237.0801 	EXP 	unnamed Polygon: autoDraw = False
+237.0801 	EXP 	text_same: text = ''
+237.0801 	EXP 	text_same: autoDraw = True
+238.1139 	DATA 	Keypress: f
+238.1161 	EXP 	New trial (rep=0, index=55): {u'color': u'#2c7bb6', u'answer': u'b'}
+238.1620 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+238.1791 	EXP 	text_same: autoDraw = False
+238.1791 	EXP 	unnamed Polygon: autoDraw = False
+238.1791 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+238.1791 	EXP 	text_same: autoDraw = True
+239.1634 	DATA 	Keypress: a
+239.1658 	EXP 	New trial (rep=0, index=56): {u'color': u'#fdae61', u'answer': u'o'}
+239.1722 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+239.1956 	EXP 	text_same: autoDraw = False
+239.1956 	EXP 	unnamed Polygon: autoDraw = False
+239.1956 	EXP 	text_same: text = ''
+239.1956 	EXP 	text_same: autoDraw = True
+240.1788 	DATA 	Keypress: f
+240.1796 	EXP 	New trial (rep=0, index=57): {u'color': u'#2c7bb6', u'answer': u'b'}
+240.1884 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+240.2115 	EXP 	text_same: autoDraw = False
+240.2115 	EXP 	unnamed Polygon: autoDraw = False
+240.2115 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+240.2115 	EXP 	text_same: autoDraw = True
+241.1292 	DATA 	Keypress: a
+241.1317 	EXP 	New trial (rep=0, index=58): {u'color': u'#fdae61', u'answer': u'o'}
+241.1382 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+241.1616 	EXP 	text_same: autoDraw = False
+241.1616 	EXP 	unnamed Polygon: autoDraw = False
+241.1616 	EXP 	text_same: text = ''
+241.1616 	EXP 	text_same: autoDraw = True
+242.0455 	DATA 	Keypress: f
+242.0476 	EXP 	New trial (rep=0, index=59): {u'color': u'#fdae61', u'answer': u'o'}
+242.0928 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+242.1104 	EXP 	text_same: autoDraw = False
+242.1104 	EXP 	unnamed Polygon: autoDraw = False
+242.1104 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+242.1104 	EXP 	text_same: autoDraw = True
+243.1133 	DATA 	Keypress: f
+243.1440 	EXP 	text_same: autoDraw = False
+243.1440 	EXP 	unnamed Polygon: autoDraw = False
+244.8452 	DATA 	Keypress: d
+244.8458 	EXP 	New trial (rep=0, index=60): {u'color': u'#fdae61', u'answer': u'o'}
+244.8477 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+244.8592 	EXP 	unnamed Polygon: autoDraw = False
+244.8592 	EXP 	text_same: text = ''
+244.8592 	EXP 	text_same: autoDraw = True
+247.0258 	DATA 	Keypress: f
+247.0280 	EXP 	New trial (rep=0, index=61): {u'color': u'#2c7bb6', u'answer': u'b'}
+247.0710 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+247.0912 	EXP 	text_same: autoDraw = False
+247.0912 	EXP 	unnamed Polygon: autoDraw = False
+247.0912 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+247.0912 	EXP 	text_same: autoDraw = True
+248.0441 	DATA 	Keypress: a
+248.0607 	EXP 	New trial (rep=0, index=62): {u'color': u'#d7191c', u'answer': u'r'}
+248.0674 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+248.0914 	EXP 	text_same: autoDraw = False
+248.0914 	EXP 	unnamed Polygon: autoDraw = False
+248.0914 	EXP 	text_same: text = ''
+248.0914 	EXP 	text_same: autoDraw = True
+249.3410 	DATA 	Keypress: f
+249.3417 	EXP 	New trial (rep=1, index=0): {u'color': u'#2c7bb6', u'answer': u'b'}
+249.3510 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+249.3738 	EXP 	text_same: autoDraw = False
+249.3738 	EXP 	unnamed Polygon: autoDraw = False
+249.3738 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+249.3738 	EXP 	text_same: autoDraw = True
+250.3909 	DATA 	Keypress: a
+250.3932 	EXP 	New trial (rep=1, index=1): {u'color': u'#fdae61', u'answer': u'o'}
+250.3997 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+250.4232 	EXP 	text_same: autoDraw = False
+250.4232 	EXP 	unnamed Polygon: autoDraw = False
+250.4232 	EXP 	text_same: text = ''
+250.4232 	EXP 	text_same: autoDraw = True
+251.5243 	DATA 	Keypress: f
+251.5264 	EXP 	New trial (rep=1, index=2): {u'color': u'#2c7bb6', u'answer': u'b'}
+251.5534 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+251.5721 	EXP 	text_same: autoDraw = False
+251.5721 	EXP 	unnamed Polygon: autoDraw = False
+251.5721 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+251.5721 	EXP 	text_same: autoDraw = True
+252.5898 	DATA 	Keypress: a
+252.5922 	EXP 	New trial (rep=1, index=3): {u'color': u'#2c7bb6', u'answer': u'b'}
+252.6215 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+252.6383 	EXP 	text_same: autoDraw = False
+252.6383 	EXP 	unnamed Polygon: autoDraw = False
+252.6383 	EXP 	text_same: text = ''
+252.6383 	EXP 	text_same: autoDraw = True
+253.6395 	DATA 	Keypress: f
+253.6419 	EXP 	New trial (rep=1, index=4): {u'color': u'#d7191c', u'answer': u'r'}
+253.6671 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+253.6880 	EXP 	text_same: autoDraw = False
+253.6880 	EXP 	unnamed Polygon: autoDraw = False
+253.6880 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+253.6880 	EXP 	text_same: autoDraw = True
+254.5390 	DATA 	Keypress: a
+254.5413 	EXP 	New trial (rep=1, index=5): {u'color': u'#fdae61', u'answer': u'o'}
+254.5698 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+254.5874 	EXP 	text_same: autoDraw = False
+254.5874 	EXP 	unnamed Polygon: autoDraw = False
+254.5874 	EXP 	text_same: text = ''
+254.5874 	EXP 	text_same: autoDraw = True
+255.3229 	DATA 	Keypress: f
+255.3398 	EXP 	New trial (rep=1, index=6): {u'color': u'#fdae61', u'answer': u'o'}
+255.3627 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+255.3869 	EXP 	text_same: autoDraw = False
+255.3869 	EXP 	unnamed Polygon: autoDraw = False
+255.3869 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+255.3869 	EXP 	text_same: autoDraw = True
+256.2709 	DATA 	Keypress: f
+256.2733 	EXP 	New trial (rep=1, index=7): {u'color': u'#2c7bb6', u'answer': u'b'}
+256.2801 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+256.3035 	EXP 	text_same: autoDraw = False
+256.3035 	EXP 	unnamed Polygon: autoDraw = False
+256.3035 	EXP 	text_same: text = ''
+256.3035 	EXP 	text_same: autoDraw = True
+257.4878 	DATA 	Keypress: f
+257.4899 	EXP 	New trial (rep=1, index=8): {u'color': u'#d7191c', u'answer': u'r'}
+257.5361 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+257.5525 	EXP 	text_same: autoDraw = False
+257.5525 	EXP 	unnamed Polygon: autoDraw = False
+257.5525 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+257.5525 	EXP 	text_same: autoDraw = True
+258.4369 	DATA 	Keypress: a
+258.4392 	EXP 	New trial (rep=1, index=9): {u'color': u'#fdae61', u'answer': u'o'}
+258.4457 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+258.4690 	EXP 	text_same: autoDraw = False
+258.4690 	EXP 	unnamed Polygon: autoDraw = False
+258.4690 	EXP 	text_same: text = ''
+258.4690 	EXP 	text_same: autoDraw = True
+259.3869 	DATA 	Keypress: f
+259.3890 	EXP 	New trial (rep=1, index=10): {u'color': u'#d7191c', u'answer': u'r'}
+259.4286 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+259.4515 	EXP 	text_same: autoDraw = False
+259.4515 	EXP 	unnamed Polygon: autoDraw = False
+259.4515 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+259.4515 	EXP 	text_same: autoDraw = True
+260.2525 	DATA 	Keypress: a
+260.2548 	EXP 	New trial (rep=1, index=11): {u'color': u'#d7191c', u'answer': u'r'}
+260.2614 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+260.2848 	EXP 	text_same: autoDraw = False
+260.2848 	EXP 	unnamed Polygon: autoDraw = False
+260.2848 	EXP 	text_same: text = ''
+260.2848 	EXP 	text_same: autoDraw = True
+261.2189 	DATA 	Keypress: f
+261.2210 	EXP 	New trial (rep=1, index=12): {u'color': u'#2c7bb6', u'answer': u'b'}
+261.2463 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+261.2673 	EXP 	text_same: autoDraw = False
+261.2673 	EXP 	unnamed Polygon: autoDraw = False
+261.2673 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+261.2673 	EXP 	text_same: autoDraw = True
+262.1346 	DATA 	Keypress: a
+262.1369 	EXP 	New trial (rep=1, index=13): {u'color': u'#2c7bb6', u'answer': u'b'}
+262.1746 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+262.2001 	EXP 	text_same: autoDraw = False
+262.2001 	EXP 	unnamed Polygon: autoDraw = False
+262.2001 	EXP 	text_same: text = ''
+262.2001 	EXP 	text_same: autoDraw = True
+263.4009 	DATA 	Keypress: f
+263.4016 	EXP 	New trial (rep=1, index=14): {u'color': u'#fdae61', u'answer': u'o'}
+263.4107 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+263.4328 	EXP 	text_same: autoDraw = False
+263.4328 	EXP 	unnamed Polygon: autoDraw = False
+263.4328 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+263.4328 	EXP 	text_same: autoDraw = True
+264.3510 	DATA 	Keypress: a
+264.3518 	EXP 	New trial (rep=1, index=15): {u'color': u'#d7191c', u'answer': u'r'}
+264.3543 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+264.3660 	EXP 	text_same: autoDraw = False
+264.3660 	EXP 	unnamed Polygon: autoDraw = False
+264.3660 	EXP 	text_same: text = ''
+264.3660 	EXP 	text_same: autoDraw = True
+265.3501 	DATA 	Keypress: f
+265.3521 	EXP 	New trial (rep=1, index=16): {u'color': u'#2c7bb6', u'answer': u'b'}
+265.3891 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+265.4151 	EXP 	text_same: autoDraw = False
+265.4151 	EXP 	unnamed Polygon: autoDraw = False
+265.4151 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+265.4151 	EXP 	text_same: autoDraw = True
+266.0997 	DATA 	Keypress: a
+266.1154 	EXP 	text_same: autoDraw = False
+266.1154 	EXP 	unnamed Polygon: autoDraw = False
+268.1207 	DATA 	Keypress: d
+268.1213 	EXP 	New trial (rep=1, index=17): {u'color': u'#fdae61', u'answer': u'o'}
+268.1233 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+268.1472 	EXP 	unnamed Polygon: autoDraw = False
+268.1472 	EXP 	text_same: text = ''
+268.1472 	EXP 	text_same: autoDraw = True
+271.4802 	DATA 	Keypress: f
+271.4824 	EXP 	New trial (rep=1, index=18): {u'color': u'#2c7bb6', u'answer': u'b'}
+271.5077 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+271.5286 	EXP 	text_same: autoDraw = False
+271.5286 	EXP 	unnamed Polygon: autoDraw = False
+271.5286 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+271.5286 	EXP 	text_same: autoDraw = True
+272.4959 	DATA 	Keypress: a
+272.4983 	EXP 	New trial (rep=1, index=19): {u'color': u'#d7191c', u'answer': u'r'}
+272.5246 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+272.5447 	EXP 	text_same: autoDraw = False
+272.5447 	EXP 	unnamed Polygon: autoDraw = False
+272.5447 	EXP 	text_same: text = ''
+272.5447 	EXP 	text_same: autoDraw = True
+273.3294 	DATA 	Keypress: f
+273.3315 	EXP 	New trial (rep=1, index=20): {u'color': u'#2c7bb6', u'answer': u'b'}
+273.3604 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+273.3778 	EXP 	text_same: autoDraw = False
+273.3778 	EXP 	unnamed Polygon: autoDraw = False
+273.3778 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+273.3778 	EXP 	text_same: autoDraw = True
+274.2285 	DATA 	Keypress: a
+274.2308 	EXP 	New trial (rep=1, index=21): {u'color': u'#2c7bb6', u'answer': u'b'}
+274.2659 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+274.2772 	EXP 	text_same: autoDraw = False
+274.2772 	EXP 	unnamed Polygon: autoDraw = False
+274.2772 	EXP 	text_same: text = ''
+274.2772 	EXP 	text_same: autoDraw = True
+275.0946 	DATA 	Keypress: f
+275.0967 	EXP 	New trial (rep=1, index=22): {u'color': u'#fdae61', u'answer': u'o'}
+275.1281 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+275.1601 	EXP 	text_same: autoDraw = False
+275.1601 	EXP 	unnamed Polygon: autoDraw = False
+275.1601 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+275.1601 	EXP 	text_same: autoDraw = True
+276.1441 	DATA 	Keypress: a
+276.1464 	EXP 	New trial (rep=1, index=23): {u'color': u'#2c7bb6', u'answer': u'b'}
+276.1532 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+276.1766 	EXP 	text_same: autoDraw = False
+276.1766 	EXP 	unnamed Polygon: autoDraw = False
+276.1766 	EXP 	text_same: text = ''
+276.1766 	EXP 	text_same: autoDraw = True
+277.1284 	DATA 	Keypress: f
+277.1457 	EXP 	New trial (rep=1, index=24): {u'color': u'#2c7bb6', u'answer': u'b'}
+277.1916 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+277.2090 	EXP 	text_same: autoDraw = False
+277.2090 	EXP 	unnamed Polygon: autoDraw = False
+277.2090 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+277.2090 	EXP 	text_same: autoDraw = True
+278.4099 	DATA 	Keypress: f
+278.4122 	EXP 	New trial (rep=1, index=25): {u'color': u'#d7191c', u'answer': u'r'}
+278.4190 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+278.4421 	EXP 	text_same: autoDraw = False
+278.4421 	EXP 	unnamed Polygon: autoDraw = False
+278.4421 	EXP 	text_same: text = ''
+278.4421 	EXP 	text_same: autoDraw = True
+279.5092 	DATA 	Keypress: f
+279.5113 	EXP 	New trial (rep=1, index=26): {u'color': u'#fdae61', u'answer': u'o'}
+279.5337 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+279.5578 	EXP 	text_same: autoDraw = False
+279.5578 	EXP 	unnamed Polygon: autoDraw = False
+279.5578 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+279.5578 	EXP 	text_same: autoDraw = True
+280.4419 	DATA 	Keypress: a
+280.4442 	EXP 	New trial (rep=1, index=27): {u'color': u'#d7191c', u'answer': u'r'}
+280.4510 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+280.4750 	EXP 	text_same: autoDraw = False
+280.4750 	EXP 	unnamed Polygon: autoDraw = False
+280.4750 	EXP 	text_same: text = ''
+280.4750 	EXP 	text_same: autoDraw = True
+281.4080 	DATA 	Keypress: f
+281.4102 	EXP 	New trial (rep=1, index=28): {u'color': u'#fdae61', u'answer': u'o'}
+281.4406 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+281.4569 	EXP 	text_same: autoDraw = False
+281.4569 	EXP 	unnamed Polygon: autoDraw = False
+281.4569 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+281.4569 	EXP 	text_same: autoDraw = True
+282.7407 	DATA 	Keypress: a
+282.7433 	EXP 	New trial (rep=1, index=29): {u'color': u'#fdae61', u'answer': u'o'}
+282.7507 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+282.7732 	EXP 	text_same: autoDraw = False
+282.7732 	EXP 	unnamed Polygon: autoDraw = False
+282.7732 	EXP 	text_same: text = ''
+282.7732 	EXP 	text_same: autoDraw = True
+283.6570 	DATA 	Keypress: f
+283.6591 	EXP 	New trial (rep=1, index=30): {u'color': u'#d7191c', u'answer': u'r'}
+283.6878 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+283.7057 	EXP 	text_same: autoDraw = False
+283.7057 	EXP 	unnamed Polygon: autoDraw = False
+283.7057 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+283.7057 	EXP 	text_same: autoDraw = True
+286.0727 	DATA 	Keypress: a
+286.0752 	EXP 	New trial (rep=1, index=31): {u'color': u'#2c7bb6', u'answer': u'b'}
+286.1126 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+286.1380 	EXP 	text_same: autoDraw = False
+286.1380 	EXP 	unnamed Polygon: autoDraw = False
+286.1380 	EXP 	text_same: text = ''
+286.1380 	EXP 	text_same: autoDraw = True
+287.1551 	DATA 	Keypress: f
+287.1572 	EXP 	New trial (rep=1, index=32): {u'color': u'#d7191c', u'answer': u'r'}
+287.1880 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+287.2206 	EXP 	text_same: autoDraw = False
+287.2206 	EXP 	unnamed Polygon: autoDraw = False
+287.2206 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+287.2206 	EXP 	text_same: autoDraw = True
+288.3549 	DATA 	Keypress: a
+288.3573 	EXP 	New trial (rep=1, index=33): {u'color': u'#d7191c', u'answer': u'r'}
+288.3640 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+288.3871 	EXP 	text_same: autoDraw = False
+288.3871 	EXP 	unnamed Polygon: autoDraw = False
+288.3871 	EXP 	text_same: text = ''
+288.3871 	EXP 	text_same: autoDraw = True
+289.3379 	DATA 	Keypress: f
+289.3400 	EXP 	New trial (rep=1, index=34): {u'color': u'#fdae61', u'answer': u'o'}
+289.3709 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+289.3862 	EXP 	text_same: autoDraw = False
+289.3862 	EXP 	unnamed Polygon: autoDraw = False
+289.3862 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+289.3862 	EXP 	text_same: autoDraw = True
+290.4867 	DATA 	Keypress: a
+290.4891 	EXP 	New trial (rep=1, index=35): {u'color': u'#d7191c', u'answer': u'r'}
+290.4955 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+290.5193 	EXP 	text_same: autoDraw = False
+290.5193 	EXP 	unnamed Polygon: autoDraw = False
+290.5193 	EXP 	text_same: text = ''
+290.5193 	EXP 	text_same: autoDraw = True
+291.4703 	DATA 	Keypress: f
+291.4725 	EXP 	New trial (rep=1, index=36): {u'color': u'#2c7bb6', u'answer': u'b'}
+291.4957 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+291.5185 	EXP 	text_same: autoDraw = False
+291.5185 	EXP 	unnamed Polygon: autoDraw = False
+291.5185 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+291.5185 	EXP 	text_same: autoDraw = True
+292.4523 	DATA 	Keypress: a
+292.4685 	EXP 	text_same: autoDraw = False
+292.4685 	EXP 	unnamed Polygon: autoDraw = False
+295.9111 	DATA 	Keypress: d
+295.9117 	EXP 	New trial (rep=1, index=37): {u'color': u'#2c7bb6', u'answer': u'b'}
+295.9137 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+295.9332 	EXP 	unnamed Polygon: autoDraw = False
+295.9332 	EXP 	text_same: text = ''
+295.9332 	EXP 	text_same: autoDraw = True
+298.6994 	DATA 	Keypress: f
+298.7015 	EXP 	New trial (rep=1, index=38): {u'color': u'#d7191c', u'answer': u'r'}
+298.7314 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+298.7480 	EXP 	text_same: autoDraw = False
+298.7480 	EXP 	unnamed Polygon: autoDraw = False
+298.7480 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+298.7480 	EXP 	text_same: autoDraw = True
+300.3148 	DATA 	Keypress: a
+300.3170 	EXP 	New trial (rep=1, index=39): {u'color': u'#d7191c', u'answer': u'r'}
+300.3227 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+300.3475 	EXP 	text_same: autoDraw = False
+300.3475 	EXP 	unnamed Polygon: autoDraw = False
+300.3475 	EXP 	text_same: text = ''
+300.3475 	EXP 	text_same: autoDraw = True
+301.5148 	DATA 	Keypress: f
+301.5169 	EXP 	New trial (rep=1, index=40): {u'color': u'#fdae61', u'answer': u'o'}
+301.5416 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+301.5632 	EXP 	text_same: autoDraw = False
+301.5632 	EXP 	unnamed Polygon: autoDraw = False
+301.5632 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+301.5632 	EXP 	text_same: autoDraw = True
+302.5805 	DATA 	Keypress: a
+302.5829 	EXP 	New trial (rep=1, index=41): {u'color': u'#2c7bb6', u'answer': u'b'}
+302.5894 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+302.6131 	EXP 	text_same: autoDraw = False
+302.6131 	EXP 	unnamed Polygon: autoDraw = False
+302.6131 	EXP 	text_same: text = ''
+302.6131 	EXP 	text_same: autoDraw = True
+303.7970 	DATA 	Keypress: f
+303.7991 	EXP 	New trial (rep=1, index=42): {u'color': u'#fdae61', u'answer': u'o'}
+303.8287 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+303.8457 	EXP 	text_same: autoDraw = False
+303.8457 	EXP 	unnamed Polygon: autoDraw = False
+303.8457 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+303.8457 	EXP 	text_same: autoDraw = True
+304.8473 	DATA 	Keypress: a
+304.8496 	EXP 	New trial (rep=1, index=43): {u'color': u'#2c7bb6', u'answer': u'b'}
+304.8564 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+304.8786 	EXP 	text_same: autoDraw = False
+304.8786 	EXP 	unnamed Polygon: autoDraw = False
+304.8786 	EXP 	text_same: text = ''
+304.8786 	EXP 	text_same: autoDraw = True
+306.0126 	DATA 	Keypress: f
+306.0147 	EXP 	New trial (rep=1, index=44): {u'color': u'#fdae61', u'answer': u'o'}
+306.0425 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+306.0610 	EXP 	text_same: autoDraw = False
+306.0610 	EXP 	unnamed Polygon: autoDraw = False
+306.0610 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+306.0610 	EXP 	text_same: autoDraw = True
+307.0282 	DATA 	Keypress: a
+307.0305 	EXP 	New trial (rep=1, index=45): {u'color': u'#d7191c', u'answer': u'r'}
+307.0372 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+307.0606 	EXP 	text_same: autoDraw = False
+307.0606 	EXP 	unnamed Polygon: autoDraw = False
+307.0606 	EXP 	text_same: text = ''
+307.0606 	EXP 	text_same: autoDraw = True
+307.9453 	DATA 	Keypress: f
+307.9474 	EXP 	New trial (rep=1, index=46): {u'color': u'#d7191c', u'answer': u'r'}
+307.9993 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+308.0265 	EXP 	text_same: autoDraw = False
+308.0265 	EXP 	unnamed Polygon: autoDraw = False
+308.0265 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+308.0265 	EXP 	text_same: autoDraw = True
+309.0770 	DATA 	Keypress: f
+309.0780 	EXP 	New trial (rep=1, index=47): {u'color': u'#d7191c', u'answer': u'r'}
+309.0806 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+309.0931 	EXP 	text_same: autoDraw = False
+309.0931 	EXP 	unnamed Polygon: autoDraw = False
+309.0931 	EXP 	text_same: text = ''
+309.0931 	EXP 	text_same: autoDraw = True
+309.9271 	DATA 	Keypress: f
+309.9292 	EXP 	New trial (rep=1, index=48): {u'color': u'#fdae61', u'answer': u'o'}
+309.9525 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+309.9755 	EXP 	text_same: autoDraw = False
+309.9755 	EXP 	unnamed Polygon: autoDraw = False
+309.9755 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+309.9755 	EXP 	text_same: autoDraw = True
+310.6935 	DATA 	Keypress: a
+310.6959 	EXP 	New trial (rep=1, index=49): {u'color': u'#d7191c', u'answer': u'r'}
+310.7258 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+310.7419 	EXP 	text_same: autoDraw = False
+310.7419 	EXP 	unnamed Polygon: autoDraw = False
+310.7419 	EXP 	text_same: text = ''
+310.7419 	EXP 	text_same: autoDraw = True
+311.6432 	DATA 	Keypress: f
+311.6453 	EXP 	New trial (rep=1, index=50): {u'color': u'#fdae61', u'answer': u'o'}
+311.6736 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+311.6913 	EXP 	text_same: autoDraw = False
+311.6913 	EXP 	unnamed Polygon: autoDraw = False
+311.6913 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+311.6913 	EXP 	text_same: autoDraw = True
+312.5757 	DATA 	Keypress: a
+312.5781 	EXP 	New trial (rep=1, index=51): {u'color': u'#2c7bb6', u'answer': u'b'}
+312.6112 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+312.6241 	EXP 	text_same: autoDraw = False
+312.6241 	EXP 	unnamed Polygon: autoDraw = False
+312.6241 	EXP 	text_same: text = ''
+312.6241 	EXP 	text_same: autoDraw = True
+313.9096 	DATA 	Keypress: f
+313.9263 	EXP 	New trial (rep=1, index=52): {u'color': u'#2c7bb6', u'answer': u'b'}
+313.9533 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+313.9734 	EXP 	text_same: autoDraw = False
+313.9734 	EXP 	unnamed Polygon: autoDraw = False
+313.9734 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+313.9734 	EXP 	text_same: autoDraw = True
+314.9909 	DATA 	Keypress: f
+314.9933 	EXP 	New trial (rep=1, index=53): {u'color': u'#fdae61', u'answer': u'o'}
+315.0001 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+315.0232 	EXP 	text_same: autoDraw = False
+315.0232 	EXP 	unnamed Polygon: autoDraw = False
+315.0232 	EXP 	text_same: text = ''
+315.0232 	EXP 	text_same: autoDraw = True
+316.0574 	DATA 	Keypress: f
+316.0595 	EXP 	New trial (rep=1, index=54): {u'color': u'#fdae61', u'answer': u'o'}
+316.0882 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+316.1058 	EXP 	text_same: autoDraw = False
+316.1058 	EXP 	unnamed Polygon: autoDraw = False
+316.1058 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+316.1058 	EXP 	text_same: autoDraw = True
+317.2917 	DATA 	Keypress: f
+317.3082 	EXP 	New trial (rep=1, index=55): {u'color': u'#2c7bb6', u'answer': u'b'}
+317.3149 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+317.3388 	EXP 	text_same: autoDraw = False
+317.3388 	EXP 	unnamed Polygon: autoDraw = False
+317.3388 	EXP 	text_same: text = ''
+317.3388 	EXP 	text_same: autoDraw = True
+318.3060 	DATA 	Keypress: f
+318.3081 	EXP 	New trial (rep=1, index=56): {u'color': u'#fdae61', u'answer': u'o'}
+318.3358 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+318.3545 	EXP 	text_same: autoDraw = False
+318.3545 	EXP 	unnamed Polygon: autoDraw = False
+318.3545 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+318.3545 	EXP 	text_same: autoDraw = True
+319.2054 	DATA 	Keypress: a
+319.2214 	EXP 	text_same: autoDraw = False
+319.2214 	EXP 	unnamed Polygon: autoDraw = False
+321.2495 	DATA 	Keypress: d
+321.2502 	EXP 	New trial (rep=1, index=57): {u'color': u'#d7191c', u'answer': u'r'}
+321.2522 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+321.2698 	EXP 	unnamed Polygon: autoDraw = False
+321.2698 	EXP 	text_same: text = ''
+321.2698 	EXP 	text_same: autoDraw = True
+325.3191 	DATA 	Keypress: f
+325.3212 	EXP 	New trial (rep=1, index=58): {u'color': u'#fdae61', u'answer': u'o'}
+325.3537 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+325.3675 	EXP 	text_same: autoDraw = False
+325.3675 	EXP 	unnamed Polygon: autoDraw = False
+325.3675 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+325.3675 	EXP 	text_same: autoDraw = True
+326.3686 	DATA 	Keypress: a
+326.3710 	EXP 	New trial (rep=1, index=59): {u'color': u'#d7191c', u'answer': u'r'}
+326.3777 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+326.4008 	EXP 	text_same: autoDraw = False
+326.4008 	EXP 	unnamed Polygon: autoDraw = False
+326.4008 	EXP 	text_same: text = ''
+326.4008 	EXP 	text_same: autoDraw = True
+327.4177 	DATA 	Keypress: f
+327.4198 	EXP 	New trial (rep=1, index=60): {u'color': u'#fdae61', u'answer': u'o'}
+327.4506 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#fdae61', fillColorSpace='hex', fillRGB=array([253, 174,  97]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+327.4832 	EXP 	text_same: autoDraw = False
+327.4832 	EXP 	unnamed Polygon: autoDraw = False
+327.4832 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+327.4832 	EXP 	text_same: autoDraw = True
+328.4672 	DATA 	Keypress: a
+328.4696 	EXP 	New trial (rep=1, index=61): {u'color': u'#2c7bb6', u'answer': u'b'}
+328.4762 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#2c7bb6', fillColorSpace='hex', fillRGB=array([ 44, 123, 182]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+328.4996 	EXP 	text_same: autoDraw = False
+328.4996 	EXP 	unnamed Polygon: autoDraw = False
+328.4996 	EXP 	text_same: text = ''
+328.4996 	EXP 	text_same: autoDraw = True
+329.6507 	DATA 	Keypress: f
+329.6528 	EXP 	New trial (rep=1, index=62): {u'color': u'#d7191c', u'answer': u'r'}
+329.6931 	EXP 	Created unnamed Polygon = Polygon(autoDraw=True, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=u'#d7191c', fillColorSpace='hex', fillRGB=array([215,  25,  28]), interpolate=True, lineColor=array([ 1.,  1.,  1.]), lineColorSpace='rgb', lineRGB=array([ 1.,  1.,  1.]), lineWidth=1.5, name='unnamed Polygon', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 0.5,  0.5]), units='height', vertices=ndarray(...), win=Window(...))
+329.7153 	EXP 	text_same: autoDraw = False
+329.7153 	EXP 	unnamed Polygon: autoDraw = False
+329.7153 	EXP 	text_same: text = 'SAME / DIFFERENT?'
+329.7153 	EXP 	text_same: autoDraw = True
+330.6826 	DATA 	Keypress: a
+330.9154 	EXP 	text_same: autoDraw = False
+330.9154 	EXP 	unnamed Polygon: autoDraw = False
+330.9154 	EXP 	text: autoDraw = True
+333.7469 	INFO 	saved data to u'C:\\Users\\chatterjeelab\\Documents\\Arrows_VVA\\data_Arrows_VVA_Color\\1002_2018_Oct_02_1041.csv'
+333.7586 	INFO 	saved data to C:\Users\chatterjeelab\Documents\Arrows_VVA\data_Arrows_VVA_Color\1002_2018_Oct_02_1041.psydat
+333.8151 	EXP 	window1: mouseVisible = True
