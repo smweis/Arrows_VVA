@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="1.83.04">
+<PsychoPy2experiment encoding="utf-8" version="1.85.2">
   <Settings>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="color" updates="None" val="$[.4,.4,.4]" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
     <Param name="Experiment info" updates="None" val="{u'participant': u'', u'Scr or Whi': u'Whi'}" valType="code"/>
-    <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="Save excel file" updates="None" val="True" valType="bool"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
     <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
@@ -95,6 +95,36 @@
         <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
       </TextComponent>
     </Routine>
+    <Routine name="ISI_3">
+      <TextComponent name="fixation_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="fixation_3" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_10">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_10" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_4.thisN % 2 == 0:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
     <Routine name="spatial_practice_between_formats">
       <TextComponent name="text_2">
         <Param name="opacity" updates="constant" val="1" valType="code"/>
@@ -102,7 +132,7 @@
         <Param name="name" updates="None" val="text_2" valType="code"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
         <Param name="color" updates="constant" val="black" valType="str"/>
-        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="text" updates="constant" val="Ready for next set?" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
@@ -114,12 +144,12 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="font" updates="constant" val="Arial" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.5" valType="code"/>
+        <Param name="letterHeight" updates="constant" val="" valType="code"/>
       </TextComponent>
       <CodeComponent name="code_2">
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_2" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="practice_format_conditions = practice_formats.pop(0)&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="practice_format_conditions = practice_formats.pop(0)&amp;#10;&amp;#10;&amp;#10;thisCounterbal = str(allFormsCounterbal.pop(0))&amp;#10;&amp;#10;&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '_' + thisCounterbal + '.xlsx'&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -179,9 +209,69 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <CodeComponent name="code_6">
-        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;form1Counterbal = [1,2]&amp;#10;form2Counterbal = [1,2]&amp;#10;form3Counterbal = [1,2]&amp;#10;&amp;#10;random.shuffle(form1Counterbal)&amp;#10;random.shuffle(form2Counterbal)&amp;#10;random.shuffle(form3Counterbal)&amp;#10;&amp;#10;allFormsCounterbal = [form1Counterbal[0],form2Counterbal[0],form3Counterbal[0],form1Counterbal[1],form2Counterbal[1],form3Counterbal[1]]&amp;#10;" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_6" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="practice_formats = ['image','schema','word']&amp;#10;&amp;#10;random.shuffle(practice_formats)&amp;#10;&amp;#10;practice_format_conditions = practice_formats.pop(0)&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '.xlsx'&amp;#10;&amp;#10;if repeat_spatial_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see spatial directions one at a time on the screen. They will be either LEFT or RIGHT or AHEAD. Tell the experimenter if the spatial direction on the screen is the SAME or DIFFERENT from the spatial direction that you just saw. For the first stimulus, just say 'GO.' Then when it says 'Same?' underneath, tell the experimenter whether you see the same direction or a different direction&quot;)&amp;#10;elif repeat_spatial_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="practice_formats = ['image','schema','word']&amp;#10;&amp;#10;random.shuffle(practice_formats)&amp;#10;&amp;#10;thisCounterbal = str(allFormsCounterbal.pop(0))&amp;#10;&amp;#10;practice_format_conditions = practice_formats.pop(0)&amp;#10;practice_trials = 'practice_order_' + practice_images + '_' + practice_format_conditions + '_' + thisCounterbal + '.xlsx'&amp;#10;&amp;#10;if repeat_spatial_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see pairs of images with one image on the screen at a time. Each image will be a spatial direction: LEFT or RIGHT or AHEAD. Tell me if the two images on the screen are the SAME spatial direction, or DIFFERENT spatial directions. For the first image, just say 'GO.' Then when it says 'Same/Different?' underneath, tell me whether you see the same spatial direction or a different spatial direction as the first image [Experimenter: Press Green for SAME, Red for DIFFERENT]&quot;)&amp;#10;elif repeat_spatial_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ISI">
+      <TextComponent name="fixation_1">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="fixation_1" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_8">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_8" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="if trials.thisN % 2 == 0:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="ISI_2">
+      <TextComponent name="fixation_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="fixation_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_9">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_9" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_3.thisN % 2 == 0:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
@@ -358,7 +448,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_5" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="if trials_3.thisN % 2 == 1:&amp;#10;    text_same_practice_2.setText(&quot;SAME / DIFFERENT?&quot;)&amp;#10;else:&amp;#10;    text_same_practice_2.setText(&quot;&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if trials_3.thisN == 7:&amp;#10;    trials_3.finished=True&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
@@ -403,7 +493,7 @@
         <Param name="size" updates="constant" val="[.67,.67]" valType="code"/>
       </ImageComponent>
       <CodeComponent name="code_3">
-        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;+&quot;,height=.5)" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;Ready for the next set?&quot;)" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_3" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME / DIFFERENT?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;if trials_3.thisN == 0:&amp;#10;    lastTriaDirection = thisTrial_3.direction" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="if trials_2 &gt; 0 and (trials_2.thisN +1) % 20 == 0:&amp;#10;    between_format_text.draw()&amp;#10;    win.flip()&amp;#10;    event.clearEvents()&amp;#10;    event.waitKeys(keyList=['d'])&amp;#10;&amp;#10;if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialDirection == thisTrial_2.direction and direction_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialDirection != thisTrial_2.direction and direction_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialDirection = thisTrial_2.direction&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    trials_2.addData('spatialdirection_correct',correct)&amp;#10;" valType="extendedCode"/>
@@ -514,7 +604,7 @@
         <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_4" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="if trials.thisN % 2 == 1:&amp;#10;    text_same_practice.setText(&quot;SAME / DIFFERENT?&quot;)&amp;#10;else:&amp;#10;    text_same_practice.setText(&quot;&quot;)&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if trials.thisN == 7:&amp;#10;    trials.finished=True&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
@@ -557,6 +647,36 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
     </Routine>
+    <Routine name="ISI_4">
+      <TextComponent name="fixation_4">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="fixation_4" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="+" valType="str"/>
+        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_11">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_11" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="if trials_2.thisN % 2 == 0:&amp;#10;    continueRoutine = False" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="spatial_instructions"/>
@@ -577,13 +697,14 @@
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="spatial_practice"/>
+    <Routine name="ISI"/>
     <LoopTerminator name="trials"/>
     <Routine name="spatial_practice_between_formats"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
@@ -591,13 +712,14 @@
       <Param name="name" updates="None" val="trials_3" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="spatial_practice_2"/>
+    <Routine name="ISI_2"/>
     <LoopTerminator name="trials_3"/>
     <Routine name="spatial_practice_between_formats"/>
     <LoopInitiator loopType="TrialHandler" name="trials_4">
@@ -605,13 +727,14 @@
       <Param name="name" updates="None" val="trials_4" valType="code"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="spatial_practice_3"/>
+    <Routine name="ISI_3"/>
     <LoopTerminator name="trials_4"/>
     <LoopTerminator name="repeat_spatial_practice"/>
     <Routine name="spatial_instructions_3"/>
@@ -627,6 +750,7 @@
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="spatial_trials"/>
+    <Routine name="ISI_4"/>
     <LoopTerminator name="trials_2"/>
     <Routine name="end"/>
   </Flow>
