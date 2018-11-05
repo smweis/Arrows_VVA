@@ -171,7 +171,7 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <CodeComponent name="code">
-        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;Ready for the next set?&quot;)&amp;#10;colorOrder = expInfo['participant'] + 'color_order.csv'" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;Time for a short break.&quot;)&amp;#10;colorOrder = expInfo['participant'] + 'color_order.csv'" valType="extendedCode"/>
         <Param name="name" updates="None" val="code" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="if trials_2.thisN == 0:&amp;#10;    lastTrialColor = thisTrial_2.answer&amp;#10;    lastnVertices = []&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME / DIFFERENT?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;tempVerts = vertexOptions[:]&amp;#10;&amp;#10;try:&amp;#10;    tempVerts.remove(lastnVertices)&amp;#10;except ValueError:&amp;#10;    pass&amp;#10;&amp;#10;nVertices = random.choice(tempVerts)&amp;#10;&amp;#10;&amp;#10;poly = visual.Polygon(win=win,autoDraw = True,fillColor=thisTrial_2.color,edges=nVertices,units='height',size=[.5,.5])&amp;#10;" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="if trials_2 &gt; 0 and (trials_2.thisN +1) % 20 == 0:&amp;#10;    poly.setAutoDraw(False)&amp;#10;    win.flip()&amp;#10;    between_format_text.size = 0.8&amp;#10;    between_format_text.draw()&amp;#10;    win.flip()&amp;#10;    event.clearEvents()&amp;#10;    event.waitKeys(keyList=['d'])&amp;#10;&amp;#10;if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor == thisTrial_2.answer and color_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialColor != thisTrial_2.answer and color_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialColor = thisTrial_2.answer&amp;#10;&amp;#10;lastnVertices = nVertices&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    trials_2.addData('colorpractice_correct',correct)&amp;#10;&amp;#10;trials_2.addData('colorpractice_numVertices',nVertices)&amp;#10;&amp;#10;poly.setAutoDraw(False)" valType="extendedCode"/>
@@ -275,13 +275,59 @@
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <CodeComponent name="code_6">
-        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;colorOrder = expInfo['participant'] + 'color_order.csv'&amp;#10;&amp;#10;if random.randint(0,1) == 0:&amp;#10;    colorPracticeOrder1 = 'color_practice_1.csv'&amp;#10;    colorPracticeOrder2 = 'color_practice_2.csv'&amp;#10;else:&amp;#10;    colorPracticeOrder1 = 'color_practice_2.csv'&amp;#10;    colorPracticeOrder2 = 'color_practice_1.csv'" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;&amp;#10;colorOrder = expInfo['participant'] + 'color_order.csv'&amp;#10;" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_6" valType="code"/>
-        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see pairs of shapes, with one shape on the screen at a time. Each shape will be BLUE or RED or ORANGE. Tell me if the two shapes are the SAME color, or DIFFERENT colors. For the first shape, just say 'GO.' Then, when it says 'Same/Different?' underneath, tell me whether you see the same color or a different color as the first shape [Experimenter: Press Green for SAME, Red for DIFFERENT]&quot;)&amp;#10;    colorPracticeOrder = colorPracticeOrder1&amp;#10;elif repeat_color_practice.thisN == 1:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)&amp;#10;    colorPracticeOrder = colorPracticeOrder2" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="if repeat_color_practice.thisN == 0:&amp;#10;    text_6.setText(&quot;Let's try a few for practice. You'll see pairs of shapes, with one shape on the screen at a time. Each shape will be BLUE or RED or ORANGE. Tell me if the two shapes are the SAME color, or DIFFERENT colors. For the first shape, just say 'GO.' Then, when it says 'Same/Different?' underneath, tell me whether you see the same color or a different color as the first shape.&quot;)&amp;#10;else:&amp;#10;    text_6.setText(&quot;Ok, before we practice one more time - do you have any questions about the task?&quot;)" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
       </CodeComponent>
+    </Routine>
+    <Routine name="color_practice_between_format">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="black" valType="str"/>
+        <Param name="text" updates="constant" val="" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <CodeComponent name="code_5">
+        <Param name="Begin Experiment" updates="constant" val="&amp;#10;colorCounterBal = ['1','2']&amp;#10;random.shuffle(colorCounterBal)&amp;#10;&amp;#10;colorPracticeOrders = ['1','2','3']&amp;#10;random.shuffle(colorPracticeOrders)&amp;#10;&amp;#10;colorPracticeStem = 'color_practice_'&amp;#10;colorPracticeTail = '.csv'" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code_5" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="colorPracticeOrder = colorPracticeStem + colorPracticeOrders[repeat_color_practice_mini.thisN] + '_' + colorCounterBal[repeat_color_practice.thisN] + colorPracticeTail&amp;#10;&amp;#10;&amp;#10;&amp;#10;if repeat_color_practice_mini.thisN == 0:&amp;#10;    continueRoutine = False&amp;#10;else:&amp;#10;    text_2.setText('Time for a short break.')" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'d'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
     </Routine>
     <Routine name="color_sample_same">
       <PolygonComponent name="polygon_2">
@@ -371,7 +417,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="text" updates="constant" val="+" valType="str"/>
-        <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
@@ -401,7 +447,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
         <Param name="color" updates="constant" val="black" valType="str"/>
         <Param name="text" updates="constant" val="+" valType="str"/>
-        <Param name="stopVal" updates="constant" val="1" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
         <Param name="flip" updates="constant" val="" valType="str"/>
@@ -520,6 +566,18 @@
       <Param name="Selected rows" updates="None" val="" valType="str"/>
     </LoopInitiator>
     <Routine name="color_practice_instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="repeat_color_practice_mini">
+      <Param name="conditionsFile" updates="None" val="" valType="str"/>
+      <Param name="name" updates="None" val="repeat_color_practice_mini" valType="code"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="3" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="color_practice_between_format"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
       <Param name="conditionsFile" updates="None" val="$&quot;Sequences//&quot;+ colorPracticeOrder" valType="str"/>
       <Param name="name" updates="None" val="trials_3" valType="code"/>
@@ -534,6 +592,7 @@
     <Routine name="color_practice"/>
     <Routine name="ISI"/>
     <LoopTerminator name="trials_3"/>
+    <LoopTerminator name="repeat_color_practice_mini"/>
     <LoopTerminator name="repeat_color_practice"/>
     <Routine name="color_instructions_3"/>
     <LoopInitiator loopType="TrialHandler" name="trials_2">

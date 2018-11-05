@@ -130,8 +130,8 @@ def generateOneFormatSequence():
         
         
         
-        # restrict the length of same dir in a row to 4; restrict the balance of dirs to be no worse than one dir appearing 23 times.
-        while any(x > 4 for x in [len(rSeq),len(bSeq),len(oSeq)]) or max(a,b) > 21:
+        # restrict the length of same dir in a row to 4; restrict the balance of dirs to be no worse than one dir appearing 21 times.
+        while any(x > 3 for x in [len(rSeq),len(bSeq),len(oSeq)]) or max(a,b) > 21:
             a,b,participant_order = sequenceGenerator()
             cleanParticipantOrder = cleanUp(participant_order)
             
@@ -140,7 +140,9 @@ def generateOneFormatSequence():
             oSeq = max((list(y) for (x,y) in itertools.groupby((enumerate(cleanParticipantOrder['answer'])),operator.itemgetter(1)) if x == 'l'), key=len)
         
             counter += 1
-            if counter > 10000:
+            if counter % 100 == 0:
+                print('{}% done'.format(counter/100))
+            if counter > 100000:
                 print('Could not converge this time.')
                 break
 
@@ -166,6 +168,8 @@ def finishSequence():
 
 
     while max(cleanParticipantOrder.groupby('direction').count()['format']) > 125:
+        print(max(cleanParticipantOrder.groupby('direction').count()['format']))
+        cleanParticipantOrder = pd.DataFrame()
         for i in formats:
             oneFormatOrder = generateOneFormatSequence()
             oneFormatOrder['format'] = i
@@ -193,25 +197,61 @@ def finishSequence():
     selected_orders = np.reshape(all_format_orders,num_blocks)
     final_format_order = np.repeat(selected_orders,num_exemplars-1)
 
-    r_exemplars = all_exemplars[0:126]
-    l_exemplars = all_exemplars[126:252]
-    a_exemplars = all_exemplars[252:378]
+    r_i_exemplars = all_exemplars[0:42]
+    l_i_exemplars = all_exemplars[42:84]
+    a_i_exemplars = all_exemplars[84:126]
     
-    r_counter = 0   
-    l_counter = 0
-    a_counter = 0
+    r_s_exemplars = all_exemplars[126:168]
+    l_s_exemplars = all_exemplars[168:210]
+    a_s_exemplars = all_exemplars[210:252]
+    
+    r_w_exemplars = all_exemplars[252:294]
+    l_w_exemplars = all_exemplars[294:336]
+    a_w_exemplars = all_exemplars[336:378]
+    
+    r_i_counter = 0   
+    l_i_counter = 0
+    a_i_counter = 0
+    
+    r_s_counter = 0   
+    l_s_counter = 0
+    a_s_counter = 0
+    
+    r_w_counter = 0   
+    l_w_counter = 0
+    a_w_counter = 0
+    
     for i in range(len(cleanParticipantOrder)):
-        if cleanParticipantOrder['answer'][i] == 'r':
-            cleanParticipantOrder['number'][i] = r_exemplars[r_counter]
-            r_counter += 1
-        elif cleanParticipantOrder['answer'][i] == 'l':
-            cleanParticipantOrder['number'][i] = l_exemplars[l_counter]
-            l_counter += 1
-        elif cleanParticipantOrder['answer'][i] == 'a':
-            cleanParticipantOrder['number'][i] = a_exemplars[a_counter]
-            a_counter += 1
-        
- 
+        if cleanParticipantOrder['format'][i] == 'image':
+            if cleanParticipantOrder['answer'][i] == 'r':
+                cleanParticipantOrder['number'][i] = r_i_exemplars[r_i_counter]
+                r_i_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'l':
+                cleanParticipantOrder['number'][i] = l_i_exemplars[l_i_counter]
+                l_i_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'a':
+                cleanParticipantOrder['number'][i] = a_i_exemplars[a_i_counter]
+                a_i_counter += 1
+        elif cleanParticipantOrder['format'][i] == 'schema':
+            if cleanParticipantOrder['answer'][i] == 'r':
+                cleanParticipantOrder['number'][i] = r_s_exemplars[r_s_counter]
+                r_s_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'l':
+                cleanParticipantOrder['number'][i] = l_s_exemplars[l_s_counter]
+                l_s_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'a':
+                cleanParticipantOrder['number'][i] = a_s_exemplars[a_s_counter]
+                a_s_counter += 1
+        elif cleanParticipantOrder['format'][i] == 'word':
+            if cleanParticipantOrder['answer'][i] == 'r':
+                cleanParticipantOrder['number'][i] = r_w_exemplars[r_w_counter]
+                r_w_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'l':
+                cleanParticipantOrder['number'][i] = l_w_exemplars[l_w_counter]
+                l_w_counter += 1
+            elif cleanParticipantOrder['answer'][i] == 'a':
+                cleanParticipantOrder['number'][i] = a_w_exemplars[a_w_counter]
+                a_w_counter += 1 
 
     cleanParticipantOrder['formatOrder'] = 999
 

@@ -1,0 +1,293 @@
+10.1963 	INFO 	Loaded monitor calibration from ['2015_02_18 17:00']
+11.2046 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x08DE5F30>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2046 	EXP 	window1: recordFrameIntervals = False
+11.3710 	EXP 	window1: recordFrameIntervals = True
+11.5545 	DEBUG 	Screen (0) actual frame rate measured at 59.95
+11.5546 	EXP 	window1: recordFrameIntervals = False
+11.6927 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+11.6948 	EXP 	Created image_5 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_5', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units=u'norm', win=Window(...))
+11.6954 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+11.6961 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.6975 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+11.6980 	EXP 	Created text_same_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7015 	EXP 	Created fixation_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+11.7064 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Time for a short break.', units=u'norm', win=Window(...), wrapWidth=1)
+11.7069 	EXP 	Created text_11 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_11', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7083 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+11.7088 	EXP 	Created text_same_practice_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_2', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7110 	EXP 	Created fixation_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+11.7155 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Time for a short break.', units=u'norm', win=Window(...), wrapWidth=1)
+11.7160 	EXP 	Created text_12 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_12', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7174 	EXP 	Created image_4 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+11.7179 	EXP 	Created text_same_practice_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_3', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7199 	EXP 	Created fixation_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+11.7404 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+11.7421 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+11.7536 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Ready for the next set?', units=u'norm', win=Window(...), wrapWidth=1)
+11.7541 	EXP 	Created text_same = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+11.7563 	EXP 	Created fixation_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+11.7639 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+11.7655 	EXP 	window1: blendMode = 'avg'
+11.7714 	EXP 	text_4: autoDraw = True
+11.7719 	EXP 	window1: blendMode = 'avg'
+11.7906 	EXP 	window1: blendMode = 'avg'
+11.8060 	EXP 	window1: blendMode = 'avg'
+11.8220 	EXP 	window1: blendMode = 'avg'
+11.8388 	EXP 	window1: blendMode = 'avg'
+11.8554 	EXP 	window1: blendMode = 'avg'
+11.8720 	EXP 	window1: blendMode = 'avg'
+11.8887 	EXP 	window1: blendMode = 'avg'
+11.9054 	EXP 	window1: blendMode = 'avg'
+11.9220 	EXP 	window1: blendMode = 'avg'
+11.9387 	EXP 	window1: blendMode = 'avg'
+11.9556 	EXP 	window1: blendMode = 'avg'
+11.9722 	EXP 	window1: blendMode = 'avg'
+11.9888 	EXP 	window1: blendMode = 'avg'
+12.0055 	EXP 	window1: blendMode = 'avg'
+12.0221 	EXP 	window1: blendMode = 'avg'
+12.0388 	EXP 	window1: blendMode = 'avg'
+12.0555 	EXP 	window1: blendMode = 'avg'
+12.0722 	EXP 	window1: blendMode = 'avg'
+12.0889 	EXP 	window1: blendMode = 'avg'
+12.1055 	EXP 	window1: blendMode = 'avg'
+12.1223 	EXP 	window1: blendMode = 'avg'
+12.1389 	EXP 	window1: blendMode = 'avg'
+12.1556 	EXP 	window1: blendMode = 'avg'
+12.1723 	EXP 	window1: blendMode = 'avg'
+12.1886 	DATA 	Keypress: d
+12.1903 	DEBUG 	Read csv file with pandas: Extra_Stimuli\gesture_practice.csv
+12.1911 	EXP 	Imported Extra_Stimuli\gesture_practice.csv as conditions, 18 conditions, 4 params
+12.1913 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+12.1916 	EXP 	New trial (rep=0, index=0): {'Stimulus': u'right_schema_1_WHI.jpg', 'direction': u'right', 'number': 1, 'format': u'schema'}
+12.2385 	EXP 	text_4: autoDraw = False
+12.2385 	EXP 	image_5: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+12.2385 	EXP 	image_5: autoDraw = True
+13.8571 	DATA 	Keypress: escape
+5.9420 	INFO 	Loaded monitor calibration from ['2015_02_18 17:00']
+6.8299 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.4,  0.4,  0.4]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x08958F50>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([1920, 1080]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8299 	EXP 	window1: recordFrameIntervals = False
+6.9963 	EXP 	window1: recordFrameIntervals = True
+7.1800 	DEBUG 	Screen (0) actual frame rate measured at 59.98
+7.1800 	EXP 	window1: recordFrameIntervals = False
+7.3176 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1.5)
+7.3196 	EXP 	Created image_5 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_5', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+7.3202 	EXP 	Created text_6 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_6', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1.5)
+7.3208 	EXP 	Created text_9 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_9', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3221 	EXP 	Created image = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+7.3227 	EXP 	Created text_same_practice = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3258 	EXP 	Created fixation_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+7.3308 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Time for a short break.', units=u'norm', win=Window(...), wrapWidth=1)
+7.3313 	EXP 	Created text_11 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_11', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3328 	EXP 	Created image_3 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+7.3333 	EXP 	Created text_same_practice_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_2', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3355 	EXP 	Created fixation_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+7.3401 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Time for a short break.', units=u'norm', win=Window(...), wrapWidth=1)
+7.3406 	EXP 	Created text_12 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_12', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3420 	EXP 	Created image_4 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+7.3425 	EXP 	Created text_same_practice_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same_practice_3', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3445 	EXP 	Created fixation_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+7.3641 	EXP 	Created text_10 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_10', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+7.3657 	EXP 	Created image_2 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.67,  0.67]), texRes=128, units='height', win=Window(...))
+7.3766 	EXP 	Created unnamed TextStim = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Ready for the next set?', units=u'norm', win=Window(...), wrapWidth=1)
+7.3771 	EXP 	Created text_same = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_same', opacity=1.0, ori=0, pos=array([ 0. , -0.8]), rgb=array([ 0.,  0.,  0.]), text='', units=u'norm', win=Window(...), wrapWidth=1)
+7.3793 	EXP 	Created fixation_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='fixation_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units=u'norm', win=Window(...), wrapWidth=1)
+7.3897 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+7.3914 	EXP 	window1: blendMode = 'avg'
+7.3983 	EXP 	text_4: autoDraw = True
+7.3989 	EXP 	window1: blendMode = 'avg'
+7.4139 	EXP 	window1: blendMode = 'avg'
+7.4305 	EXP 	window1: blendMode = 'avg'
+7.4473 	EXP 	window1: blendMode = 'avg'
+7.4640 	EXP 	window1: blendMode = 'avg'
+7.4806 	EXP 	window1: blendMode = 'avg'
+7.4972 	EXP 	window1: blendMode = 'avg'
+7.5140 	EXP 	window1: blendMode = 'avg'
+7.5307 	EXP 	window1: blendMode = 'avg'
+7.5474 	EXP 	window1: blendMode = 'avg'
+7.5642 	EXP 	window1: blendMode = 'avg'
+7.5807 	EXP 	window1: blendMode = 'avg'
+7.5974 	EXP 	window1: blendMode = 'avg'
+7.6141 	EXP 	window1: blendMode = 'avg'
+7.6307 	EXP 	window1: blendMode = 'avg'
+7.6473 	EXP 	window1: blendMode = 'avg'
+7.6638 	DATA 	Keypress: d
+7.6653 	DEBUG 	Read csv file with pandas: Extra_Stimuli\gesture_practice.csv
+7.6661 	EXP 	Imported Extra_Stimuli\gesture_practice.csv as conditions, 18 conditions, 4 params
+7.6664 	EXP 	Created sequence: sequential, trialTypes=18, nReps=1, seed=None
+7.6666 	EXP 	New trial (rep=0, index=0): {'Stimulus': u'right_schema_1_WHI.jpg', 'direction': u'right', 'number': 1, 'format': u'schema'}
+7.6970 	EXP 	text_4: autoDraw = False
+7.6970 	EXP 	image_5: image = u'Extra_Stimuli//right_schema_1_WHI.jpg'
+7.6970 	EXP 	image_5: autoDraw = True
+9.0824 	DATA 	Keypress: f
+9.4323 	DATA 	Keypress: d
+9.4330 	EXP 	New trial (rep=0, index=1): {'Stimulus': u'right_schema_2_WHI.jpg', 'direction': u'right', 'number': 2, 'format': u'schema'}
+9.4654 	EXP 	image_5: autoDraw = False
+9.4654 	EXP 	image_5: image = u'Extra_Stimuli//right_schema_2_WHI.jpg'
+9.4654 	EXP 	image_5: autoDraw = True
+9.9494 	DATA 	Keypress: d
+9.9500 	EXP 	New trial (rep=0, index=2): {'Stimulus': u'ahead_schema_1_WHI.jpg', 'direction': u'ahead', 'number': 1, 'format': u'schema'}
+9.9827 	EXP 	image_5: autoDraw = False
+9.9827 	EXP 	image_5: image = u'Extra_Stimuli//ahead_schema_1_WHI.jpg'
+9.9827 	EXP 	image_5: autoDraw = True
+11.1342 	DATA 	Keypress: d
+11.1348 	EXP 	New trial (rep=0, index=3): {'Stimulus': u'ahead_schema_2_WHI.jpg', 'direction': u'ahead', 'number': 2, 'format': u'schema'}
+11.1671 	EXP 	image_5: autoDraw = False
+11.1671 	EXP 	image_5: image = u'Extra_Stimuli//ahead_schema_2_WHI.jpg'
+11.1671 	EXP 	image_5: autoDraw = True
+11.7680 	DATA 	Keypress: d
+11.7686 	EXP 	New trial (rep=0, index=4): {'Stimulus': u'left_schema_1_WHI.jpg', 'direction': u'left', 'number': 1, 'format': u'schema'}
+11.8011 	EXP 	image_5: autoDraw = False
+11.8011 	EXP 	image_5: image = u'Extra_Stimuli//left_schema_1_WHI.jpg'
+11.8011 	EXP 	image_5: autoDraw = True
+12.2368 	DATA 	Keypress: d
+12.2374 	EXP 	New trial (rep=0, index=5): {'Stimulus': u'left_schema_2_WHI.jpg', 'direction': u'left', 'number': 2, 'format': u'schema'}
+12.2684 	EXP 	image_5: autoDraw = False
+12.2684 	EXP 	image_5: image = u'Extra_Stimuli//left_schema_2_WHI.jpg'
+12.2684 	EXP 	image_5: autoDraw = True
+12.6692 	DATA 	Keypress: d
+12.6697 	EXP 	New trial (rep=0, index=6): {'Stimulus': u'right_word_1_WHI.jpg', 'direction': u'right', 'number': 1, 'format': u'word'}
+12.7023 	EXP 	image_5: autoDraw = False
+12.7023 	EXP 	image_5: image = u'Extra_Stimuli//right_word_1_WHI.jpg'
+12.7023 	EXP 	image_5: autoDraw = True
+13.1530 	DATA 	Keypress: d
+13.1535 	EXP 	New trial (rep=0, index=7): {'Stimulus': u'right_word_2_WHI.jpg', 'direction': u'right', 'number': 2, 'format': u'word'}
+13.2032 	EXP 	image_5: autoDraw = False
+13.2032 	EXP 	image_5: image = u'Extra_Stimuli//right_word_2_WHI.jpg'
+13.2032 	EXP 	image_5: autoDraw = True
+13.4199 	DATA 	Keypress: d
+13.4204 	EXP 	New trial (rep=0, index=8): {'Stimulus': u'ahead_word_1_WHI.jpg', 'direction': u'ahead', 'number': 1, 'format': u'word'}
+13.4531 	EXP 	image_5: autoDraw = False
+13.4531 	EXP 	image_5: image = u'Extra_Stimuli//ahead_word_1_WHI.jpg'
+13.4531 	EXP 	image_5: autoDraw = True
+13.7203 	DATA 	Keypress: d
+13.7208 	EXP 	New trial (rep=0, index=9): {'Stimulus': u'ahead_word_2_WHI.jpg', 'direction': u'ahead', 'number': 2, 'format': u'word'}
+13.7533 	EXP 	image_5: autoDraw = False
+13.7533 	EXP 	image_5: image = u'Extra_Stimuli//ahead_word_2_WHI.jpg'
+13.7533 	EXP 	image_5: autoDraw = True
+13.9876 	DATA 	Keypress: d
+13.9881 	EXP 	New trial (rep=0, index=10): {'Stimulus': u'left_word_1_WHI.jpg', 'direction': u'left', 'number': 1, 'format': u'word'}
+14.0372 	EXP 	image_5: autoDraw = False
+14.0372 	EXP 	image_5: image = u'Extra_Stimuli//left_word_1_WHI.jpg'
+14.0372 	EXP 	image_5: autoDraw = True
+14.5044 	DATA 	Keypress: d
+14.5049 	EXP 	New trial (rep=0, index=11): {'Stimulus': u'left_word_2_WHI.jpg', 'direction': u'left', 'number': 2, 'format': u'word'}
+14.5374 	EXP 	image_5: autoDraw = False
+14.5374 	EXP 	image_5: image = u'Extra_Stimuli//left_word_2_WHI.jpg'
+14.5374 	EXP 	image_5: autoDraw = True
+14.9215 	DATA 	Keypress: d
+14.9220 	EXP 	New trial (rep=0, index=12): {'Stimulus': u'right_image_1_WHI.jpg', 'direction': u'right', 'number': 1, 'format': u'image'}
+14.9545 	EXP 	image_5: autoDraw = False
+14.9545 	EXP 	image_5: image = u'Extra_Stimuli//right_image_1_WHI.jpg'
+14.9545 	EXP 	image_5: autoDraw = True
+15.6558 	DATA 	Keypress: d
+15.6563 	EXP 	New trial (rep=0, index=13): {'Stimulus': u'right_image_2_WHI.jpg', 'direction': u'right', 'number': 2, 'format': u'image'}
+15.7053 	EXP 	image_5: autoDraw = False
+15.7053 	EXP 	image_5: image = u'Extra_Stimuli//right_image_2_WHI.jpg'
+15.7053 	EXP 	image_5: autoDraw = True
+16.4617 	DATA 	Keypress: d
+16.4622 	EXP 	New trial (rep=0, index=14): {'Stimulus': u'ahead_image_1_WHI.jpg', 'direction': u'ahead', 'number': 1, 'format': u'image'}
+16.5062 	EXP 	image_5: autoDraw = False
+16.5062 	EXP 	image_5: image = u'Extra_Stimuli//ahead_image_1_WHI.jpg'
+16.5062 	EXP 	image_5: autoDraw = True
+17.3239 	DATA 	Keypress: d
+17.3244 	EXP 	New trial (rep=0, index=15): {'Stimulus': u'ahead_image_2_WHI.jpg', 'direction': u'ahead', 'number': 2, 'format': u'image'}
+17.3737 	EXP 	image_5: autoDraw = False
+17.3737 	EXP 	image_5: image = u'Extra_Stimuli//ahead_image_2_WHI.jpg'
+17.3737 	EXP 	image_5: autoDraw = True
+18.7254 	DATA 	Keypress: d
+18.7259 	EXP 	New trial (rep=0, index=16): {'Stimulus': u'left_image_1_WHI.jpg', 'direction': u'left', 'number': 1, 'format': u'image'}
+18.7751 	EXP 	image_5: autoDraw = False
+18.7751 	EXP 	image_5: image = u'Extra_Stimuli//left_image_1_WHI.jpg'
+18.7751 	EXP 	image_5: autoDraw = True
+20.4103 	DATA 	Keypress: d
+20.4109 	EXP 	New trial (rep=0, index=17): {'Stimulus': u'left_image_2_WHI.jpg', 'direction': u'left', 'number': 2, 'format': u'image'}
+20.4601 	EXP 	image_5: autoDraw = False
+20.4601 	EXP 	image_5: image = u'Extra_Stimuli//left_image_2_WHI.jpg'
+20.4601 	EXP 	image_5: autoDraw = True
+20.9608 	DATA 	Keypress: d
+20.9823 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+20.9825 	EXP 	New trial (rep=0, index=0): None
+21.0824 	EXP 	window1: blendMode = 'avg'
+21.0945 	EXP 	image_5: autoDraw = False
+21.0945 	EXP 	text_6: text = "Let's try a few for practice. You'll see pairs of images with one image on the screen at a time. Each image will be a spatial direction: LEFT or RIGHT or AHEAD. Tell me if the two images on the screen are the SAME spatial direction, or DIFFERENT spatial directions. For the first image, just say 'GO.' Then when it says 'Same/Different?' underneath, tell me whether you see the same spatial direction or a different spatial direction as the first image."
+21.0945 	EXP 	text_6: autoDraw = True
+21.0952 	EXP 	window1: blendMode = 'avg'
+21.1144 	EXP 	window1: blendMode = 'avg'
+21.1286 	EXP 	window1: blendMode = 'avg'
+21.1448 	EXP 	window1: blendMode = 'avg'
+21.1617 	EXP 	window1: blendMode = 'avg'
+21.1782 	EXP 	window1: blendMode = 'avg'
+21.1951 	EXP 	window1: blendMode = 'avg'
+21.2119 	EXP 	window1: blendMode = 'avg'
+21.2284 	EXP 	window1: blendMode = 'avg'
+21.2452 	EXP 	window1: blendMode = 'avg'
+21.2670 	EXP 	window1: blendMode = 'avg'
+21.2783 	EXP 	window1: blendMode = 'avg'
+21.2951 	EXP 	window1: blendMode = 'avg'
+21.3120 	EXP 	window1: blendMode = 'avg'
+21.3282 	EXP 	window1: blendMode = 'avg'
+21.3452 	EXP 	window1: blendMode = 'avg'
+21.3617 	EXP 	window1: blendMode = 'avg'
+21.3787 	EXP 	window1: blendMode = 'avg'
+21.3954 	EXP 	window1: blendMode = 'avg'
+21.4120 	EXP 	window1: blendMode = 'avg'
+21.4285 	EXP 	window1: blendMode = 'avg'
+21.4453 	EXP 	window1: blendMode = 'avg'
+21.4620 	EXP 	window1: blendMode = 'avg'
+21.4787 	EXP 	window1: blendMode = 'avg'
+21.4954 	EXP 	window1: blendMode = 'avg'
+21.5174 	EXP 	window1: blendMode = 'avg'
+21.5291 	EXP 	window1: blendMode = 'avg'
+21.5455 	EXP 	window1: blendMode = 'avg'
+21.5619 	EXP 	window1: blendMode = 'avg'
+21.5788 	EXP 	window1: blendMode = 'avg'
+21.5952 	EXP 	window1: blendMode = 'avg'
+21.6122 	EXP 	window1: blendMode = 'avg'
+21.6287 	EXP 	window1: blendMode = 'avg'
+21.6456 	EXP 	window1: blendMode = 'avg'
+21.6623 	EXP 	window1: blendMode = 'avg'
+21.6787 	EXP 	window1: blendMode = 'avg'
+21.6956 	EXP 	window1: blendMode = 'avg'
+21.7120 	EXP 	window1: blendMode = 'avg'
+21.7289 	EXP 	window1: blendMode = 'avg'
+21.7455 	EXP 	window1: blendMode = 'avg'
+21.7621 	EXP 	window1: blendMode = 'avg'
+21.7791 	EXP 	window1: blendMode = 'avg'
+21.7955 	EXP 	window1: blendMode = 'avg'
+21.8240 	EXP 	window1: blendMode = 'avg'
+21.8287 	EXP 	window1: blendMode = 'avg'
+21.8457 	EXP 	window1: blendMode = 'avg'
+21.8624 	EXP 	window1: blendMode = 'avg'
+21.8789 	EXP 	window1: blendMode = 'avg'
+21.8958 	EXP 	window1: blendMode = 'avg'
+21.9123 	EXP 	window1: blendMode = 'avg'
+21.9291 	EXP 	window1: blendMode = 'avg'
+21.9459 	EXP 	window1: blendMode = 'avg'
+21.9623 	EXP 	window1: blendMode = 'avg'
+21.9792 	EXP 	window1: blendMode = 'avg'
+21.9960 	EXP 	window1: blendMode = 'avg'
+22.0123 	EXP 	window1: blendMode = 'avg'
+22.0293 	EXP 	window1: blendMode = 'avg'
+22.0457 	EXP 	window1: blendMode = 'avg'
+22.0626 	EXP 	window1: blendMode = 'avg'
+22.0814 	EXP 	window1: blendMode = 'avg'
+22.0960 	EXP 	window1: blendMode = 'avg'
+22.1125 	EXP 	window1: blendMode = 'avg'
+22.1295 	EXP 	window1: blendMode = 'avg'
+22.1458 	EXP 	window1: blendMode = 'avg'
+22.1625 	EXP 	window1: blendMode = 'avg'
+22.1794 	EXP 	window1: blendMode = 'avg'
+22.1959 	EXP 	window1: blendMode = 'avg'
+22.2129 	EXP 	window1: blendMode = 'avg'
+22.2292 	EXP 	window1: blendMode = 'avg'
+22.2459 	EXP 	window1: blendMode = 'avg'
+22.2641 	EXP 	window1: blendMode = 'avg'
+22.2793 	EXP 	window1: blendMode = 'avg'
+22.2963 	EXP 	window1: blendMode = 'avg'
+22.3130 	EXP 	window1: blendMode = 'avg'
+22.3297 	EXP 	window1: blendMode = 'avg'
+22.3460 	EXP 	window1: blendMode = 'avg'
+22.3628 	EXP 	window1: blendMode = 'avg'
+22.3794 	EXP 	window1: blendMode = 'avg'
+22.3973 	EXP 	window1: blendMode = 'avg'
+22.4123 	DATA 	Keypress: escape
