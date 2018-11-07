@@ -18,7 +18,7 @@ sequence = []
 
 random.shuffle(colors)
 
-NUMBER_OF_TRIALS = 63
+NUMBER_OF_TRIALS = 60
 
 colorsOne = np.repeat(colors, NUMBER_OF_TRIALS//3)
 colorsTwo = np.repeat(colors, NUMBER_OF_TRIALS//3)
@@ -119,7 +119,7 @@ for i in range(14):
     
     
     # restrict the length of same color in a row to 4; restrict the balance of colors to be no worse than one color appearing 23 times.
-    while any(x > 4 for x in [len(rSeq),len(bSeq),len(oSeq)]) or max(a,b) > 23:
+    while any(x > 3 for x in [len(rSeq),len(bSeq),len(oSeq)]) or max(a,b) > 21:
         a,b,participant_order = sequenceGenerator()
         cleanParticipantOrder = cleanUp(participant_order)
         
@@ -128,7 +128,9 @@ for i in range(14):
         oSeq = max((list(y) for (x,y) in itertools.groupby((enumerate(cleanParticipantOrder['answer'])),operator.itemgetter(1)) if x == 'o'), key=len)
     
         counter += 1
-        if counter > 1000:
+        if counter % 1000 == 0:
+            print('{}% done'.format(counter/1000))
+        if counter > 1000000:
             print('Could not converge this time.')
             break
         
