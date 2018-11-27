@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="1.85.2">
+<PsychoPy2experiment encoding="utf-8" version="1.85.0">
   <Settings>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
     <Param name="color" updates="None" val="$[.4,.4,.4]" valType="str"/>
@@ -571,7 +571,7 @@
         <Param name="size" updates="constant" val="[.67,.67]" valType="code"/>
       </ImageComponent>
       <CodeComponent name="code_3">
-        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;Ready for the next set?&quot;)" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="between_format_text = visual.TextStim(win, color='black',text=&quot;Time for a short break.&quot;)" valType="extendedCode"/>
         <Param name="name" updates="None" val="code_3" valType="code"/>
         <Param name="Begin Routine" updates="constant" val="if trials_2.thisN % 2 == 1:&amp;#10;    text_same.setText(&quot;SAME / DIFFERENT?&quot;)&amp;#10;else:&amp;#10;    text_same.setText(&quot;&quot;)&amp;#10;&amp;#10;if trials_3.thisN == 0:&amp;#10;    lastTriaDirection = thisTrial_3.direction" valType="extendedCode"/>
         <Param name="End Routine" updates="constant" val="if trials_2 &gt; 0 and (trials_2.thisN +1) % 20 == 0:&amp;#10;    between_format_text.draw()&amp;#10;    win.flip()&amp;#10;    event.clearEvents()&amp;#10;    event.waitKeys(keyList=['d'])&amp;#10;&amp;#10;if trials_2.thisN == 0:&amp;#10;    correct = 1&amp;#10;elif lastTrialDirection == thisTrial_2.direction and direction_response.keys in ['a']:&amp;#10;    correct = 1&amp;#10;elif lastTrialDirection != thisTrial_2.direction and direction_response.keys in ['f']:&amp;#10;    correct = 1&amp;#10;else:&amp;#10;    correct = 0&amp;#10;&amp;#10;lastTrialDirection = thisTrial_2.direction&amp;#10;&amp;#10;if trials_2.thisN % 2 == 1:&amp;#10;    trials_2.addData('spatialdirection_correct',correct)&amp;#10;" valType="extendedCode"/>

@@ -1,0 +1,8 @@
+Stimulus,direction,number,format,trials_5.thisRepN,trials_5.thisTrialN,trials_5.thisN,trials_5.thisIndex,key_resp_7.keys,key_resp_7.rt,key_resp_4.keys,key_resp_4.rt,key_resp_3.keys,key_resp_3.rt,date,frameRate,expName,participant,Scr or Whi,
+,,,,,,,,d,0.532281470252,,,,,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+,,,,,,,,,,d,0.884393674904,,,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+right_schema_1_WHI.jpg,right,1,schema,0,0,0,0,,,,,d,1.15113682614,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+right_schema_2_WHI.jpg,right,3,schema,0,1,1,1,,,,,d,0.917751908069,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+ahead_schema_1_WHI.jpg,ahead,1,schema,0,2,2,2,,,,,d,0.401127008954,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+ahead_schema_2_WHI.jpg,ahead,3,schema,0,3,3,3,,,,,d,0.53469648934,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
+left_schema_1_WHI.jpg,left,1,schema,0,4,4,4,,,,,d,0.26789934386,2018_Nov_27_1349,60.2299567389,Arrows_VVA_Direction,1003,Whi,
